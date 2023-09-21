@@ -1,0 +1,1114 @@
+[
+    {
+      "id": 1,
+      "name": "Ceiling & Cabinet Fans",
+    
+       "series": [
+        {
+          "id": 1,
+          "name": "Ceiling Mount Ventilator",
+          "image": "/assets/images/Losone-Select-Ceiling.webp",
+          "models": [
+            {
+              "id": 1,
+              "name": "L100E",
+              "price": "$347"
+            },
+            {
+              "id": 2,
+              "name": "L150E",
+              "price": "$368"
+            },
+            {
+              "id": 3,
+              "name": "L200E",
+              "price": "$409"
+            },
+            {
+              "id": 4,
+              "name": "L250E",
+              "price": "$430"
+            },
+            {
+              "id": 5,
+              "name": "L300E",
+              "price": "$450"
+            },
+            {
+              "id": 6,
+              "name": "L400",
+              "price": "$1,086"
+            },
+            {
+              "id": 7,
+              "name": "L500",
+              "price": "$1,316"
+            },
+            {
+              "id": 8,
+              "name": "L700",
+              "price": "$1,398"
+            }
+          ],
+          "submittals": [
+            {
+              "type": "L400, L500, L700",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-E-series.pdf"
+            },
+            {
+              "type": "E-series",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-E-series.pdf"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Cabinet Ventilator",
+          "image": "https://www.solerpalau-usa.com/images/products/ccf/Losone-Select-Inline.webp",
+          "models": [
+            {
+              "id": 1,
+              "name": "L100EL",
+              "price": "$409"
+            },
+            {
+              "id": 2,
+              "name": "L150EL",
+              "price": "$430"
+            },
+            {
+              "id": 3,
+              "name": "L200EL",
+              "price": "$471"
+            },
+            {
+              "id": 4,
+              "name": "L250EL",
+              "price": "$492"
+            },
+            {
+              "id": 5,
+              "name": "L300EL",
+              "price": "$511"
+            },
+            {
+              "id": 6,
+              "name": "L400L",
+              "price": "$1,213"
+            },
+            {
+              "id": 7,
+              "name": "L500L",
+              "price": "$1,314"
+            },
+            {
+              "id": 8,
+              "name": "L700L",
+              "price": "$1,547"
+            }
+          ],
+          "submittals": [
+            {
+              "type": "EL-series",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-EL-series.pdf"
+            }
+          ]
+        }
+      ],
+      "otherDocs" : [
+        {
+          "type": "Brochure",
+          "url": "https://www.solerpalau-usa.com/documents/Brochure/Losone-Select-Series-Brochure.pdf"
+        },
+        {
+          "type": "IOM",
+          "url": "https://www.solerpalau-usa.com/documents/IOM/iom-Losone-Select.pdf"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Centrifugal Filtered Supply Fans",
+  
+      "series": [
+        {
+          "id": 1,
+          "name": "KSFV",
+          "image": "https://www.solerpalau-usa.com/images/products/cfsf/KSFV-recat.png",
+          "models": [
+            {
+              "id": 1,
+              "name": "KSFV09MH1S",
+              "price": "$1424"
+          },
+          {
+              "id": 2,
+              "name": "KSFV09PH1S",
+              "price": "$1,450"
+          },
+          {
+              "id": 3,
+              "name": "KSFV09PH3S",
+              "price": "$1,483"
+          },
+          {
+              "id": 4,
+              "name": "KSFV09QH1S",
+              "price": "$1,525"
+          },
+          {
+              "id": 5,
+              "name": "KSFV09QH3S",
+              "price": "$1,485"
+          },
+          {
+              "id": 6,
+              "name": "KSFV09RH1S",
+              "price": "$1,564"
+          },
+          {
+              "id": 7,
+              "name": "KSFV09RH3S",
+              "price": "$1,489"
+          },
+          {
+              "id": 8,
+              "name": "KSFV09SH1S",
+              "price": "$1,595"
+          },
+          {
+              "id": 9,
+              "name": "KSFV09SH3S",
+              "price": "$1,497"
+          },
+          {
+              "id": 10,
+              "name": "KSFV10MH1S",
+              "price": "$1,589"
+          },
+          {
+              "id": 11,
+              "name": "KSFV10MH3S",
+              "price": "$1,641"
+          },
+          {
+              "id": 12,
+              "name": "KSFV10ML1S",
+              "price": "$1,601"
+          },
+          {
+              "id": 13,
+              "name": "KSFV10ML3S",
+              "price": "$1,653"
+          },
+          {
+              "id": 14,
+              "name": "KSFV10PH1S",
+              "price": "$1,604"
+          },
+          {
+              "id": 15,
+              "name": "KSFV10PH3S",
+              "price": "$1,660"
+          },
+          {
+              "id": 16,
+              "name": "KSFV10QH1S",
+              "price": "$1,678"
+          },
+          {
+              "id": 17,
+              "name": "KSFV10QH3S",
+              "price": "$1,662"
+          },
+          {
+              "id": 18,
+              "name": "KSFV10QL1S",
+              "price": "$1,687"
+          },
+          {
+              "id": 19,
+              "name": "KSFV10QL3S",
+              "price": "$1,671"
+          },
+          {
+              "id": 20,
+              "name": "KSFV10RH1S",
+              "price": "$1,715"
+          },
+          {
+              "id": 21,
+              "name": "KSFV10RH3S",
+              "price": "$1,673"
+          },
+          {
+              "id": 22,
+              "name": "KSFV10RL1S",
+              "price": "$1,725"
+          },
+          {
+              "id": 23,
+              "name": "KSFV10RL3S",
+              "price": "$1,682"
+          },
+          {
+              "id": 24,
+              "name": "KSFV10SH1S",
+              "price": "$1,757"
+          },
+          {
+              "id": 25,
+              "name": "KSFV10SH3S",
+              "price": "$1,691"
+          },
+          {
+              "id": 26,
+              "name": "KSFV10SL1S",
+              "price": "$1,757"
+          },
+          {
+              "id": 27,
+              "name": "KSFV10SL3S",
+              "price": "$1,691"
+          },
+          {
+              "id": 28,
+              "name": "KSFV10TH1S",
+              "price": "$1,872"
+          },
+          {
+              "id": 29,
+              "name": "KSFV10TH3S",
+              "price": "$1,710"
+          },
+          {
+              "id": 30,
+              "name": "KSFV10TL1S",
+              "price": "$1,883"
+          },
+          {
+              "id": 31,
+              "name": "KSFV10TL3S",
+              "price": "$1,723"
+          },
+          {
+              "id": 32,
+              "name": "KSFV10TM1S",
+              "price": "$1,880"
+          },
+          {
+              "id": 33,
+              "name": "KSFV10TM3S",
+              "price": "$1,715"
+          },
+          {
+              "id": 34,
+              "name": "KSFV10VH1S",
+              "price": "$1,961"
+          },
+          {
+              "id": 35,
+              "name": "KSFV10VH3S",
+              "price": "$1,753"
+          },
+          {
+              "id": 36,
+              "name": "KSFV12MH1S",
+              "price": "$1,692"
+          },
+          {
+              "id": 37,
+              "name": "KSFV12MH3S",
+              "price": "$1,723"
+          },
+          {
+              "id": 38,
+              "name": "KSFV12ML1S",
+              "price": "$1,700"
+          },
+          {
+              "id": 39,
+              "name": "KSFV12ML3S",
+              "price": "$1,728"
+          },
+          {
+              "id": 40,
+              "name": "KSFV12PH1S",
+              "price": "$1,722"
+          },
+          {
+              "id": 41,
+              "name": "KSFV12PH3S",
+              "price": "$1,751"
+          },
+          {
+              "id": 42,
+              "name": "KSFV12QH1S",
+              "price": "$1,781"
+          },
+          {
+              "id": 43,
+              "name": "KSFV12QH3S",
+              "price": "$1,743"
+          },
+          {
+              "id": 44,
+              "name": "KSFV12QL1S",
+              "price": "$1,800"
+          },
+          {
+              "id": 45,
+              "name": "KSFV12QL3S",
+              "price": "$1,762"
+          },
+          {
+              "id": 46,
+              "name": "KSFV12RH1S",
+              "price": "$1,825"
+          },
+          {
+              "id": 47,
+              "name": "KSFV12RH3S",
+              "price": "$1,753"
+          },
+          {
+              "id": 48,
+              "name": "KSFV12RL1S",
+              "price": "$1,833"
+          },
+          {
+              "id": 49,
+              "name": "KSFV12RL3S",
+              "price": "$1,764"
+          },
+          {
+              "id": 50,
+              "name": "KSFV12SH1S",
+              "price": "$1,860"
+          },
+          {
+              "id": 51,
+              "name": "KSFV12SH3S",
+              "price": "$1,762"
+          },
+          {
+              "id": 52,
+              "name": "KSFV12SL1S",
+              "price": "$1,869"
+          },
+          {
+              "id": 53,
+              "name": "KSFV12SL3S",
+              "price": "$1,775"
+          },
+          {
+              "id": 54,
+              "name": "KSFV12TH1S",
+              "price": "$1,983"
+          },
+          {
+              "id": 55,
+              "name": "KSFV12TH3S",
+              "price": "$1,783"
+          },
+          {
+              "id": 56,
+              "name": "KSFV12TL1S",
+              "price": "$2,007"
+          },
+          {
+              "id": 57,
+              "name": "KSFV12TL3S",
+              "price": "$1,810"
+          },
+          {
+              "id": 58,
+              "name": "KSFV12TM1S",
+              "price": "$2,001"
+          },
+          {
+              "id": 59,
+              "name": "KSFV12TM3S",
+              "price": "$1,804"
+          },
+          {
+              "id": 60,
+              "name": "KSFV12VH1S",
+              "price": "$2,067"
+          },
+          {
+              "id": 61,
+              "name": "KSFV12VH3S",
+              "price": "$1,822"
+          },
+          {
+              "id": 62,
+              "name": "KSFV12VL1S",
+              "price": "$2,072"
+          },
+          {
+              "id": 63,
+              "name": "KSFV12VL3S",
+              "price": "$1,829"
+          },
+          {
+              "id": 64,
+              "name": "KSFV15RH1S",
+              "price": "$1,900"
+          },
+          {
+              "id": 65,
+              "name": "KSFV15RH3S",
+              "price": "$1,851"
+          },
+          {
+              "id": 66,
+              "name": "KSFV15RL1S",
+              "price": "$1,900"
+          },
+          {
+              "id": 67,
+              "name": "KSFV15RL3S",
+              "price": "$1,868"
+          },
+          {
+              "id": 68,
+              "name": "KSFV15SH1S",
+              "price": "$1,957"
+          },
+          {
+              "id": 69,
+              "name": "KSFV15SH3S",
+              "price": "$1,864"
+          },
+          {
+              "id": 70,
+              "name": "KSFV15SL1S",
+              "price": "$1,970"
+          },
+          {
+              "id": 71,
+              "name": "KSFV15SL3S",
+              "price": "$1,878"
+          },
+          {
+              "id": 72,
+              "name": "KSFV15SM1S",
+              "price": "$1,964"
+          },
+          {
+              "id": 73,
+              "name": "KSFV15SM3S",
+              "price": "$1,870"
+          },
+          {
+              "id": 74,
+              "name": "KSFV15TH1S",
+              "price": "$2,078"
+          },
+          {
+              "id": 75,
+              "name": "KSFV15TH3S",
+              "price": "$1,914"
+          },
+          {
+              "id": 76,
+              "name": "KSFV15TL1S",
+              "price": "$2,078"
+          },
+          {
+              "id": 77,
+              "name": "KSFV15TL3S",
+              "price": "$1,915"
+          },
+          {
+              "id": 78,
+              "name": "KSFV15VH1S",
+              "price": "$2,161"
+          },
+          {
+              "id": 79,
+              "name": "KSFV15VH3S",
+              "price": "$1,950"
+          },
+          {
+              "id": 80,
+              "name": "KSFV15VL1S",
+              "price": "$2,161"
+          },
+          {
+              "id": 81,
+              "name": "KSFV15VL3S",
+              "price": "$1,952"
+          },
+          {
+              "id": 82,
+              "name": "KSFV18RH1S",
+              "price": "$2,331"
+          },
+          {
+              "id": 83,
+              "name": "KSFV18RH3S",
+              "price": "$2,261"
+          },
+          {
+              "id": 84,
+              "name": "KSFV18SH1S",
+              "price": "$2,358"
+          },
+          {
+              "id": 85,
+              "name": "KSFV18SH3S",
+              "price": "$2,261"
+          },
+          {
+              "id": 86,
+              "name": "KSFV18SL1S",
+              "price": "$2,364"
+          },
+          {
+              "id": 87,
+              "name": "KSFV18SL3S",
+              "price": "$2,268"
+          },
+          {
+              "id": 88,
+              "name": "KSFV18TH1S",
+              "price": "$2,480"
+          },
+          {
+              "id": 89,
+              "name": "KSFV18TH3S",
+              "price": "$2,281"
+          },
+          {
+              "id": 90,
+              "name": "KSFV18TL1S",
+              "price": "$2,483"
+          },
+          {
+              "id": 91,
+              "name": "KSFV18TL3S",
+              "price": "$2,284"
+          },
+          {
+              "id": 92,
+              "name": "KSFV18VH1S",
+              "price": "$2,571"
+          },
+          {
+              "id": 93,
+              "name": "KSFV18VH3S",
+              "price": "$2,327"
+          },
+          {
+              "id": 94,
+              "name": "KSFV18VL1S",
+              "price": "$2,580"
+          },
+          {
+              "id": 95,
+              "name": "KSFV18VL3S",
+              "price": "$2,335"
+          }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "CSF",
+          "image": "https://www.solerpalau-usa.com/images/products/cfsf/CSF-recat.png"
+        },
+        {
+          "id": 3,
+          "name": "LSF",
+          "image": "https://www.solerpalau-usa.com/images/products/cfsf/LSF-recat.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Centrifugal Roof & Wall Fans",
+  
+      "series": [
+        {
+          "id": 1,
+          "name": "SDBD and SDBDe",
+          "image": "https://www.solerpalau-usa.com/images/products/crwf/SDBD-recat.png",
+          "models": [
+            {
+              "id": 1,
+              "name": "L100EL",
+              "price": "$409"
+            },
+            {
+              "id": 2,
+              "name": "L150EL",
+              "price": "$430"
+            },
+            {
+              "id": 3,
+              "name": "L200EL",
+              "price": "$471"
+            },
+            {
+              "id": 4,
+              "name": "L250EL",
+              "price": "$492"
+            },
+            {
+              "id": 5,
+              "name": "L300EL",
+              "price": "$511"
+            },
+            {
+              "id": 6,
+              "name": "L400L",
+              "price": "$1,213"
+            },
+            {
+              "id": 7,
+              "name": "L500L",
+              "price": "$1,314"
+            },
+            {
+              "id": 8,
+              "name": "L700L",
+              "price": "$1,547"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "SDB",
+          "image": "https://www.solerpalau-usa.com/images/products/crwf/SDB-recat.png"
+        },
+        {
+          "id": 3,
+          "name": "STXD, STXDe, and STXDeRHUL",
+          "image": "https://www.solerpalau-usa.com/images/products/crwf/STXB-recat.png"
+        },
+        {
+          "id": 4,
+          "name": "STXB, STXB-RHUL, and STXB-HP",
+          "image": "https://www.solerpalau-usa.com/images/products/crwf/STXB-recat.png"
+        },
+        {
+          "id": 5,
+          "name": "STXB-HT2 and STXB-HT",
+          "image": "https://www.solerpalau-usa.com/images/products/crwf/STXB-recat.png"
+        },
+        {
+          "id": 6,
+          "name": "LPD and LPD-SF",
+          "image": "https://www.solerpalau-usa.com/images/products/crwf/LPD-recat.png"
+        },
+        {
+          "id": 7,
+          "name": "CWD",
+          "image": "https://www.solerpalau-usa.com/images/products/crwf/CWD-recat.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Energy Recovery Ventilators",
+  
+      "series": [
+        {
+          "id": 1,
+          "name": "TR",
+          "image": "https://www.solerpalau-usa.com/images/products/erv/TR-recat.png"
+        },
+        {
+          "id": 2,
+          "name": "TRe",
+          "image": "https://www.solerpalau-usa.com/images/products/erv/TRe2-recat.png"
+        },
+        {
+          "id": 3,
+          "name": "TRC",
+          "image": "https://www.solerpalau-usa.com/images/products/erv/TRC-recat.png"
+        },
+        {
+          "id": 4,
+          "name": "TRCe",
+          "image": "https://www.solerpalau-usa.com/images/products/erv/TRC-recat.png"
+        },
+        {
+          "id": 5,
+          "name": "TRLPe",
+          "image": "https://www.solerpalau-usa.com/images/products/erv/TRLPe110_RGB.webp"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Gravity Vents",
+  
+      "series": [
+        {
+          "id": 1,
+          "name": "RCXII and RCXII-SF",
+          "image": "https://www.solerpalau-usa.com/images/products/gv/RCXII-recat.png"
+        },
+        {
+          "id": 2,
+          "name": "RLX",
+          "image": "https://www.solerpalau-usa.com/images/products/gv/RLX-recat.png"
+        },
+        {
+          "id": 3,
+          "name": "BGH",
+          "image": "https://www.solerpalau-usa.com/images/products/gv/BGH-recat.png"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "High Volume Low Speed",
+  
+      "series": [
+        {
+          "id": 1,
+          "name": "Tornado HVLS",
+          "image": "https://www.solerpalau-usa.com/images/products/hvls/tornado.png"
+        },
+        {
+          "id": 2,
+          "name": "Tempest HVLS",
+          "image": "https://www.solerpalau-usa.com/images/products/hvls/tempest.png"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "In-line/Sidewall Duct Fans",
+  
+      "series": [
+        {
+          "id": 1,
+          "name": "TD-MIXVENT",
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/TD-MIXVENT-recat.png"
+        },
+        {
+          "id": 2,
+          "name": "TD-SILENT",
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/TD-SILENT-recat.png"
+        },
+        {
+          "id": 3,
+          "name": "PV-DEDPV",
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/DEDPV-recat.png"
+        },
+        {
+          "id": 4,
+          "name": "PV-POWERVENT",
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/PV-recat.png"
+        },
+        {
+          "id": 5,
+          "name": "PRF",
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/PRF-recat.png"
+        },
+        {
+          "id": 6,
+          "name": "SWF-SIDEWALL",
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/SWF-recat.png"
+        },
+        {
+          "id": 7,
+          "name": "SMXD",
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/SMXD-recat.png"
+        },
+        {
+          "id": 8,
+          "name": "SMXD-HT",
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/SMXD-recat.png"
+        },
+        {
+          "id": 9,
+          "name": "SMXDK",
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/smxdk.webp"
+        },
+        {
+          "id": 10,
+          "name": "SMXDK-HT",
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/smxdk.webp"
+        },
+        {
+          "id": 11,
+          "name": "SQB",
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/SQB-recat.png"
+        },
+        {
+          "id": 12,
+          "name": "SQD and eSQD",
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/SQD-recat.png"
+        },
+        {
+          "id": 13,
+          "name": "CTB and CTBRHUL",
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/CTB-recat.png"
+        },
+        {
+          "id": 14,
+          "name": "CFD",
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/CFD-recat.png"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Jet Fan Series",
+  
+      "series": [
+        {
+          "id": 1,
+          "name": "IFFT and IFFTe",
+          "image": "https://www.solerpalau-usa.com/images/products/jetfans/products/ifft-recat.png"
+        },
+        {
+          "id": 2,
+          "name": "TJFU",
+          "image": "https://www.solerpalau-usa.com/images/products/jetfans/products/ifft-recat.png"
+        },
+        {
+          "id": 3,
+          "name": "IFAB and IFEB",
+          "image": "https://www.solerpalau-usa.com/images/products/jetfans/products/ifab-recat.png"
+        },
+        {
+          "id": 4,
+          "name": "6002, 6002-14B, 6002A and 6002-14A",
+          "image": "https://www.solerpalau-usa.com/images/products/jetfans/products/vgd-recat.png"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Kitchen Hoods",
+  
+      "series": [
+        {
+          "id": 1,
+          "name": "EO",
+          "image": "https://www.solerpalau-usa.com/images/products/kitchenhoods/EO.webp"
+        },
+        {
+          "id": 2,
+          "name": "EO-FPSP",
+          "image": "https://www.solerpalau-usa.com/images/products/kitchenhoods/eo-fpsp.webp"
+        },
+        {
+          "id": 3,
+          "name": "EOLC",
+          "image": "https://www.solerpalau-usa.com/images/products/kitchenhoods/EOLC.webp"
+        },
+        {
+          "id": 4,
+          "name": "EOLC-FPSP",
+          "image": "https://www.solerpalau-usa.com/images/products/kitchenhoods/EOLC-FPSP.webp"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Outside Air Motorized Damper Kits",
+  
+      "series": [
+        {
+          "id": 1,
+          "name": "MDX-ES24VK",
+          "image": "https://www.solerpalau-usa.com/images/products/refresh/products/MD-recat.png"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Premium CHOICE Series",
+  
+      "series": [
+        {
+          "id": 1,
+          "name": "PC",
+          "image": "https://www.solerpalau-usa.com/images/products/pc/PC.png"
+        },
+        {
+          "id": 2,
+          "name": "PCV",
+          "image": "https://www.solerpalau-usa.com/images/products/pc/PCV.png"
+        },
+        {
+          "id": 3,
+          "name": "PCD",
+          "image": "https://www.solerpalau-usa.com/images/products/pc/PCD.png"
+        },
+        {
+          "id": 4,
+          "name": "PCLP",
+          "image": "https://www.solerpalau-usa.com/images/products/pc/PCLP.png"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "reFresh Series",
+  
+      "series": [
+        {
+          "id": 1,
+          "name": "reFresh Full Size Units",
+          "image": "https://www.solerpalau-usa.com/images/products/refresh/RF10-160EC-Full-Size.webp"
+        },
+        {
+          "id": 2,
+          "name": "reFresh Low Profile",
+          "image": "https://www.solerpalau-usa.com/images/products/refresh/RF8-120EC-Low-Profile.webp"
+        },
+        {
+          "id": 3,
+          "name": "reFresh Value",
+          "image": "https://www.solerpalau-usa.com/images/products/refresh/products/RFV-recat.png"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Roof Propeller Fans",
+  
+      "series": [
+        {
+          "id": 1,
+          "name": "UBS and UBS-P",
+          "image": ""
+        },
+        {
+          "id": 2,
+          "name": "ARE and ARS",
+          "image": ""
+        },
+        {
+          "id": 3,
+          "name": "HRSB and HRSD",
+          "image": ""
+        },
+        {
+          "id": 4,
+          "name": "HREB-C, HREB-P, and HRED-C",
+          "image": ""
+        },
+        {
+          "id": 5,
+          "name": "UBSRD and UBSRD-P",
+          "image": ""
+        },
+        {
+          "id": 6,
+          "name": "UBSRD-HT and UBSRD-HT1",
+          "image": ""
+        },
+        {
+          "id": 7,
+          "name": "TUB",
+          "image": ""
+        },
+        {
+          "id": 8,
+          "name": "TUB-HT",
+          "image": ""
+        },
+        {
+          "id": 9,
+          "name": "UBB and UBX",
+          "image": ""
+        },
+        {
+          "id": 10,
+          "name": "UBRD",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Sidewall Propeller Fans",
+  
+      "series": [
+        {
+          "id": 1,
+          "name": "ACF",
+          "image": ""
+        },
+        {
+          "id": 2,
+          "name": "WA",
+          "image": ""
+        },
+        {
+          "id": 3,
+          "name": "LCE and LCS",
+          "image": ""
+        },
+        {
+          "id": 4,
+          "name": "L2E and L2S",
+          "image": ""
+        },
+        {
+          "id": 5,
+          "name": "L3E and L3S",
+          "image": ""
+        },
+        {
+          "id": 6,
+          "name": "GED/eGED and GSD/eGSD",
+          "image": ""
+        },
+        {
+          "id": 7,
+          "name": "DFE and DFS",
+          "image": ""
+        },
+        {
+          "id": 8,
+          "name": "DDE and DDS",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Tubeaxial Fans",
+  
+      "series": [
+        {
+          "id": 1,
+          "name": "DA",
+          "image": ""
+        },
+        {
+          "id": 2,
+          "name": "TDB",
+          "image": ""
+        },
+        {
+          "id": 3,
+          "name": "TDD",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Utility Vent Sets",
+  
+      "series": [
+        {
+          "id": 1,
+          "name": "CM",
+          "image": ""
+        }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Soler Palau USA | App</title>
+</head>
+<body style="background-color: whitesmoke ;">
+
+    <navbar-component></navbar-component>
+
+    <main>
+
+
+
+        
+        <!-- Grid of icons and links -->
+
+        <div class="grid-container">
+            <div style="font-size: 30px;
+            align-self: center;
+            display: flex; margin-bottom: 5px;
+            color: #053658;
+            font-weight: 600;
+            ">WELCOME, ANTHONY!</div>
+            <div style="font-size: 35px;
+            margin-top: 5px;
+            display: flex;
+            align-self: center; margin-bottom: 50px;
+            color: #053658;
+            font-weight: 600;
+            ">Explore S&P Rep Hub</div>
+        <div class="icon-grid">
+            <div class="icon">
+                <a href="/pages/products.html">
+                    <img src="assets/images/fan-solid.svg" alt="Products" class="icon-color">
+                    <p>Products</p>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="#documents">
+                    <img src="assets/images/file-pdf-solid.svg" alt="Documents" class="icon-color">
+                    <p>Documents</p>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="#cross-references">
+                    <img src="assets/images/right-left-solid.svg" alt="Cross References" class="icon-color">
+                    <p>Cross References</p>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="#media">
+                    <img src="assets/images/circle-play-solid.svg" alt="Media" class="icon-color">
+                    <p>Media</p>
+                </a>
+            </div>
+        </div>
+
+    </div>
+        <document-viewer id="documents"></document-viewer>
+        <cross-reference-table id="cross-references"></cross-reference-table>
+        <media-player id="media"></media-player>
+    </main>
+    <footer>
+        <!-- Include your footer template here -->
+    </footer>
+    <script src="/components/product-list.js"></script>
+    <script src="/components/navbar.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
