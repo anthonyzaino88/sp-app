@@ -7,7 +7,7 @@
         {
           "id": 1,
           "name": "Ceiling Mount Ventilator",
-          "image": "../assets/images/Losone-Select-Ceiling.webp",
+          "image": "/assets/images/Losone-Select-Ceiling.webp",
           "models": [
             {
               "id": 1,
@@ -59,7 +59,17 @@
               "type": "E-series",
               "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-E-series.pdf"
             }
-          ]
+          ],
+          "otherDocs": [ 
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/Losone-Select-Series-Brochure.pdf"
+            },
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-Losone-Select.pdf"
+            }
+      ]
         },
         {
           "id": 2,
@@ -112,17 +122,17 @@
               "type": "EL-series",
               "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-EL-series.pdf"
             }
+          ],
+          "otherDocs": [ 
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/Losone-Select-Series-Brochure.pdf"
+            },
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-Losone-Select.pdf"
+            }
           ]
-        }
-      ],
-      "otherDocs" : [
-        {
-          "type": "Brochure",
-          "url": "https://www.solerpalau-usa.com/documents/Brochure/Losone-Select-Series-Brochure.pdf"
-        },
-        {
-          "type": "IOM",
-          "url": "https://www.solerpalau-usa.com/documents/IOM/iom-Losone-Select.pdf"
         }
       ]
     },
@@ -611,6 +621,23 @@
               "name": "KSFV18VL3S",
               "price": "$2,335"
           }
+          ],
+          "submittals": [
+            {
+              "type": "KSFV",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-ksfv.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Catalog/cat-ksfv.pdf"
+            },
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-ksfv.pdf"
+            }
           ]
         },
         {
@@ -674,6 +701,23 @@
               "id": 8,
               "name": "L700L",
               "price": "$1,547"
+            }
+          ],
+          "submittals": [
+            {
+              "type": "KSFV",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-ksfv.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Catalog/cat-ksfv.pdf"
+            },
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-ksfv.pdf"
             }
           ]
         },
