@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Create a back arrow for reloading product listings
   const backArrow = createContainer("div", "back-arrow");
-  backArrow.innerHTML = `<img src="/assets/images/return-back-button.svg" alt="back" />`;
+  backArrow.innerHTML = `<img src="../assets/images/return-back-button.svg" alt="back" />`;
 
   // Create a div for the product name and style it
   const productNameDiv = createContainer("div", "product-name");
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Replace this with your actual JSON data fetching logic
-  fetch("http://127.0.0.1:5500/data/products.json") // Update with your JSON data source
+  fetch("../data/products.json") // Update with your JSON data source
     .then((response) => response.json())
     .then((data) => {
       // Iterate through each product in the JSON data
