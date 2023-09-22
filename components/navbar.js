@@ -34,7 +34,7 @@ class BottomNavbar extends HTMLElement {
             text-decoration: none;
             color: #fff;
             text-align: center;
-            font-size: 12px;
+            font-size: 15px;
             letter-spacing: 1px;
           }
   
