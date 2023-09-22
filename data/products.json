@@ -7,7 +7,7 @@
         {
           "id": 1,
           "name": "Ceiling Mount Ventilator",
-          "image": "/assets/images/Losone-Select-Ceiling.webp",
+          "image": "../assets/images/Losone-Select-Ceiling.webp",
           "models": [
             {
               "id": 1,
