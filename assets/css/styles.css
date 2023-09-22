@@ -137,10 +137,11 @@ padding: 1rem;
     height: 200px;
     display: none;
     transition: ease-in-out .2s;
-    margin-top: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 .models-dropdown-container {
-    display: none;
+    display: block;
 }
 
 select.series-dropdown {
@@ -160,15 +161,58 @@ select.series-dropdown {
 }
 
 .submittals-container h3 {
+    margin: 0px;
     padding: 1rem;
     font-weight: 500;
+    letter-spacing: 1px;
 }
 
+
 .price-container {
-    padding: 1rem;
-    text-align: center;
-    font-size: 20px;
+    padding-left: 1.5rem;
+    text-align: left;
+    font-size: 25px;
     font-weight: 500;
     transition: ease-in-out .2s;
-    
+    margin-bottom: 2rem;
+    margin-top: -2rem;
 }
+
+ button {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid .5px #636262;
+    background-color: transparent;
+    color: #636262;
+    font-size: 25px;
+    width: 100%;
+    text-align: left;
+}
+
+.literature-dropdown-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.other-docs-container h3 {
+    margin: 0px;
+    padding: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+ul {
+    margin: 0px;
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #636262;
+    padding: 1rem;
+}
+
+
+
