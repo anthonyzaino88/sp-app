@@ -12,7 +12,7 @@ class BottomNavbar extends HTMLElement {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #B1B0B0;
+            background-color: #7c7c7c;
             color: #fff;
             padding: 10px;
             position: fixed;
@@ -35,29 +35,30 @@ class BottomNavbar extends HTMLElement {
             color: #fff;
             text-align: center;
             font-size: 12px;
+            letter-spacing: 1px;
           }
   
         </style>
   
         <nav>
-          <a class="nav-link" href="/index.html">
-          <img src="../assets/images/home.svg" alt="home" class="icon-color">
+          <a class="nav-link" href="/">
+          <img src="/assets/images/home.svg" alt="home" class="icon-color">
             <span class="nav-icon"></span><br>Home
           </a>
           <a class="nav-link" href="/products.html">
-          <img src="../assets/images/fan-white.svg" alt="Products" class="icon-color">
+          <img src="/assets/images/fan-white.svg" alt="Products" class="icon-color">
             <span class="nav-icon"></span><br>Products
           </a>
           <a class="nav-link" href="/products.html">
-          <img src="../assets/images/library.svg" alt="Products" class="icon-color">
+          <img src="/assets/images/library.svg" alt="Products" class="icon-color">
             <span class="nav-icon"></span><br>Library
           </a>
           <a class="nav-link" href="/products.html">
-          <img src="../assets/images/right-left-white.svg" alt="Products" class="icon-color">
+          <img src="/assets/images/right-left-white.svg" alt="Products" class="icon-color">
             <span class="nav-icon"></span><br>Cross-Reference
           </a>
           <a class="nav-link" href="/products.html">
-          <img src="../assets/images/solidplay-white.svg" alt="Products" class="icon-color">
+          <img src="/assets/images/solidplay-white.svg" alt="Products" class="icon-color">
             <span class="nav-icon"></span><br>Media
           </a>
         </nav>
