@@ -7,7 +7,8 @@
         {
           "id": 1,
           "name": "Ceiling Mount Ventilator",
-          "image": "../assets/images/Losone-Select-Ceiling.webp",
+          "image": "/assets/images/Losone-Select-Ceiling.webp",
+          "description": "Incredibly reliable. Unbelievably quiet. Offering the CFM choices you need at the lowest sound levels in the industry.",
           "models": [
             {
               "id": 1,
@@ -52,8 +53,8 @@
           ],
           "submittals": [
             {
-              "type": "L400, L500, L700",
-              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-E-series.pdf"
+              "type": "(L)400 - 700",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-Losone-Select-Series.pdf"
             },
             {
               "type": "E-series",
@@ -75,6 +76,7 @@
           "id": 2,
           "name": "Cabinet Ventilator",
           "image": "https://www.solerpalau-usa.com/images/products/ccf/Losone-Select-Inline.webp",
+          "description": "Incredibly reliable. Unbelievably quiet. Offering the CFM choices you need at the lowest sound levels in the industry.",
           "models": [
             {
               "id": 1,
@@ -145,6 +147,7 @@
           "id": 1,
           "name": "KSFV",
           "image": "https://www.solerpalau-usa.com/images/products/cfsf/KSFV-recat.png",
+          "description" : "The KSFV fans are roof curb or curb cap mounted filtered supply fans rated from 475 to over 12,600 CFM, with static pressure capabilities to 2-1/2\". They are specifically designed for non-tempered, filtered make-up air in kitchen hood applications. ",
           "models": [
             {
               "id": 1,
@@ -643,12 +646,48 @@
         {
           "id": 2,
           "name": "CSF",
-          "image": "https://www.solerpalau-usa.com/images/products/cfsf/CSF-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/cfsf/CSF-recat.png",
+          "description": "Centrifugal Filtered Supply Fans units are roof mounted filtered supply fans rated from 475 to over 12,500 CFM, with static pressure capability up to 2\". CSF's rugged, heavy-gauge galvanized hood and stack provide maximum weather protection and long life. ",
+          "submittals": [
+            {
+              "type": "CSF",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-csf.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Catalog/cat-csf.pdf"
+            },
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-csf.pdf"
+            }
+          ]
         },
         {
           "id": 3,
           "name": "LSF",
-          "image": "https://www.solerpalau-usa.com/images/products/cfsf/LSF-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/cfsf/LSF-recat.png",
+          "description": "Louver Filtered Supply Fans units are roof mounted filtered supply fans rated from 475 to over 12,500 CFM, with static pressure capabilities to 2\". LSF's architecturally pleasing; heavy-gauge aluminum louver design provides long life and the utmost in performance efficiency. ",
+          "submittals": [
+            {
+              "type": "LSF",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-lsf.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Catalog/cat-lsf.pdf"
+            },
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-lsf.pdf"
+            }
+          ]
         }
       ]
     },
@@ -661,52 +700,79 @@
           "id": 1,
           "name": "SDBD and SDBDe",
           "image": "https://www.solerpalau-usa.com/images/products/crwf/SDBD-recat.png",
+          "description": "SDBD and SDBDe direct drive fans are designed to exhaust air up to 4,984 CFM, with high static pressure capability up to 2-1/4\". The non-overloading backward inclined wheel with its higher static pressure capability makes these units suitable for either ducted or non-ducted applications.",
           "models": [
             {
               "id": 1,
-              "name": "L100EL",
-              "price": "$409"
+              "name": "SDBD06CJH1AS",
+              "price": "$527"
             },
             {
               "id": 2,
-              "name": "L150EL",
-              "price": "$430"
+              "name": "SDBD06JH1AS",
+              "price": "$527"
             },
             {
               "id": 3,
-              "name": "L200EL",
-              "price": "$471"
+              "name": "SDBD07JH1AS",
+              "price": "$557"
             },
             {
               "id": 4,
-              "name": "L250EL",
-              "price": "$492"
+              "name": "SDBD08HM1AS",
+              "price": "$613"
             },
             {
               "id": 5,
-              "name": "L300EL",
-              "price": "$511"
+              "name": "SDBD08JH1AS",
+              "price": "$565"
             },
             {
               "id": 6,
-              "name": "L400L",
-              "price": "$1,213"
+              "name": "SDBD08MH1AS",
+              "price": "$712"
             },
             {
               "id": 7,
-              "name": "L500L",
-              "price": "$1,314"
+              "name": "SDBD10MM1AS",
+              "price": "$752"
             },
             {
               "id": 8,
-              "name": "L700L",
-              "price": "$1,547"
+              "name": "SDBD10PH1AS",
+              "price": "$802"
+            },
+            {
+              "id": 9,
+              "name": "SDBD12MM1AS",
+              "price": "$931"
+            },
+            {
+              "id": 10,
+              "name": "SDBD12QH1AS",
+              "price": "$1,026"
+            },
+            {
+              "id": 11,
+              "name": "SDBD14MM1AS",
+              "price": "$935"
+            },
+            {
+              "id": 12,
+              "name": "SDBD15QM1AS",
+              "price": "$1,160"
+            },
+            {
+              "id": 13,
+              "name": "SDBD16QM1AS",
+              "price": "$1,209"
             }
+            
           ],
           "submittals": [
             {
-              "type": "KSFV",
-              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-ksfv.pdf"
+              "type": "SDBD",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/SDBD-SDBDe_Submittal_04052022.pdf"
             }
             
           ],
@@ -716,40 +782,1278 @@
               "url": "https://www.solerpalau-usa.com/documents/Catalog/cat-ksfv.pdf"
             },
             {
-              "type": "IOM",
-              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-ksfv.pdf"
+              "type": "IOM(SDBD)",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-sdbd.pdf"
+            },
+            {
+              "type": "IOM(SDBDe)",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-SDBDe-STXDe-STXDeRHUL.pdf"
             }
           ]
         },
         {
           "id": 2,
           "name": "SDB",
-          "image": "https://www.solerpalau-usa.com/images/products/crwf/SDB-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/crwf/SDB-recat.png",
+          "description" : "The SDB, with its sleek spun aluminum exterior and efficient design, ensures optimal performance at high static pressures. Easy adjustments via belt drives and reliability are guaranteed with AMCA Air and Sound and cULus 705 certifications.",
+          "models" : [
+            {
+              "id": 1,
+              "name": "SDB06MH1S",
+              "price": "$945"
+            },
+            {
+              "id": 2,
+              "name": "SDB06MH3S",
+              "price": "$1,089"
+            },
+            {
+              "id": 3,
+              "name": "SDB06ML1S",
+              "price": "$945"
+            },
+            {
+              "id": 4,
+              "name": "SDB06ML3S",
+              "price": "$1,089"
+            },
+            {
+              "id": 5,
+              "name": "SDB06MM1S",
+              "price": "$945"
+            },
+            {
+              "id": 6,
+              "name": "SDB06MM3S",
+              "price": "$1,089"
+            },
+            {
+              "id": 7,
+              "name": "SDB07MH1S",
+              "price": "$945"
+            },
+            {
+              "id": 8,
+              "name": "SDB07MH3S",
+              "price": "$1,096"
+            },
+            {
+              "id": 9,
+              "name": "SDB07ML1S",
+              "price": "$945"
+            },
+            {
+              "id": 10,
+              "name": "SDB07ML3S",
+              "price": "$1,089"
+            },
+            {
+              "id": 11,
+              "name": "SDB07MM1S",
+              "price": "$945"
+            },
+            {
+              "id": 12,
+              "name": "SDB07MM3S",
+              "price": "$1,089"
+            },
+            {
+              "id": 13,
+              "name": "SDB08MH1S",
+              "price": "$945"
+            },
+            {
+              "id": 14,
+              "name": "SDB08MH3S",
+              "price": "$1,089"
+            },
+            {
+              "id": 15,
+              "name": "SDB08ML1S",
+              "price": "$945"
+            },
+            {
+              "id": 16,
+              "name": "SDB08ML3S",
+              "price": "$1,089"
+            },
+            {
+              "id": 17,
+              "name": "SDB08MM1S",
+              "price": "$945"
+            },
+            {
+              "id": 18,
+              "name": "SDB08MM3S",
+              "price": "$1,089"
+            },
+            {
+              "id": 19,
+              "name": "SDB08PH1S",
+              "price": "$946"
+            },
+            {
+              "id": 20,
+              "name": "SDB08PH3S",
+              "price": "$1,090"
+            },
+            {
+              "id": 21,
+              "name": "SDB10MH1S",
+              "price": "$1,090"
+            },
+            {
+              "id": 22,
+              "name": "SDB10MH3S",
+              "price": "$1,155"
+            },
+            {
+              "id": 23,
+              "name": "SDB10ML1S",
+              "price": "$1,090"
+            },
+            {
+              "id": 24,
+              "name": "SDB10ML3S",
+              "price": "$1,155"
+            },
+            {
+              "id": 25,
+              "name": "SDB10PH1S",
+              "price": "$1,113"
+            },
+            {
+              "id": 26,
+              "name": "SDB10PH3S",
+              "price": "$1,161"
+            },
+            {
+              "id": 27,
+              "name": "SDB12MH1S",
+              "price": "$1,166"
+            },
+            {
+              "id": 28,
+              "name": "SDB12MH3S",
+              "price": "$1,235"
+            },
+            {
+              "id": 29,
+              "name": "SDB12PH1S",
+              "price": "$1,185"
+            },
+            {
+              "id": 30,
+              "name": "SDB12PH3S",
+              "price": "$1,237"
+            },
+            {
+              "id": 31,
+              "name": "SDB12QH1S",
+              "price": "$1,175"
+            },
+            {
+              "id": 32,
+              "name": "SDB12QH3S",
+              "price": "$1,270"
+            },
+            {
+              "id": 33,
+              "name": "SDB14MH1S",
+              "price": "$1,167"
+            },
+            {
+              "id": 34,
+              "name": "SDB14MH3S",
+              "price": "$1,271"
+            },
+            {
+              "id": 35,
+              "name": "SDB14PH1S",
+              "price": "$1,186"
+            },
+            {
+              "id": 36,
+              "name": "SDB14PH3S",
+              "price": "$1,231"
+            },
+            {
+              "id": 37,
+              "name": "SDB14QH1S",
+              "price": "$1,211"
+            },
+            {
+              "id": 38,
+              "name": "SDB14QH3S",
+              "price": "$1,271"
+            },
+            {
+              "id": 39,
+              "name": "SDB14RH1S",
+              "price": "$1,326"
+            },
+            {
+              "id": 40,
+              "name": "SDB14RH3S",
+              "price": "$1,273"
+            },
+            {
+              "id": 41,
+              "name": "SDB14SH1S",
+              "price": "$1,364"
+            },
+            {
+              "id": 42,
+              "name": "SDB14SH3S",
+              "price": "$1,320"
+            },
+            {
+              "id": 43,
+              "name": "SDB15MH1S",
+              "price": "$1,182"
+            },
+            {
+              "id": 44,
+              "name": "SDB15MH3S",
+              "price": "$1,302"
+            },
+            {
+              "id": 45,
+              "name": "SDB15PH1S",
+              "price": "$1,210"
+            },
+            {
+              "id": 46,
+              "name": "SDB15PH3S",
+              "price": "$1,310"
+            },
+            {
+              "id": 47,
+              "name": "SDB15QH1S",
+              "price": "$1,241"
+            },
+            {
+              "id": 48,
+              "name": "SDB15QH3S",
+              "price": "$1,309"
+            },
+            {
+              "id": 49,
+              "name": "SDB15RH1S",
+              "price": "$1,368"
+            },
+            {
+              "id": 50,
+              "name": "SDB15RH3S",
+              "price": "$1,313"
+            },
+            {
+              "id": 51,
+              "name": "SDB15SH1S",
+              "price": "$1,405"
+            },
+            {
+              "id": 52,
+              "name": "SDB15SH3S",
+              "price": "$1,363"
+            },
+            {
+              "id": 53,
+              "name": "SDB16MH1S",
+              "price": "$1,278"
+            },
+            {
+              "id": 54,
+              "name": "SDB16MH3S",
+              "price": "$1,396"
+            },
+            {
+              "id": 55,
+              "name": "SDB16PH1S",
+              "price": "$1,306"
+            },
+            {
+              "id": 56,
+              "name": "SDB16PH3S",
+              "price": "$1,403"
+            },
+            {
+              "id": 57,
+              "name": "SDB16QH1S",
+              "price": "$1,335"
+            },
+            {
+              "id": 58,
+              "name": "SDB16QH3S",
+              "price": "$1,399"
+            },
+            {
+              "id": 59,
+              "name": "SDB16RH1S",
+              "price": "$1,502"
+            },
+            {
+              "id": 60,
+              "name": "SDB16RH3S",
+              "price": "$1,403"
+            },
+            {
+              "id": 61,
+              "name": "SDB16SH1S",
+              "price": "$1,554"
+            },
+            {
+              "id": 62,
+              "name": "SDB16SH3S",
+              "price": "$1,452"
+            },
+            {
+              "id": 63,
+              "name": "SDB18PH1S",
+              "price": "$1,523"
+            },
+            {
+              "id": 64,
+              "name": "SDB18PH3S",
+              "price": "$1,618"
+            },
+            {
+              "id": 65,
+              "name": "SDB18QH1S",
+              "price": "$1,555"
+            },
+            {
+              "id": 66,
+              "name": "SDB18QH3S",
+              "price": "$1,618"
+            },
+            {
+              "id": 67,
+              "name": "SDB18RH1S",
+              "price": "$1,550"
+            },
+            {
+              "id": 68,
+              "name": "SDB18RH3S",
+              "price": "$1,630"
+            },
+            {
+              "id": 69,
+              "name": "SDB18SH1S",
+              "price": "$1,777"
+            },
+            {
+              "id": 70,
+              "name": "SDB18SH3S",
+              "price": "$1,640"
+            },
+            {
+              "id": 71,
+              "name": "SDB18TH1S",
+              "price": "$1,908"
+            },
+            {
+              "id": 72,
+              "name": "SDB18TH3S",
+              "price": "$1,677"
+            },
+            {
+              "id": 73,
+              "name": "SDB18VH1S",
+              "price": "$1,979"
+            },
+            {
+              "id": 74,
+              "name": "SDB18VH3S",
+              "price": "$1,701"
+            },
+            {
+              "id": 75,
+              "name": "SDB20PH1S",
+              "price": "$1,608"
+            },
+            {
+              "id": 76,
+              "name": "SDB20PH3S",
+              "price": "$1,674"
+            },
+            {
+              "id": 77,
+              "name": "SDB20QH1S",
+              "price": "$1,683"
+            },
+            {
+              "id": 78,
+              "name": "SDB20QH3S",
+              "price": "$1,674"
+            },
+            {
+              "id": 79,
+              "name": "SDB20RH1S",
+              "price": "$1,777"
+            },
+            {
+              "id": 80,
+              "name": "SDB20RH3S",
+              "price": "$1,683"
+            },
+            {
+              "id": 81,
+              "name": "SDB20SH1S",
+              "price": "$1,860"
+            },
+            {
+              "id": 82,
+              "name": "SDB20SH3S",
+              "price": "$1,694"
+            },
+            {
+              "id": 83,
+              "name": "SDB20TH1S",
+              "price": "$1,991"
+            },
+            {
+              "id": 84,
+              "name": "SDB20TH3S",
+              "price": "$1,731"
+            },
+            {
+              "id": 85,
+              "name": "SDB20VH1S",
+              "price": "$2,062"
+            },
+            {
+              "id": 86,
+              "name": "SDB20VH3S",
+              "price": "$1,755"
+            },
+            {
+              "id": 87,
+              "name": "SDB22PH1S",
+              "price": "$1,728"
+            },
+            {
+              "id": 88,
+              "name": "SDB22PH3S",
+              "price": "$1,797"
+            },
+            {
+              "id": 89,
+              "name": "SDB22QH1S",
+              "price": "$1,807"
+            },
+            {
+              "id": 90,
+              "name": "SDB22QH3S",
+              "price": "$1,797"
+            },
+            {
+              "id": 91,
+              "name": "SDB22RH1S",
+              "price": "$1,846"
+            },
+            {
+              "id": 92,
+              "name": "SDB22RH3S",
+              "price": "$1,807"
+            },
+            {
+              "id": 93,
+              "name": "SDB22SH1S",
+              "price": "$1,986"
+            },
+            {
+              "id": 94,
+              "name": "SDB22SH3S",
+              "price": "$1,817"
+            },
+            {
+              "id": 95,
+              "name": "SDB22TH1S",
+              "price": "$2,123"
+            },
+            {
+              "id": 96,
+              "name": "SDB22TH3S",
+              "price": "$1,855"
+            },
+            {
+              "id": 97,
+              "name": "SDB22VH1S",
+              "price": "$2,195"
+            },
+            {
+              "id": 98,
+              "name": "SDB22VH3S",
+              "price": "$1,880"
+            },
+            {
+              "id": 99,
+              "name": "SDB24PH1S",
+              "price": "$2,232"
+            },
+            {
+              "id": 100,
+              "name": "SDB24PH3S",
+              "price": "$2,235"
+            },
+            {
+              "id": 101,
+              "name": "SDB24QH1S",
+              "price": "$2,281"
+            },
+            {
+              "id": 102,
+              "name": "SDB24QH3S",
+              "price": "$2,207"
+            },
+            {
+              "id": 103,
+              "name": "SDB24RH1S",
+              "price": "$2,246"
+            },
+            {
+              "id": 104,
+              "name": "SDB24RH3S",
+              "price": "$2,246"
+            },
+            {
+              "id": 105,
+              "name": "SDB24SH3S",
+              "price": "$2,230"
+            },
+            {
+              "id": 106,
+              "name": "SDB24TH3S",
+              "price": "$2,287"
+            }
+          ],
+          "submittals": [
+            {
+              "type": "SDB",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-sdb.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Catalog/cat-centrifugal-roof-and-sidewall.pdf"
+            },
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-sdbd.pdf"
+            }
+          ]
+
         },
         {
           "id": 3,
-          "name": "STXD, STXDe, and STXDeRHUL",
-          "image": "https://www.solerpalau-usa.com/images/products/crwf/STXB-recat.png"
+          "name": "STXD",
+          "image": "https://www.solerpalau-usa.com/images/products/crwf/STXB-recat.png",
+          "description": "The Model STXD direct drive fans, featuring attractive aluminum exteriors, efficiently exhaust air in high-pressure environments up to 4,780 CFM. These fans are versatile, suitable for both ducted and nonducted applications, and promise quiet, low-maintenance operation with no belts or fan bearings to maintain.",
+          "models": [
+            {
+              "id": 1,
+              "name": "STXD06CJH1AS",
+              "price": "$789"
+            },
+            {
+              "id": 2,
+              "name": "STXD06JH1AS",
+              "price": "$815"
+            },
+            {
+              "id": 3,
+              "name": "STXD07JH1AS",
+              "price": "$824"
+            },
+            {
+              "id": 4,
+              "name": "STXD08HM1AS",
+              "price": "$942"
+            },
+            {
+              "id": 5,
+              "name": "STXD08MH1AS",
+              "price": "$1,029"
+            },
+            {
+              "id": 6,
+              "name": "STXD10RHULMM1AS",
+              "price": "$1,242"
+            },
+            {
+              "id": 7,
+              "name": "STXD10RHULPH1AS",
+              "price": "$1,290"
+            },
+            {
+              "id": 8,
+              "name": "STXD12RHULMM1AS",
+              "price": "$1,345"
+            },
+            {
+              "id": 9,
+              "name": "STXD12RHULQH1AS",
+              "price": "$1,403"
+            },
+            {
+              "id": 10,
+              "name": "STXD14RHULMM1AS",
+              "price": "$1,312"
+            },
+            {
+              "id": 11,
+              "name": "STXD15RHULQM1AS",
+              "price": "$1,505"
+            },
+            {
+              "id": 12,
+              "name": "STXD16RHULQM1AS",
+              "price": "$1,576"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "STXD",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-stxd.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Catalog/cat-stxd-stxde.pdf"
+            },
+            {
+              "type": "IOM(STXD)",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-stxd.pdf"
+            },
+            {
+              "type": "IOM(STXDe and STXDeRHUL)",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-SDBDe-STXDe-STXDeRHUL.pdf"
+            }
+          ]
+          
         },
         {
           "id": 4,
-          "name": "STXB, STXB-RHUL, and STXB-HP",
-          "image": "https://www.solerpalau-usa.com/images/products/crwf/STXB-recat.png"
+          "name": "STXB",
+          "image": "https://www.solerpalau-usa.com/images/products/crwf/STXB-recat.png",
+          "description": "STXB and STXB-RHUL Upblast Belt Drive Centrifugal Roof/Sidewall Exhaust Fans are designed to exhaust air up to 37,290 CFM in high static pressure applications to 3\". The aluminum exterior provides an attractive appearance. Belt drive results in lower operating RPM and sound levels, making the Series STXB well suited to applications where quiet operation is important.",
+          "models": [
+            {
+              "id": 1,
+              "name": "STXB08RHULMH1S",
+              "price": "$1,258"
+            },
+            {
+              "id": 2,
+              "name": "STXB08RHULMH3S",
+              "price": "$1,405"
+            },
+            {
+              "id": 3,
+              "name": "STXB08RHULML1S",
+              "price": "$1,258"
+            },
+            {
+              "id": 4,
+              "name": "STXB08RHULML3S",
+              "price": "$1,405"
+            },
+            {
+              "id": 5,
+              "name": "STXB08RHULMM1S",
+              "price": "$1,258"
+            },
+            {
+              "id": 6,
+              "name": "STXB08RHULMM3S",
+              "price": "$1,405"
+            },
+            {
+              "id": 7,
+              "name": "STXB08RHULPH1S",
+              "price": "$1,282"
+            },
+            {
+              "id": 8,
+              "name": "STXB08RHULPH3S",
+              "price": "$1,432"
+            },
+            {
+              "id": 9,
+              "name": "STXB10RHULMH1S",
+              "price": "$1,286"
+            },
+            {
+              "id": 10,
+              "name": "STXB10RHULMH3S",
+              "price": "$1,299"
+            },
+            {
+              "id": 11,
+              "name": "STXB10RHULPH1S",
+              "price": "$1,312"
+            },
+            {
+              "id": 12,
+              "name": "STXB10RHULPH3S",
+              "price": "$1,364"
+            },
+            {
+              "id": 13,
+              "name": "STXB12RHULMH1S",
+              "price": "$1,289"
+            },
+            {
+              "id": 14,
+              "name": "STXB12RHULMH3S",
+              "price": "$1,368"
+            },
+            {
+              "id": 15,
+              "name": "STXB12RHULPH1S",
+              "price": "$1,318"
+            },
+            {
+              "id": 16,
+              "name": "STXB12RHULPH3S",
+              "price": "$1,368"
+            },
+            {
+              "id": 17,
+              "name": "STXB12RHULQH1S",
+              "price": "$1,378"
+            },
+            {
+              "id": 18,
+              "name": "STXB12RHULQH3S",
+              "price": "$1,468"
+            },
+            {
+              "id": 19,
+              "name": "STXB14RHULMH1S",
+              "price": "$1,437"
+            },
+            {
+              "id": 20,
+              "name": "STXB14RHULMH3S",
+              "price": "$1,518"
+            },
+            {
+              "id": 21,
+              "name": "STXB14RHULPH1S",
+              "price": "$1,463"
+            },
+            {
+              "id": 22,
+              "name": "STXB14RHULPH3S",
+              "price": "$1,518"
+            },
+            {
+              "id": 23,
+              "name": "STXB14RHULQH1S",
+              "price": "$1,527"
+            },
+            {
+              "id": 24,
+              "name": "STXB14RHULQH3S",
+              "price": "$1,619"
+            },
+            {
+              "id": 25,
+              "name": "STXB14RHULRH1S",
+              "price": "$1,461"
+            },
+            {
+              "id": 26,
+              "name": "STXB14RHULRH3S",
+              "price": "$1,540"
+            },
+            {
+              "id": 27,
+              "name": "STXB14RHULSH1S",
+              "price": "$1,487"
+            },
+            {
+              "id": 28,
+              "name": "STXB14RHULSH3S",
+              "price": "$1,540"
+            },
+            {
+              "id": 29,
+              "name": "STXB15RHULMH1S",
+              "price": "$1,501"
+            },
+            {
+              "id": 30,
+              "name": "STXB15RHULMH3S",
+              "price": "$1,575"
+            },
+            {
+              "id": 31,
+              "name": "STXB15RHULPH1S",
+              "price": "$1,496"
+            },
+            {
+              "id": 32,
+              "name": "STXB15RHULPH3S",
+              "price": "$1,541"
+            },
+            {
+              "id": 33,
+              "name": "STXB15RHULQH1S",
+              "price": "$1,556"
+            },
+            {
+              "id": 34,
+              "name": "STXB15RHULQH3S",
+              "price": "$1,588"
+            },
+            {
+              "id": 35,
+              "name": "STXB15RHULRH1S",
+              "price": "$1,751"
+            },
+            {
+              "id": 36,
+              "name": "STXB15RHULRH3S",
+              "price": "$1,642"
+            },
+            {
+              "id": 37,
+              "name": "STXB15RHULSH1S",
+              "price": "$1,751"
+            },
+            {
+              "id": 38,
+              "name": "STXB15RHULSH3S",
+              "price": "$1,653"
+            },
+            {
+              "id": 39,
+              "name": "STXB16RHULMH1S",
+              "price": "$1,588"
+            },
+            {
+              "id": 40,
+              "name": "STXB16RHULMH3S",
+              "price": "$1,667"
+            },
+            {
+              "id": 41,
+              "name": "STXB16RHULPH1S",
+              "price": "$1,728"
+            },
+            {
+              "id": 42,
+              "name": "STXB16RHULPH3S",
+              "price": "$1,796"
+            },
+            {
+              "id": 43,
+              "name": "STXB16RHULQH1S",
+              "price": "$1,743"
+            },
+            {
+              "id": 44,
+              "name": "STXB16RHULQH3S",
+              "price": "$1,816"
+            },
+            {
+              "id": 45,
+              "name": "STXB16RHULRH1S",
+              "price": "$1,884"
+            },
+            {
+              "id": 46,
+              "name": "STXB16RHULRH3S",
+              "price": "$1,863"
+            },
+            {
+              "id": 47,
+              "name": "STXB16RHULSH1S",
+              "price": "$1,944"
+            },
+            {
+              "id": 48,
+              "name": "STXB16RHULSH3S",
+              "price": "$1,953"
+            },
+            {
+              "id": 49,
+              "name": "STXB18RHULPH1S",
+              "price": "$1,898"
+            },
+            {
+              "id": 50,
+              "name": "STXB18RHULPH3S",
+              "price": "$1,931"
+            },
+            {
+              "id": 51,
+              "name": "STXB18RHULQH1S",
+              "price": "$1,935"
+            },
+            {
+              "id": 52,
+              "name": "STXB18RHULQH3S",
+              "price": "$1,967"
+            },
+            {
+              "id": 53,
+              "name": "STXB18RHULRH1S",
+              "price": "$2,086"
+            },
+            {
+              "id": 54,
+              "name": "STXB18RHULRH3S",
+              "price": "$2,023"
+            },
+            {
+              "id": 55,
+              "name": "STXB18RHULSH1S",
+              "price": "$2,139"
+            },
+            {
+              "id": 56,
+              "name": "STXB18RHULSH3S",
+              "price": "$2,037"
+            },
+            {
+              "id": 57,
+              "name": "STXB18RHULTH1S",
+              "price": "$2,246"
+            },
+            {
+              "id": 58,
+              "name": "STXB18RHULTH3S",
+              "price": "$2,070"
+            },
+            {
+              "id": 59,
+              "name": "STXB18RHULVH1S",
+              "price": "$2,290"
+            },
+            {
+              "id": 60,
+              "name": "STXB18RHULVH3S",
+              "price": "$2,113"
+            },
+            {
+              "id": 61,
+              "name": "STXB20RHULPH1S",
+              "price": "$2,174"
+            },
+            {
+              "id": 62,
+              "name": "STXB20RHULPH3S",
+              "price": "$2,147"
+            },
+            {
+              "id": 63,
+              "name": "STXB20RHULQH1S",
+              "price": "$2,217"
+            },
+            {
+              "id": 64,
+              "name": "STXB20RHULQH3S",
+              "price": "$2,192"
+            },
+            {
+              "id": 65,
+              "name": "STXB20RHULRH1S",
+              "price": "$2,377"
+            },
+            {
+              "id": 66,
+              "name": "STXB20RHULRH3S",
+              "price": "$2,198"
+            },
+            {
+              "id": 67,
+              "name": "STXB20RHULSH1S",
+              "price": "$2,467"
+            },
+            {
+              "id": 68,
+              "name": "STXB20RHULSH3S",
+              "price": "$2,310"
+            },
+            {
+              "id": 69,
+              "name": "STXB20RHULTH1S",
+              "price": "$2,553"
+            },
+            {
+              "id": 70,
+              "name": "STXB20RHULTH3S",
+              "price": "$2,358"
+            },
+            {
+              "id": 71,
+              "name": "STXB20RHULVH1S",
+              "price": "$2,606"
+            },
+            {
+              "id": 72,
+              "name": "STXB20RHULVH3S",
+              "price": "$2,405"
+            },
+            {
+              "id": 73,
+              "name": "STXB22RHULPH1S",
+              "price": "$2,242"
+            },
+            {
+              "id": 74,
+              "name": "STXB22RHULPH3S",
+              "price": "$2,210"
+            },
+            {
+              "id": 75,
+              "name": "STXB22RHULQH1S",
+              "price": "$2,285"
+            },
+            {
+              "id": 76,
+              "name": "STXB22RHULQH3S",
+              "price": "$2,256"
+            },
+            {
+              "id": 77,
+              "name": "STXB22RHULRH1S",
+              "price": "$2,448"
+            },
+            {
+              "id": 78,
+              "name": "STXB22RHULRH3S",
+              "price": "$2,265"
+            },
+            {
+              "id": 79,
+              "name": "STXB22RHULSH1S",
+              "price": "$2,539"
+            },
+            {
+              "id": 80,
+              "name": "STXB22RHULSH3S",
+              "price": "$2,379"
+            },
+            {
+              "id": 81,
+              "name": "STXB22RHULTH1S",
+              "price": "$2,629"
+            },
+            {
+              "id": 82,
+              "name": "STXB22RHULTH3S",
+              "price": "$2,428"
+            },
+            {
+              "id": 83,
+              "name": "STXB22RHULVH1S",
+              "price": "$2,683"
+            },
+            {
+              "id": 84,
+              "name": "STXB22RHULVH3S",
+              "price": "$2,479"
+            },
+            {
+              "id": 85,
+              "name": "STXB24RHULPH1S",
+              "price": "$2,608"
+            },
+            {
+              "id": 86,
+              "name": "STXB24RHULPH3S",
+              "price": "$2,658"
+            },
+            {
+              "id": 87,
+              "name": "STXB24RHULQH1S",
+              "price": "$2,670"
+            },
+            {
+              "id": 88,
+              "name": "STXB24RHULQH3S",
+              "price": "$2,702"
+            },
+            {
+              "id": 89,
+              "name": "STXB24RHULRH1S",
+              "price": "$2,818"
+            },
+            {
+              "id": 90,
+              "name": "STXB24RHULRH3S",
+              "price": "$2,757"
+            },
+            {
+              "id": 91,
+              "name": "STXB24RHULSH1S",
+              "price": "$2,866"
+            },
+            {
+              "id": 92,
+              "name": "STXB24RHULSH3S",
+              "price": "$2,749"
+            },
+            {
+              "id": 93,
+              "name": "STXB24RHULTH3S",
+              "price": "$2,801"
+            },
+            {
+              "id": 94,
+              "name": "STXB24RHULVH3S",
+              "price": "$2,813"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "STXB",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-stxb.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Catalog/cat-centrifugal-roof-and-sidewall.pdf"
+            },
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/stxb-iom.pdf"
+            }
+          ]
         },
-        {
-          "id": 5,
-          "name": "STXB-HT2 and STXB-HT",
-          "image": "https://www.solerpalau-usa.com/images/products/crwf/STXB-recat.png"
-        },
+      
         {
           "id": 6,
           "name": "LPD and LPD-SF",
-          "image": "https://www.solerpalau-usa.com/images/products/crwf/LPD-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/crwf/LPD-recat.png",
+          "description": "The LPD and LPD-SF are sleek, versatile direct drive fans, designed to exhaust air efficiently in areas requiring low CFM up to 420 with high static pressure. These are ideal for various ventilations like bathrooms or offices and offer flexible mounting options; LPD is optimal for curb mounting and LPD-SF has a self-flashing base for roof or sidewall mounting.",
+          "models": [
+            {
+              "id": 1,
+              "name": "LPD061AS",
+              "price": "$488"
+            },
+            {
+              "id": 2,
+              "name": "LPD081AS",
+              "price": "$554"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "LPD",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-lpd.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Catalog/cat-centrifugal-roof-and-sidewall.pdf"
+            },
+            
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-lpd.pdf"
+            }
+          ]
         },
         {
           "id": 7,
           "name": "CWD",
-          "image": "https://www.solerpalau-usa.com/images/products/crwf/CWD-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/crwf/CWD-recat.png",
+          "description": "The Centrifugal Wall Mounted Exhauster Direct Drive Fans (CWD) offer a sleek, low-profile design, efficiently exhausting up to 3,360 CFM. These corrosion-resistant units are perfect for sidewall mounting in spaces like offices or restaurants, ensuring quiet and minimal maintenance operation.",
+          "models": [
+            {
+              "id": 1,
+              "name": "CWD07HH1AS",
+              "price": "$877"
+            },
+            {
+              "id": 2,
+              "name": "CWD09MH1AS",
+              "price": "$1,231"
+            },
+            {
+              "id": 3,
+              "name": "CWD09MH1CS",
+              "price": "$1,264"
+            },
+            {
+              "id": 4,
+              "name": "CWD09MM1AS",
+              "price": "$1,302"
+            },
+            {
+              "id": 5,
+              "name": "CWD09MM1CS",
+              "price": "$1,341"
+            },
+            {
+              "id": 6,
+              "name": "CWD10PH1AS",
+              "price": "$1,321"
+            },
+            {
+              "id": 7,
+              "name": "CWD10PH1CS",
+              "price": "$1,358"
+            },
+            {
+              "id": 8,
+              "name": "CWD12MM1AS",
+              "price": "$1,489"
+            },
+            {
+              "id": 9,
+              "name": "CWD12MM1CS",
+              "price": "$1,633"
+            },
+            {
+              "id": 10,
+              "name": "CWD14QM1AS",
+              "price": "$1,981"
+            },
+            {
+              "id": 11,
+              "name": "CWD14QM1CS",
+              "price": "$2,033"
+            }
+          ],
+          "submittals": [
+            {
+              "type": "CWD",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-cwd.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+
+          {
+            "type": "Brochure",
+            "url": "https://www.solerpalau-usa.com/documents/Catalog/cat-centrifugal-roof-and-sidewall.pdf"
+          },
+
+          {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-cwd.pdf"
+           }
+            
+          ]
         }
       ]
     },
@@ -761,27 +2065,410 @@
         {
           "id": 1,
           "name": "TR",
-          "image": "https://www.solerpalau-usa.com/images/products/erv/TR-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/erv/TR-recat.png",
+          "description": "S&P's TR Series ensures optimal indoor air quality by efficiently exchanging stale air with fresh, using an advanced energy exchange core to maintain comfort and prevent contamination in all climates.",
+          "models": [
+            {
+              "id": 1,
+              "name": "TR130",
+              "price": "$1,503"
+            },
+            {
+              "id": 2,
+              "name": "TR200",
+              "price": "$1,948"
+            },
+            {
+              "id": 3,
+              "name": "TR300",
+              "price": "$2,217"
+            },
+            {
+              "id": 4,
+              "name": "TR90",
+              "price": "$1,276"
+            },
+            {
+              "id": 5,
+              "name": "TR90G",
+              "price": "$1,208"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "TR90",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-tr90.pdf"
+            },
+            {
+              "type": "TR90G",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-tr90g.pdf"
+            },
+            {
+              "type": "TR130",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-tr130.pdf"
+            },
+            {
+              "type": "TR200",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-tr200.pdf"
+            },
+            {
+              "type": "TR300",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-tr300.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM(90)",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-tr(90).pdf"
+            },
+            {
+              "type": "IOM(130-300)",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-tr(130-300).pdf"
+            },
+            
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/TRV-updated.pdf"
+            },  
+            {
+              "type": "OAS Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/OAS-Brochure.pdf"
+            }
+          ]
+          
         },
         {
           "id": 2,
           "name": "TRe",
-          "image": "https://www.solerpalau-usa.com/images/products/erv/TRe2-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/erv/TRe2-recat.png",
+          "description": "Total Recovery Premium, TRe, is the latest edition to S&P USA's line of Energy Recovery Ventilators. TRe can be used in any orientation and features an EC motor for great energy efficiency. Utilize TRe for any residential or light commercial project by individually balancing each airstream to account for variations of duct run lengths.",
+          "models": [
+            {
+              "id": 1,
+              "name": "TRe200",
+              "price": "$1,807"
+            },
+            {
+              "id": 2,
+              "name": "TRe300",
+              "price": "$2,194"
+            },
+            {
+              "id": 3,
+              "name": "TRe90",
+              "price": "$1,525"
+            },
+            {
+              "id": 4,
+              "name": "TRe90H",
+              "price": "$1,525"
+            }
+          
+            
+          ],
+          "submittals": [
+            {
+              "type": "TRe90",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-tre90.pdf"
+            },
+            {
+              "type": "TRe200",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-tre200.pdf"
+            },
+            {
+              "type": "TRe300",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-tre300.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/IOM-TRE.pdf"
+            },
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/IOM-TRE.pdf"
+            },
+            
+            {
+              "type": "IOM(TRe90)",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-tre90.pdf"
+            },
+            {
+              "type": "OAS Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/OAS-Brochure.pdf"
+            }
+          ]
+          
         },
         {
           "id": 3,
           "name": "TRC",
-          "image": "https://www.solerpalau-usa.com/images/products/erv/TRC-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/erv/TRC-recat.png",
+          "description": "S&P's TRC Series efficiently refreshes indoor air in all climates, using an advanced energy exchange core to separate and prevent contamination between incoming and outgoing air streams, while transferring heat and humidity.",
+          "models": [
+            {
+              "id": 1,
+              "name": "TRC1200-115",
+              "price": "$10,983"
+            },
+            {
+              "id": 2,
+              "name": "TRC1200-230",
+              "price": "$10,983"
+            },
+            {
+              "id": 3,
+              "name": "TRC1200-230-3P",
+              "price": "$10,983"
+            },
+            {
+              "id": 4,
+              "name": "TRC1200-460-3P",
+              "price": "$10,983"
+            },
+            {
+              "id": 5,
+              "name": "TRC1600-115",
+              "price": "$14,766"
+            },
+            {
+              "id": 6,
+              "name": "TRC1600-230",
+              "price": "$14,766"
+            },
+            {
+              "id": 7,
+              "name": "TRC1600-230-3P",
+              "price": "$14,766"
+            },
+            {
+              "id": 8,
+              "name": "TRC1600-460-3P",
+              "price": "$14,766"
+            },
+            {
+              "id": 9,
+              "name": "TRC500-115",
+              "price": "$4,750"
+            },
+            {
+              "id": 10,
+              "name": "TRC500-230",
+              "price": "$4,750"
+            },
+            {
+              "id": 11,
+              "name": "TRC800-115",
+              "price": "$7,272"
+            },
+            {
+              "id": 12,
+              "name": "TRC800-230",
+              "price": "$7,272"
+            },
+            {
+              "id": 13,
+              "name": "TRC800V-115",
+              "price": "$7,272"
+            },
+            {
+              "id": 14,
+              "name": "TRC800V-230",
+              "price": "$7,272"
+            }
+           ],
+
+          "submittals": [
+            {
+              "type": "TRC500",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-trc500.pdf"
+            },
+            {
+              "type": "TRC800",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-trc800.pdf"
+            },
+            {
+              "type": "TRC800V",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-trc800v.pdf"
+            },
+            {
+              "type": "TRC1200",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-trc1200.pdf"
+            },
+            {
+              "type": "TRC1600",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-trc1600updated.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM(TRC500)",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-trc500.pdf"
+            },
+            {
+              "type": "IOM(TRC800)",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-trc800.pdf"
+            },
+            {
+              "type": "IOM(TRC1200)",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-trc1200.pdf"
+            },
+            
+            {
+              "type": "IOM(TRC1600)",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-trc1600.pdf"
+            },
+            
+            
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/total-recovery-ventilator.pdf"
+            }
+          ]
+          
         },
         {
           "id": 4,
           "name": "TRCe",
-          "image": "https://www.solerpalau-usa.com/images/products/erv/TRC-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/erv/TRC-recat.png",
+          "description": "S&P's TRCe Series with EC Motor revitalizes indoor air by exchanging stale air for fresh in all climates, using an advanced \"air-to-air\" core to prevent contamination and efficiently transfer heat and humidity, ideal for commercial applications.",
+          "models": [
+            {
+              "id": 1,
+              "name": "TRCe1200-115",
+              "price": "$13,308"
+            },
+            {
+              "id": 2,
+              "name": "TRCe1200-230",
+              "price": "$13,308"
+            },
+            {
+              "id": 3,
+              "name": "TRCe500-115",
+              "price": "$5,620"
+            },
+            {
+              "id": 4,
+              "name": "TRCe500-230",
+              "price": "$5,620"
+            },
+            {
+              "id": 5,
+              "name": "TRCe800-115",
+              "price": "$8,729"
+            },
+            {
+              "id": 6,
+              "name": "TRCe800-230",
+              "price": "$8,729"
+            },
+            {
+              "id": 7,
+              "name": "TRCe800V-115",
+              "price": "$8,729"
+            },
+            {
+              "id": 8,
+              "name": "TRCe800V-230",
+              "price": "$8,729"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "TRCe500",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-trce1200.pdf"
+            },
+            {
+              "type": "TRCe800",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-trce800.pdf"
+            },
+            {
+              "type": "TRCe800V",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-trce800v.pdf"
+            },
+            {
+              "type": "TRCe1200",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-trce1200.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-trceUpdated.pdf"
+            },
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/total-recovery-ventilator.pdf"
+            },
+            {
+              "type": "Ecowatt® Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/Ecowatt-Brochure.pdf"
+            }
+          ]
         },
         {
           "id": 5,
           "name": "TRLPe",
-          "image": "https://www.solerpalau-usa.com/images/products/erv/TRLPe110_RGB.webp"
+          "image": "https://www.solerpalau-usa.com/images/products/erv/TRLPe110_RGB.webp",
+          "description": "The Total Recovery series with EC Motor offers balanced energy ventilation through a multi-speed control and compact design, ideal for space-constrained residential and light commercial applications, ensuring efficient air-to-air energy exchange.",
+          "models": [
+            {
+              "id": 1,
+              "name": "TRLPe110",
+              "price": "$1,844"
+            },
+            {
+              "id": 2,
+              "name": "TRLPe110H",
+              "price": "$1,844"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "TRLPe110",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-TRLPe110.pdf"
+            },
+            {
+              "type": "TRLPe110H",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-TRLPe110H.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-TRLPe110.pdf"
+            },
+            
+            {
+              "type": "Balancing Instructions",
+              "url": "https://www.solerpalau-usa.com/documents/Resource/TRLPe110-Balance-Instructions.pdf"
+            },
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/total-recovery-ventilator.pdf"
+            },
+            {
+              "type": "Ecowatt® Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/Ecowatt-Brochure.pdf"
+            },
+
+            {
+              "type": "OAS Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/OAS-Brochure.pdf"
+            }
+
+
+          ]
         }
       ]
     },
@@ -792,38 +2479,149 @@
       "series": [
         {
           "id": 1,
-          "name": "RCXII and RCXII-SF",
-          "image": "https://www.solerpalau-usa.com/images/products/gv/RCXII-recat.png"
-        },
-        {
-          "id": 2,
-          "name": "RLX",
-          "image": "https://www.solerpalau-usa.com/images/products/gv/RLX-recat.png"
-        },
-        {
-          "id": 3,
-          "name": "BGH",
-          "image": "https://www.solerpalau-usa.com/images/products/gv/BGH-recat.png"
+          "name": "RCXII",
+          "image": "https://www.solerpalau-usa.com/images/products/gv/RCXII-recat.png",
+          "description": "The sleek RCXII and RCXII-SF ventilators modulate air in enclosed spaces without a fan, available in sizes 6 to 36\". RCXII mounts on a roof curb, and RCXII-SF installs under shingles without one, each including a standard galvanized birdscreen.",
+          "models": [
+            {
+              "id": 1,
+              "name": "RCXII06S",
+              "price": "$169"
+            },
+            {
+              "id": 2,
+              "name": "RCXII06SFS",
+              "price": "$167"
+            },
+            {
+              "id": 3,
+              "name": "RCXII08S",
+              "price": "$180"
+            },
+            {
+              "id": 4,
+              "name": "RCXII08SFS",
+              "price": "$178"
+            },
+            {
+              "id": 5,
+              "name": "RCXII10S",
+              "price": "$225"
+            },
+            {
+              "id": 6,
+              "name": "RCXII10SFS",
+              "price": "$222"
+            },
+            {
+              "id": 7,
+              "name": "RCXII12S",
+              "price": "$246"
+            },
+            {
+              "id": 8,
+              "name": "RCXII12SFS",
+              "price": "$241"
+            },
+            {
+              "id": 9,
+              "name": "RCXII14S",
+              "price": "$325"
+            },
+            {
+              "id": 10,
+              "name": "RCXII14SFS",
+              "price": "$324"
+            },
+            {
+              "id": 11,
+              "name": "RCXII16S",
+              "price": "$327"
+            },
+            {
+              "id": 12,
+              "name": "RCXII16SFS",
+              "price": "$325"
+            },
+            {
+              "id": 13,
+              "name": "RCXII18S",
+              "price": "$409"
+            },
+            {
+              "id": 14,
+              "name": "RCXII18SFS",
+              "price": "$408"
+            },
+            {
+              "id": 15,
+              "name": "RCXII20S",
+              "price": "$461"
+            },
+            {
+              "id": 16,
+              "name": "RCXII20SFS",
+              "price": "$459"
+            },
+            {
+              "id": 17,
+              "name": "RCXII24S",
+              "price": "$937"
+            },
+            {
+              "id": 18,
+              "name": "RCXII26S",
+              "price": "$1,023"
+            },
+            {
+              "id": 19,
+              "name": "RCXII30S",
+              "price": "$1,096"
+            },
+            {
+              "id": 20,
+              "name": "RCXII33S",
+              "price": "$1,543"
+            },
+            {
+              "id": 21,
+              "name": "RCXII36S",
+              "price": "$1,632"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "RCXII Size 6 to 20",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rcxii(6-20).pdf"
+            },
+            {
+              "type": "RCXII Size 24 to 36",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rcxii(24-36).pdf"
+            },
+            {
+              "type": "RCXII-SF",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rcxii-sf.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-rcxii.pdf"
+            },
+            
+            {
+              "type": "Sizing Guide",
+              "url": "https://www.solerpalau-usa.com/documents/Resource/sizing-chart(gravity-vent).pdf"
+            }
+          ]
         }
+      
+    
       ]
     },
-    {
-      "id": 6,
-      "name": "High Volume Low Speed",
-  
-      "series": [
-        {
-          "id": 1,
-          "name": "Tornado HVLS",
-          "image": "https://www.solerpalau-usa.com/images/products/hvls/tornado.png"
-        },
-        {
-          "id": 2,
-          "name": "Tempest HVLS",
-          "image": "https://www.solerpalau-usa.com/images/products/hvls/tempest.png"
-        }
-      ]
-    },
+ 
     {
       "id": 7,
       "name": "In-line/Sidewall Duct Fans",
@@ -832,72 +2630,834 @@
         {
           "id": 1,
           "name": "TD-MIXVENT",
-          "image": "https://www.solerpalau-usa.com/images/products/isdf/TD-MIXVENT-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/TD-MIXVENT-recat.png",
+          "description": "The TD-MIXVENT series is a compact in-line duct fan designed for maximum airflow and minimal noise, ideal for small to medium-sized ventilation installations requiring high airflow to pressure ratio in limited space environments like false ceiling voids and cabinets.",
+          "models": [
+            {
+              "id": 1,
+              "name": "TD-100",
+              "price": "$149"
+            },
+            {
+              "id": 2,
+              "name": "TD-100X1",
+              "price": "$178"
+              
+            },
+            {
+              "id": 3,
+              "name": "TD-125",
+              "price": "$200"
+            },
+            {
+              "id": 4,
+              "name": "TD-150",
+              "price": "$259"
+            },
+            {
+              "id": 5,
+              "name": "TD-200",
+              "price": "$330"
+            },
+            {
+              "id": 6,
+              "name": "TD-250",
+              "price": "$598"
+            },
+           
+            {
+              "id": 7,
+              "name": "TD-315",
+              "price": "$710"
+            },
+            {
+              "id": 8,
+              "name": "TD-355",
+              "price": "$1,205"
+            },
+            {
+              "id": 9,
+              "name": "TD-400",
+              "price": "$1,959"
+            }
+
+            
+          ],
+          "submittals": [
+            {
+              "type": "TD Mixvent",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-td-mixvent.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM(100 to 315)",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-td-mixvent(100-315).pdf"
+            },
+            
+            {
+              "type": "IOM(355 to 400)",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-td-mixvent(355-400).pdf"
+            },
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/inline-fan-options.pdf"
+            },
+            {
+              "type": "OAS",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/OAS-Brochure.pdf"
+            }
+          ]
+          
         },
         {
           "id": 2,
           "name": "TD-SILENT",
-          "image": "https://www.solerpalau-usa.com/images/products/isdf/TD-SILENT-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/TD-SILENT-recat.png",
+          "description": "The TD-SILENT fans are ultra-quiet, low-profile units, constructed from durable reinforced plastic, featuring sound-absorbent insulation to dampen noise. Equipped with rubber gaskets on the inlet and outlet, they ensure easy installation, minimal vibrations, and an almost air-tight seal.",
+          "models": [
+            {
+              "id": 1,
+              "name": "TD-125XS",
+              "price": "$346"
+            },
+            {
+              "id": 2,
+              "name": "TD-150S",
+              "price": "$405"
+            },
+            {
+              "id": 3,
+              "name": "TD-200S",
+              "price": "$507"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "TD-Silent",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-td-silent.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-td-silent.pdf"
+            },
+            
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/inline-fan-options.pdf"
+            }
+          ]
+          
         },
         {
           "id": 3,
           "name": "PV-DEDPV",
-          "image": "https://www.solerpalau-usa.com/images/products/isdf/DEDPV-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/DEDPV-recat.png",
+          "description": "The PV-DEDPV is a UL 705 listed Dryer Exhaust Duct Power Ventilator. It effectively helps residential clothes dryers overcome the high static pressure caused by long duct runs between the dryer and wall or roof cap.",
+          "models": [
+            {
+              "id": 1,
+              "name": "PV-DEDPV",
+              "price": "$549"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "PV-DEDPV",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-pvdedpv.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-pvdedpv.pdf"
+            }
+            
+          ]
+          
         },
         {
           "id": 4,
           "name": "PV-POWERVENT",
-          "image": "https://www.solerpalau-usa.com/images/products/isdf/PV-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/PV-recat.png",
+          "description": "The PV-POWERVENT series of direct drive centrifugal in-line duct ventilation fans consists of six model sizes 4\", 5\", 6\", 8\", 10 and 12.4\" respectively. All models are designed for direct connection in-line with standard diameter round ducting. Airflow performance values range from 153 CFM (PV-100X) up to 943 CFM (PV-315X).",
+          "models": [
+            {
+              "id": 1,
+              "name": "PV-100X",
+              "price": "$253"
+            },
+            {
+              "id": 2,
+              "name": "PV-125X",
+              "price": "$256"
+            },
+            {
+              "id": 3,
+              "name": "PV-150X",
+              "price": "$317"
+            },
+            {
+              "id": 4,
+              "name": "PV-200X",
+              "price": "$443"
+            },
+            {
+              "id": 5,
+              "name": "PV-250X",
+              "price": "$507"
+            },
+           
+            {
+              "id": 6,
+              "name": "PV-315X",
+              "price": "$689"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "PV-POWERVENT",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-pv.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-pv.pdf"
+            },
+            
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/inline-fan-options.pdf"
+            }
+          ]
+          
         },
         {
           "id": 5,
           "name": "PRF",
-          "image": "https://www.solerpalau-usa.com/images/products/isdf/PRF-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/PRF-recat.png",
+          "description": "PRF fans, designed specifically for radon mitigation, have fully-sealed plastic housing and are capable of managing up to 1\" of static pressure with backward inclined centrifugal blowers/motors. They fit easily with standard PVC couplings and feature large, accessible, watertight electrical boxes for hassle-free wiring.",
+          "models": [
+            {
+              "id": 1,
+              "name": "PRF-100",
+              "price": "$213"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "PRF",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-prf.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-prf.pdf"
+            },
+            
+            {
+              "type": "Flyer",
+              "url": "https://www.solerpalau-usa.com/documents/Flyer/Radon-PRF-Flyer.pdf"
+            },
+            {
+              "type": "Radon Mitigation Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/radon-mitigation.pdf"
+            },
+            {
+              "type": "Radon Mitigation Pamphlet",
+              "url": "https://www.solerpalau-usa.com/documents/Resource/prf-radon-mitigation-pamphlet.pdf"
+            }
+          ]
+          
         },
         {
           "id": 6,
           "name": "SWF-SIDEWALL",
-          "image": "https://www.solerpalau-usa.com/images/products/isdf/SWF-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/SWF-recat.png",
+          "description": "The Sidewall Fan Series features powerful motors encased in an accessible outdoor-rated housing, ideal for spaces with limited indoor access. Available in sizes 4-8\", they connect directly to standard ducting, with airflow ranging from 119 to 416 CFM.",
+          "models": [
+            {
+              "id": 1,
+              "name": "SWF-100",
+              "price": "$313"
+            },
+            {
+              "id": 2,
+              "name": "SWF-100X",
+              "price": "$332"
+            },
+            {
+              "id": 3,
+              "name": "SWF-150",
+              "price": "$343"
+            },
+            {
+              "id": 4,
+              "name": "SWF-150X",
+              "price": "$458"
+            },
+            {
+              "id": 5,
+              "name": "SWF-200",
+              "price": "$521"
+            }
+            
+            
+          ],
+          "submittals": [
+            {
+              "type": "SWF",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-swf.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-swf-sidewall.pdf"
+            },
+            
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/inline-fan-options.pdf"
+            }
+          ]
+          
         },
-        {
-          "id": 7,
-          "name": "SMXD",
-          "image": "https://www.solerpalau-usa.com/images/products/isdf/SMXD-recat.png"
-        },
-        {
-          "id": 8,
-          "name": "SMXD-HT",
-          "image": "https://www.solerpalau-usa.com/images/products/isdf/SMXD-recat.png"
-        },
-        {
-          "id": 9,
-          "name": "SMXDK",
-          "image": "https://www.solerpalau-usa.com/images/products/isdf/smxdk.webp"
-        },
-        {
-          "id": 10,
-          "name": "SMXDK-HT",
-          "image": "https://www.solerpalau-usa.com/images/products/isdf/smxdk.webp"
-        },
+       
+     
         {
           "id": 11,
           "name": "SQB",
-          "image": "https://www.solerpalau-usa.com/images/products/isdf/SQB-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/SQB-recat.png",
+          "description": "SQB square in-line fans, ranging from sizes 7 to 42, deliver efficient airflow up to 24,000 CFM with high static pressure, ideal for space-limited clean air applications. These compact, versatile units are AMCA-certified and UL listed, assuring reliable performance.",
+          "models": [
+            {
+              "id": 1,
+              "name": "SQB07MH1S",
+              "price": "$1,586"
+            },
+            {
+              "id": 2,
+              "name": "SQB07MH3S",
+              "price": "$1,644"
+            },
+            {
+              "id": 3,
+              "name": "SQB07ML1S",
+              "price": "$1,586"
+            },
+            {
+              "id": 4,
+              "name": "SQB07ML3S",
+              "price": "$1,644"
+            },
+            {
+              "id": 5,
+              "name": "SQB07PH1S",
+              "price": "$1,610"
+            },
+            {
+              "id": 6,
+              "name": "SQB07PH3S",
+              "price": "$1,644"
+            },
+            {
+              "id": 7,
+              "name": "SQB08MH1S",
+              "price": "$1,564"
+            },
+            {
+              "id": 8,
+              "name": "SQB08MH3S",
+              "price": "$1,626"
+            },
+            {
+              "id": 9,
+              "name": "SQB08ML1S",
+              "price": "$1,564"
+            },
+            {
+              "id": 10,
+              "name": "SQB08ML3S",
+              "price": "$1,626"
+            },
+            {
+              "id": 11,
+              "name": "SQB08PH1S",
+              "price": "$1,593"
+            },
+            {
+              "id": 12,
+              "name": "SQB08PH3S",
+              "price": "$1,750"
+            },
+            {
+              "id": 13,
+              "name": "SQB08QH1S",
+              "price": "$1,679"
+            },
+            {
+              "id": 14,
+              "name": "SQB08QH3S",
+              "price": "$1,753"
+            },
+            {
+              "id": 15,
+              "name": "SQB10MH1S",
+              "price": "$1,556"
+            },
+            {
+              "id": 16,
+              "name": "SQB10MH3S",
+              "price": "$1,697"
+            },
+            {
+              "id": 17,
+              "name": "SQB10PH1S",
+              "price": "$1,579"
+            },
+            {
+              "id": 18,
+              "name": "SQB10PH3S",
+              "price": "$1,724"
+            },
+            {
+              "id": 19,
+              "name": "SQB10QH1S",
+              "price": "$1,666"
+            },
+            {
+              "id": 20,
+              "name": "SQB10QH3S",
+              "price": "$1,731"
+            },
+            {
+              "id": 21,
+              "name": "SQB10RH1S",
+              "price": "$1,746"
+            },
+            {
+              "id": 22,
+              "name": "SQB10RH3S",
+              "price": "$1,753"
+            },
+            {
+              "id": 23,
+              "name": "SQB12MH1S",
+              "price": "$1,745"
+            },
+            {
+              "id": 24,
+              "name": "SQB12MH3S",
+              "price": "$1,910"
+            },
+            {
+              "id": 25,
+              "name": "SQB12PH1S",
+              "price": "$1,782"
+            },
+            {
+              "id": 26,
+              "name": "SQB12PH3S",
+              "price": "$1,938"
+            },
+            {
+              "id": 27,
+              "name": "SQB12QH1S",
+              "price": "$1,854"
+            },
+            {
+              "id": 28,
+              "name": "SQB12QH3S",
+              "price": "$1,947"
+            },
+            {
+              "id": 29,
+              "name": "SQB12RH1S",
+              "price": "$1,938"
+            },
+            {
+              "id": 30,
+              "name": "SQB12RH3S",
+              "price": "$1,961"
+            },
+            {
+              "id": 31,
+              "name": "SQB12SH1S",
+              "price": "$1,970"
+            },
+            {
+              "id": 32,
+              "name": "SQB12SH3S",
+              "price": "$1,972"
+            },
+            {
+              "id": 33,
+              "name": "SQB15MH1S",
+              "price": "$1,924"
+            },
+            {
+              "id": 34,
+              "name": "SQB15MH3S",
+              "price": "$2,078"
+            },
+            {
+              "id": 35,
+              "name": "SQB15PH1S",
+              "price": "$1,956"
+            },
+            {
+              "id": 36,
+              "name": "SQB15PH3S",
+              "price": "$2,113"
+            },
+            {
+              "id": 37,
+              "name": "SQB15QH1S",
+              "price": "$2,022"
+            },
+            {
+              "id": 38,
+              "name": "SQB15QH3S",
+              "price": "$1,970"
+            },
+            {
+              "id": 39,
+              "name": "SQB15RH1S",
+              "price": "$2,099"
+            },
+            {
+              "id": 40,
+              "name": "SQB15RH3S",
+              "price": "$1,992"
+            },
+            {
+              "id": 41,
+              "name": "SQB15SH1S",
+              "price": "$2,265"
+            },
+            {
+              "id": 42,
+              "name": "SQB15SH3S",
+              "price": "$1,999"
+            },
+            {
+              "id": 43,
+              "name": "SQB15TH1S",
+              "price": "$2,270"
+            },
+            {
+              "id": 44,
+              "name": "SQB15TH3S",
+              "price": "$2,175"
+            },
+            {
+              "id": 45,
+              "name": "SQB18PH1S",
+              "price": "$2,235"
+            },
+            {
+              "id": 46,
+              "name": "SQB18PH3S",
+              "price": "$2,376"
+            },
+            {
+              "id": 47,
+              "name": "SQB18QH1S",
+              "price": "$2,254"
+            },
+            {
+              "id": 48,
+              "name": "SQB18QH3S",
+              "price": "$2,227"
+            },
+            {
+              "id": 49,
+              "name": "SQB18RH1S",
+              "price": "$2,342"
+            },
+            {
+              "id": 50,
+              "name": "SQB18RH3S",
+              "price": "$2,242"
+            },
+            {
+              "id": 51,
+              "name": "SQB18SH1S",
+              "price": "$2,375"
+            },
+            {
+              "id": 52,
+              "name": "SQB18SH3S",
+              "price": "$2,413"
+            },
+            {
+              "id": 53,
+              "name": "SQB18TH1S",
+              "price": "$2,381"
+            },
+            {
+              "id": 54,
+              "name": "SQB18TH3S",
+              "price": "$2,422"
+            },
+            {
+              "id": 55,
+              "name": "SQB18VH1S",
+              "price": "$2,828"
+            },
+            {
+              "id": 56,
+              "name": "SQB18VH3S",
+              "price": "$2,469"
+            },
+            {
+              "id": 57,
+              "name": "SQB20PH1S",
+              "price": "$2,497"
+            },
+            {
+              "id": 58,
+              "name": "SQB20PH3S",
+              "price": "$2,559"
+            },
+            {
+              "id": 59,
+              "name": "SQB20QH1S",
+              "price": "$2,552"
+            },
+            {
+              "id": 60,
+              "name": "SQB20QH3S",
+              "price": "$2,556"
+            },
+            {
+              "id": 61,
+              "name": "SQB20RH1S",
+              "price": "$2,635"
+            },
+            {
+              "id": 62,
+              "name": "SQB20RH3S",
+              "price": "$2,571"
+            },
+            {
+              "id": 63,
+              "name": "SQB20SH1S",
+              "price": "$2,687"
+            },
+            {
+              "id": 64,
+              "name": "SQB20SH3S",
+              "price": "$2,720"
+            },
+            {
+              "id": 65,
+              "name": "SQB20TH1S",
+              "price": "$3,014"
+            },
+            {
+              "id": 66,
+              "name": "SQB20TH3S",
+              "price": "$2,756"
+            },
+            {
+              "id": 67,
+              "name": "SQB20VH1S",
+              "price": "$3,168"
+            },
+            {
+              "id": 68,
+              "name": "SQB20VH3S",
+              "price": "$2,813"
+            },
+            {
+              "id": 69,
+              "name": "SQB24QH1S",
+              "price": "$3,262"
+            },
+            {
+              "id": 70,
+              "name": "SQB24QH3S",
+              "price": "$3,206"
+            },
+            {
+              "id": 71,
+              "name": "SQB24RH1S",
+              "price": "$3,328"
+            },
+            {
+              "id": 72,
+              "name": "SQB24RH3S",
+              "price": "$3,219"
+            },
+            {
+              "id": 73,
+              "name": "SQB24SH1S",
+              "price": "$3,328"
+            },
+            {
+              "id": 74,
+              "name": "SQB24SH3S",
+              "price": "$3,225"
+            },
+            {
+              "id": 75,
+              "name": "SQB24TH1S",
+              "price": "$3,679"
+            },
+            {
+              "id": 76,
+              "name": "SQB24TH3S",
+              "price": "$3,451"
+            },
+            {
+              "id": 77,
+              "name": "SQB24VH1S",
+              "price": "$3,837"
+            },
+            {
+              "id": 78,
+              "name": "SQB24VH3S",
+              "price": "$3,496"
+            },
+            {
+              "id": 79,
+              "name": "SQB24WH3S",
+              "price": "$4,045"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "SQB",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-sqb.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-sqb.pdf"
+            },
+            
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Catalog/cat-sqb.pdf"
+            }
+          ]
+          
         },
         {
           "id": 12,
           "name": "SQD and eSQD",
-          "image": "https://www.solerpalau-usa.com/images/products/isdf/SQD-recat.png"
-        },
-        {
-          "id": 13,
-          "name": "CTB and CTBRHUL",
-          "image": "https://www.solerpalau-usa.com/images/products/isdf/CTB-recat.png"
-        },
-        {
-          "id": 14,
-          "name": "CFD",
-          "image": "https://www.solerpalau-usa.com/images/products/isdf/CFD-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/isdf/SQD-recat.png",
+          "description": "",
+          "models": [
+            {
+              "id": 1,
+              "name": "SQD10251AS",
+              "price": "$1,157"
+            },
+            {
+              "id": 2,
+              "name": "SQD10251CS",
+              "price": "$1,139"
+            },
+            {
+              "id": 3,
+              "name": "SQD10501AS",
+              "price": "$1,156"
+            },
+            {
+              "id": 4,
+              "name": "SQD10501CS",
+              "price": "$1,138"
+            },
+            {
+              "id": 5,
+              "name": "SQD12251AS",
+              "price": "$1,378"
+            },
+            {
+              "id": 6,
+              "name": "SQD12251CS",
+              "price": "$1,353"
+            },
+            {
+              "id": 7,
+              "name": "SQD12501AS",
+              "price": "$1,405"
+            },
+            {
+              "id": 8,
+              "name": "SQD12501CS",
+              "price": "$1,379"
+            },
+            {
+              "id": 9,
+              "name": "SQD15501AS",
+              "price": "$1,593"
+            },
+            {
+              "id": 10,
+              "name": "SQD15501CS",
+              "price": "$1,567"
+            },
+            {
+              "id": 11,
+              "name": "SQD601AS",
+              "price": "$662"
+            },
+            {
+              "id": 12,
+              "name": "SQD8251AS",
+              "price": "$1,076"
+            },
+            {
+              "id": 13,
+              "name": "SQD8251CS",
+              "price": "$1,060"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "SQD",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-sqb.pdf"
+            },
+            {
+              "type": "eSQD",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-sqb.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-sqb.pdf"
+            },
+            
+            {
+              "type": "Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Catalog/cat-sqb.pdf"
+            }
+          ]
+          
         }
       ]
     },
@@ -963,7 +3523,51 @@
         {
           "id": 1,
           "name": "MDX-ES24VK",
-          "image": "https://www.solerpalau-usa.com/images/products/refresh/products/MD-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/refresh/products/MD-recat.png",
+          "description": "",
+          "models": [
+            {
+              "id": 1,
+              "name": "MD4-ES24VK",
+              "price": "$201"
+            },
+            {
+              "id": 2,
+              "name": "MD5-ES24VK",
+              "price": "$202"
+            },
+            {
+              "id": 3,
+              "name": "MD6-ES24VK",
+              "price": "$204"
+            },
+            {
+              "id": 4,
+              "name": "MD8-ES24VK",
+              "price": "$213"
+            }
+
+            
+          ],
+          "submittals": [
+            {
+              "type": "MDX-ES24VK",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-mdx-es24vk.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-mdx-es24vk.pdf"
+            },
+            
+            {
+              "type": "OAS Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/OAS-Brochure.pdf"
+            }
+          ]
+          
         }
       ]
     },
@@ -975,22 +3579,219 @@
         {
           "id": 1,
           "name": "PC",
-          "image": "https://www.solerpalau-usa.com/images/products/pc/PC.png"
+          "image": "https://www.solerpalau-usa.com/images/products/pc/PC.png",
+          "description": "The Premium CHOICE XP (PCXP) series addresses indoor air quality (IAQ) in today's tight, compact homes with its seamless, energy-efficient, and quiet performance.",
+          "models": [
+            {
+              "id": 1,
+              "name": "PC50XP",
+              "price": "$127"
+            },
+            {
+              "id": 2,
+              "name": "PC80XP",
+              "price": "$196"
+            }, 
+            {
+              "id": 3,
+              "name": "PC110XP",
+              "price": "$203"
+            },
+            {
+              "id": 4,
+              "name": "PC150XP",
+              "price": "$248"
+            }
+            
+            
+
+            
+          ],
+          "submittals": [
+            {
+              "type": "PC50XP",
+              "url": "https://www.premiumchoiceseries.com/documents/Submittal/sub-pc50xp.pdf"
+            },
+            {
+              "type": "PC80XP",
+              "url": "https://www.premiumchoiceseries.com/documents/Submittal/sub-pc80xp.pdf"
+            },
+            {
+              "type": "PC110XP",
+              "url": "https://www.premiumchoiceseries.com/documents/Submittal/sub-pc110xp.pdf"
+            },
+            {
+              "type": "PC150XP",
+              "url": "https://www.premiumchoiceseries.com/documents/Submittal/sub-pc150xp.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "Brochure",
+              "url": "https://www.premiumchoiceseries.com/documents/Brochure/Premium-CHOICE-Series.pdf"
+            },
+            
+            {
+              "type": "IOM",
+              "url": "https://www.premiumchoiceseries.com/documents/IOM/iom-pcxp.pdf"
+            }
+          ]
+          
         },
         {
           "id": 2,
           "name": "PCV",
-          "image": "https://www.solerpalau-usa.com/images/products/pc/PCV.png"
+          "image": "https://www.solerpalau-usa.com/images/products/pc/PCV.png",
+          "description": "The Premium CHOICE value series (PCV) provides the modular design of PC AC models in more affordable, fully assembled fans or contractor packs, available in sizes PCV50 & PCV80.",
+          "models": [
+            {
+              "id": 1,
+              "name": "PCV50",
+              "price": "$66"
+            },
+            {
+              "id": 2,
+              "name": "PCV80",
+              "price": "$104"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "PCV",
+              "url": "https://www.premiumchoiceseries.com/documents/Submittal/sub-pcv.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.premiumchoiceseries.com/documents/IOM/iom-pcv.pdf"
+            },
+            
+            {
+              "type": "Brochure",
+              "url": "https://www.premiumchoiceseries.com/documents/Brochure/Premium-CHOICE-Series.pdf"
+            }
+          ]
+          
+
         },
         {
           "id": 3,
           "name": "PCD",
-          "image": "https://www.solerpalau-usa.com/images/products/pc/PCD.png"
+          "image": "https://www.solerpalau-usa.com/images/products/pc/PCD.png",
+          "description": "The Premium CHOICE DC (PCD) model, with its efficient motor and built-in control boards, enhances indoor air quality by swiftly removing contaminants and moisture, allowing customizable airflow to prevent structural damage and health issues.",
+          "models": [
+            {
+              "id": 1,
+              "name": "PCD80XHP",
+              "price": "$160"
+            },
+            {
+              "id": 2,
+              "name": "PCD110XP",
+              "price": "$293"
+            },
+            {
+              "id": 2,
+              "name": "PCLPD100XHP",
+              "price": "$168"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "PCD80XHP",
+              "url": "https://www.premiumchoiceseries.com/documents/Submittal/sub-PCD80XHP.pdf"
+            },
+            {
+              "type": "PCD110XP",
+              "url": "https://www.premiumchoiceseries.com/documents/Submittal/sub-pcd110xp.pdf"
+            },
+            {
+              "type": "PCLPD100XHP",
+              "url": "https://www.premiumchoiceseries.com/documents/Submittal/sub-pclpd100xhp.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM(PCD80XHP)",
+              "url": "https://www.premiumchoiceseries.com/documents/IOM/iom-PCD80XHP.pdf"
+            },
+
+            {
+              "type": "IOM(PCD110XP)",
+              "url": "https://www.premiumchoiceseries.com/documents/IOM/iom-pcd110xp.pdf"
+            },
+            
+            {
+              "type": "OAS Brochure",
+              "url": "https://www.premiumchoiceseries.com/documents/Brochure/OAS-Brochure.pdf"
+            },
+            {
+              "type": "Brochure",
+              "url": "https://www.premiumchoiceseries.com/documents/Brochure/Premium-CHOICE-Series.pdf"
+            }
+          ]
+          
         },
         {
           "id": 4,
           "name": "PCLP",
-          "image": "https://www.solerpalau-usa.com/images/products/pc/PCLP.png"
+          "image": "https://www.solerpalau-usa.com/images/products/pc/PCLP.png",
+          "description": "The Premium CHOICE Low Profile Ventilation fans feature ultra-low profile housings suitable for installation in tight ceiling cavities and interstitial spaces where space comes as a premium.",
+          "models": [
+            {
+              "id": 1,
+              "name": "PCLP80XP",
+              "price": "$119"
+            },
+            {
+              "id": 2,
+              "name": "PCLP100XP",
+              "price": "$125"
+            },
+            {
+              "id": 2,
+              "name": "PCLPD100XHP",
+              "price": "$168"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "PCLP80XP",
+              "url": "https://www.premiumchoiceseries.com/documents/Submittal/sub-pclp80xp.pdf"
+            },
+            {
+              "type": "PCLP100XP",
+              "url": "https://www.premiumchoiceseries.com/documents/Submittal/sub-pclp100xp.pdf"
+            },
+            {
+              "type": "PCLPD100XHP",
+              "url": "https://www.premiumchoiceseries.com/documents/Submittal/sub-pclpd100xhp.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.premiumchoiceseries.com/documents/IOM/iom-pclpxp.pdf"
+            },
+            
+            {
+              "type": "OAS Brochure",
+              "url": "https://www.premiumchoiceseries.com/documents/Brochure/OAS-Brochure.pdf"
+            },
+            {
+              "type": "Brochure",
+              "url": "https://www.premiumchoiceseries.com/documents/Brochure/Premium-CHOICE-Series.pdf"
+            }
+          ]
+          
         }
       ]
     },
@@ -1002,86 +3803,233 @@
         {
           "id": 1,
           "name": "reFresh Full Size Units",
-          "image": "https://www.solerpalau-usa.com/images/products/refresh/RF10-160EC-Full-Size.webp"
+          "image": "https://www.solerpalau-usa.com/images/products/refresh/RF10-160EC-Full-Size.webp",
+          "description": "All-in-one units to introduce fresh air from the outside into the residence. The reFresh series is specifically engineered to meet building and energy codes that call for ASHRAE 62.2 CFM requirements. The reFresh Full Size Units have set speeds at 40, 100, and 170 CFM (Low, Medium, and High).",
+          "models": [
+            {
+              "id": 1,
+              "name": "RF10-160AC",
+              "price": "$385"
+            },
+            {
+              "id": 2,
+              "name": "RF10-160AC-ES24V",
+              "price": "$450"
+            },
+            {
+              "id": 3,
+              "name": "RF10-160AC-P",
+              "price": "$382"
+            },
+            {
+              "id": 4,
+              "name": "RF10-160AC-P-ES24V",
+              "price": "$446"
+            },
+            {
+              "id": 5,
+              "name": "RF10-160EC",
+              "price": "$646"
+            },
+            {
+              "id": 6,
+              "name": "RF10-160EC-ES24V",
+              "price": "$784"
+            },
+            {
+              "id": 7,
+              "name": "RF10-160EC-P",
+              "price": "$652"
+            },
+            {
+              "id": 8,
+              "name": "RF10-160EC-P-ES24V",
+              "price": "$760"
+            }
+
+            
+          ],
+          "submittals": [
+            {
+              "type": "RF10-160AC",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rf10-160ac.pdf"
+            },
+            {
+              "type": "RF10-160AC-ES24V",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rf10-160ac-es24v.pdf"
+            },
+            {
+              "type": "RF10-160AC-P",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rf10-160ac-p.pdf"
+            },
+            {
+              "type": "RF10-160AC-P-ES24V",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rf10-160ac-p-es24v.pdf"
+            },
+            {
+              "type": "RF10-160EC",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rf10-160ec.pdf"
+            },
+            {
+              "type": "RF10-160EC-ES24V",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rf10-160ec-es24v.pdf"
+            },
+            {
+              "type": "RF10-160EC-P",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rf10-160ec-p.pdf"
+            },
+            {
+              "type": "RF10-160EC-P-ES24V",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rf10-160ec-p-es24v.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-refresh.pdf"
+            },
+            
+            {
+              "type": "Ecowatt® Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/Ecowatt-Brochure.pdf"
+            },
+            {
+              "type": "OAS Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/OAS-Brochure.pdf"
+            },
+            {
+              "type": "reFresh Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/ReFresh-Brochure.pdf"
+            }
+          ]
+          
         },
         {
           "id": 2,
           "name": "reFresh Low Profile",
-          "image": "https://www.solerpalau-usa.com/images/products/refresh/RF8-120EC-Low-Profile.webp"
+          "image": "https://www.solerpalau-usa.com/images/products/refresh/RF8-120EC-Low-Profile.webp",
+          "description": "",
+          "models": [
+            {
+              "id": 1,
+              "name": "RF8-120AC",
+              "price": "$338"
+            },
+            {
+              "id": 2,
+              "name": "RF8-120AC-ES24V",
+              "price": "$432"
+            },
+            {
+              "id": 2,
+              "name": "RF8-120EC",
+              "price": "$606"
+            },
+            {
+              "id": 2,
+              "name": "RF8-120EC-ES24V",
+              "price": "$748"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "RF8-120AC",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rf8-120ac.pdf"
+            },
+            {
+              "type": "RF8-120AC-ES24V",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rf8-120ac-es24v.pdf"
+            },
+            {
+              "type": "RF8-120EC",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rf8-120ec.pdf"
+            },
+            {
+              "type": "RF8-120EC-ES24V",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rf8-120ec-es24v.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-reFresh.pdf"
+            },
+            
+            {
+              "type": "Ecowatt® Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/Ecowatt-Brochure.pdf"
+            },
+            {
+              "type": "OAS Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/OAS-Brochure.pdf"
+            },
+            {
+              "type": "reFresh Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/ReFresh-Brochure.pdf"
+            }
+          ]
+          
         },
         {
           "id": 3,
           "name": "reFresh Value",
-          "image": "https://www.solerpalau-usa.com/images/products/refresh/products/RFV-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/refresh/products/RFV-recat.png",
+          "description": "",
+          "models": [
+            {
+              "id": 1,
+              "name": "RFV8-120AC-ES24V",
+              "price": "$339"
+            }
+            
+            
+          ],
+          "submittals": [
+            {
+              "type": "RFV8-120AC-ES24V",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-rfv8-120ac-es24v.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-refresh.pdf"
+            },
+             
+            {
+              "type": "Ecowatt® Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/Ecowatt-Brochure.pdf"
+            },
+            {
+              "type": "OAS Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/OAS-Brochure.pdf"
+            },
+            {
+              "type": "reFresh Brochure",
+              "url": "https://www.solerpalau-usa.com/documents/Brochure/ReFresh-Brochure.pdf"
+            }
+            
+            
+          ]
+          
         }
       ]
     },
-    {
-      "id": 13,
-      "name": "Roof Propeller Fans",
-  
-      "series": [
-        {
-          "id": 1,
-          "name": "UBS and UBS-P",
-          "image": ""
-        },
-        {
-          "id": 2,
-          "name": "ARE and ARS",
-          "image": ""
-        },
-        {
-          "id": 3,
-          "name": "HRSB and HRSD",
-          "image": ""
-        },
-        {
-          "id": 4,
-          "name": "HREB-C, HREB-P, and HRED-C",
-          "image": ""
-        },
-        {
-          "id": 5,
-          "name": "UBSRD and UBSRD-P",
-          "image": ""
-        },
-        {
-          "id": 6,
-          "name": "UBSRD-HT and UBSRD-HT1",
-          "image": ""
-        },
-        {
-          "id": 7,
-          "name": "TUB",
-          "image": ""
-        },
-        {
-          "id": 8,
-          "name": "TUB-HT",
-          "image": ""
-        },
-        {
-          "id": 9,
-          "name": "UBB and UBX",
-          "image": ""
-        },
-        {
-          "id": 10,
-          "name": "UBRD",
-          "image": ""
-        }
-      ]
-    },
+    
     {
       "id": 14,
       "name": "Sidewall Propeller Fans",
+
   
       "series": [
         {
           "id": 1,
           "name": "ACF",
-          "image": ""
+          "image": "https://www.solerpalau-usa.com/images/products/spf/ACF-recat.png"
         },
         {
           "id": 2,
@@ -1120,28 +4068,7 @@
         }
       ]
     },
-    {
-      "id": 15,
-      "name": "Tubeaxial Fans",
-  
-      "series": [
-        {
-          "id": 1,
-          "name": "DA",
-          "image": ""
-        },
-        {
-          "id": 2,
-          "name": "TDB",
-          "image": ""
-        },
-        {
-          "id": 3,
-          "name": "TDD",
-          "image": ""
-        }
-      ]
-    },
+   
     {
       "id": 16,
       "name": "Utility Vent Sets",
@@ -1150,7 +4077,1686 @@
         {
           "id": 1,
           "name": "CM",
-          "image": ""
+          "image": "https://www.solerpalau-usa.com/images/products/uvs/CM-recat.png",
+          "description": "",
+          "models": [
+            {
+              "id": 1,
+              "name": "CM10MH1RS",
+              "price": "$2,155.00"
+          },
+          {
+              "id": 2,
+              "name": "CM10MH1US",
+              "price": "$2,089.00"
+          },
+          {
+              "id": 3,
+              "name": "CM10MH3RS",
+              "price": "$2,072.00"
+          },
+          {
+              "id": 4,
+              "name": "CM10MH3US",
+              "price": "$2,005.00"
+          },
+          {
+              "id": 5,
+              "name": "CM10ML1RS",
+              "price": "$2,155.00"
+          },
+          {
+              "id": 6,
+              "name": "CM10ML1US",
+              "price": "$2,089.00"
+          },
+          {
+              "id": 7,
+              "name": "CM10ML3RS",
+              "price": "$2,072.00"
+          },
+          {
+              "id": 8,
+              "name": "CM10ML3US",
+              "price": "$2,005.00"
+          },
+          {
+              "id": 9,
+              "name": "CM10PH1RS",
+              "price": "$2,175.00"
+          },
+          {
+              "id": 10,
+              "name": "CM10PH1US",
+              "price": "$2,109.00"
+          },
+          {
+              "id": 11,
+              "name": "CM10PH3RS",
+              "price": "$2,153.00"
+          },
+          {
+              "id": 12,
+              "name": "CM10PH3US",
+              "price": "$2,085.00"
+          },
+          {
+              "id": 13,
+              "name": "CM10QH1RS",
+              "price": "$2,231.00"
+          },
+          {
+              "id": 14,
+              "name": "CM10QH1US",
+              "price": "$2,162.00"
+          },
+          {
+              "id": 15,
+              "name": "CM10QH3RS",
+              "price": "$2,304.00"
+          },
+          {
+              "id": 16,
+              "name": "CM10QH3US",
+              "price": "$2,236.00"
+          },
+          {
+              "id": 17,
+              "name": "CM10RH1RS",
+              "price": "$2,407.00"
+          },
+          {
+              "id": 18,
+              "name": "CM10RH1US",
+              "price": "$2,336.00"
+          },
+          {
+              "id": 19,
+              "name": "CM10RH3RS",
+              "price": "$2,357.00"
+          },
+          {
+              "id": 20,
+              "name": "CM10RH3US",
+              "price": "$2,287.00"
+          },
+          {
+              "id": 21,
+              "name": "CM12MH1RS",
+              "price": "$2,189.00"
+          },
+          {
+              "id": 22,
+              "name": "CM12MH1US",
+              "price": "$2,120.00"
+          },
+          {
+              "id": 23,
+              "name": "CM12MH3RS",
+              "price": "$2,651.00"
+          },
+          {
+              "id": 24,
+              "name": "CM12MH3US",
+              "price": "$2,585.00"
+          },
+          {
+              "id": 25,
+              "name": "CM12PH1RS",
+              "price": "$2,207.00"
+          },
+          {
+              "id": 26,
+              "name": "CM12PH1US",
+              "price": "$2,106.00"
+          },
+          {
+              "id": 27,
+              "name": "CM12PH3RS",
+              "price": "$2,173.00"
+          },
+          {
+              "id": 28,
+              "name": "CM12PH3US",
+              "price": "$2,106.00"
+          },
+          {
+              "id": 29,
+              "name": "CM12QH1RS",
+              "price": "$2,261.00"
+          },
+          {
+              "id": 30,
+              "name": "CM12QH1US",
+              "price": "$2,197.00"
+          },
+          {
+              "id": 31,
+              "name": "CM12QH3RS",
+              "price": "$2,332.00"
+          },
+          {
+              "id": 32,
+              "name": "CM12QH3US",
+              "price": "$2,266.00"
+          },
+          {
+              "id": 33,
+              "name": "CM12RH1RS",
+              "price": "$2,434.00"
+          },
+          {
+              "id": 34,
+              "name": "CM12RH1US",
+              "price": "$2,369.00"
+          },
+          {
+              "id": 35,
+              "name": "CM12RH3RS",
+              "price": "$2,383.00"
+          },
+          {
+              "id": 36,
+              "name": "CM12RH3US",
+              "price": "$2,323.00"
+          },
+          {
+              "id": 37,
+              "name": "CM12SH1RS",
+              "price": "$2,698.00"
+          },
+          {
+              "id": 38,
+              "name": "CM12SH1US",
+              "price": "$2,631.00"
+          },
+          {
+              "id": 39,
+              "name": "CM12SH3RS",
+              "price": "$2,585.00"
+          },
+          {
+              "id": 40,
+              "name": "CM12SH3US",
+              "price": "$2,519.00"
+          },
+          {
+              "id": 41,
+              "name": "CM12TH1RS",
+              "price": "$2,807.00"
+          },
+          {
+              "id": 42,
+              "name": "CM12TH1US",
+              "price": "$2,738.00"
+          },
+          {
+              "id": 43,
+              "name": "CM12TH3RS",
+              "price": "$2,602.00"
+          },
+          {
+              "id": 44,
+              "name": "CM12TH3US",
+              "price": "$2,537.00"
+          },
+          {
+              "id": 45,
+              "name": "CM12VH1RS",
+              "price": "$2,860.00"
+          },
+          {
+              "id": 46,
+              "name": "CM12VH1US",
+              "price": "$2,793.00"
+          },
+          {
+              "id": 47,
+              "name": "CM12VH3RS",
+              "price": "$2,675.00"
+          },
+          {
+              "id": 48,
+              "name": "CM12VH3US",
+              "price": "$2,611.00"
+          },
+          {
+              "id": 49,
+              "name": "CM14MH1RS",
+              "price": "$2,341.00"
+          },
+          {
+              "id": 50,
+              "name": "CM14MH1US",
+              "price": "$2,276.00"
+          },
+          {
+              "id": 51,
+              "name": "CM14MH3RS",
+              "price": "$2,331.00"
+          },
+          {
+              "id": 52,
+              "name": "CM14MH3US",
+              "price": "$2,265.00"
+          },
+          {
+              "id": 53,
+              "name": "CM14PH1RS",
+              "price": "$2,429.00"
+          },
+          {
+              "id": 54,
+              "name": "CM14PH1US",
+              "price": "$2,365.00"
+          },
+          {
+              "id": 55,
+              "name": "CM14PH3RS",
+              "price": "$2,345.00"
+          },
+          {
+              "id": 56,
+              "name": "CM14PH3US",
+              "price": "$2,280.00"
+          },
+          {
+              "id": 57,
+              "name": "CM14QH1RS",
+              "price": "$2,451.00"
+          },
+          {
+              "id": 58,
+              "name": "CM14QH1US",
+              "price": "$2,382.00"
+          },
+          {
+              "id": 59,
+              "name": "CM14QH3RS",
+              "price": "$2,396.00"
+          },
+          {
+              "id": 60,
+              "name": "CM14QH3US",
+              "price": "$2,329.00"
+          },
+          {
+              "id": 61,
+              "name": "CM14RH1RS",
+              "price": "$2,498.00"
+          },
+          {
+              "id": 62,
+              "name": "CM14RH1US",
+              "price": "$2,431.00"
+          },
+          {
+              "id": 63,
+              "name": "CM14RH3RS",
+              "price": "$2,449.00"
+          },
+          {
+              "id": 64,
+              "name": "CM14RH3US",
+              "price": "$2,381.00"
+          },
+          {
+              "id": 65,
+              "name": "CM14SH1RS",
+              "price": "$2,758.00"
+          },
+          {
+              "id": 66,
+              "name": "CM14SH1US",
+              "price": "$2,696.00"
+          },
+          {
+              "id": 67,
+              "name": "CM14SH3RS",
+              "price": "$2,649.00"
+          },
+          {
+              "id": 68,
+              "name": "CM14SH3US",
+              "price": "$2,581.00"
+          },
+          {
+              "id": 69,
+              "name": "CM14TH1RS",
+              "price": "$2,866.00"
+          },
+          {
+              "id": 70,
+              "name": "CM14TH1US",
+              "price": "$2,805.00"
+          },
+          {
+              "id": 71,
+              "name": "CM14TH3RS",
+              "price": "$2,667.00"
+          },
+          {
+              "id": 72,
+              "name": "CM14TH3US",
+              "price": "$2,597.00"
+          },
+          {
+              "id": 73,
+              "name": "CM14VH1RS",
+              "price": "$3,023.00"
+          },
+          {
+              "id": 74,
+              "name": "CM14VH1US",
+              "price": "$2,954.00"
+          },
+          {
+              "id": 75,
+              "name": "CM14VH3RS",
+              "price": "$2,658.00"
+          },
+          {
+              "id": 76,
+              "name": "CM14VH3US",
+              "price": "$2,591.00"
+          },
+          {
+              "id": 77,
+              "name": "CM14WH3RS",
+              "price": "$2,883.00"
+          },
+          {
+              "id": 78,
+              "name": "CM14WH3US",
+              "price": "$2,814.00"
+          },
+          {
+              "id": 79,
+              "name": "CM16MH1RS",
+              "price": "$2,562.00"
+          },
+          {
+              "id": 80,
+              "name": "CM16MH1US",
+              "price": "$2,495.00"
+          },
+          {
+              "id": 81,
+              "name": "CM16MH3RS",
+              "price": "$2,555.00"
+          },
+          {
+              "id": 82,
+              "name": "CM16MH3US",
+              "price": "$2,487.00"
+          },
+          {
+              "id": 83,
+              "name": "CM16PH1RS",
+              "price": "$2,581.00"
+          },
+          {
+              "id": 84,
+              "name": "CM16PH1US",
+              "price": "$2,516.00"
+          },
+          {
+              "id": 85,
+              "name": "CM16PH3RS",
+              "price": "$2,671.00"
+          },
+          {
+              "id": 86,
+              "name": "CM16PH3US",
+              "price": "$2,602.00"
+          },
+          {
+              "id": 87,
+              "name": "CM16QH1RS",
+              "price": "$2,634.00"
+          },
+          {
+              "id": 88,
+              "name": "CM16QH1US",
+              "price": "$2,569.00"
+          },
+          {
+              "id": 89,
+              "name": "CM16QH3RS",
+              "price": "$2,706.00"
+          },
+          {
+              "id": 90,
+              "name": "CM16QH3US",
+              "price": "$2,641.00"
+          },
+          {
+              "id": 91,
+              "name": "CM16RH1RS",
+              "price": "$2,811.00"
+          },
+          {
+              "id": 92,
+              "name": "CM16RH1US",
+              "price": "$2,745.00"
+          },
+          {
+              "id": 93,
+              "name": "CM16RH3RS",
+              "price": "$2,759.00"
+          },
+          {
+              "id": 94,
+              "name": "CM16RH3US",
+              "price": "$2,697.00"
+          },
+          {
+              "id": 95,
+              "name": "CM16SH1RS",
+              "price": "$3,070.00"
+          },
+          {
+              "id": 96,
+              "name": "CM16SH1US",
+              "price": "$3,005.00"
+          },
+          {
+              "id": 97,
+              "name": "CM16SH3RS",
+              "price": "$2,958.00"
+          },
+          {
+              "id": 98,
+              "name": "CM16SH3US",
+              "price": "$2,893.00"
+          },
+          {
+              "id": 99,
+              "name": "CM16TH1RS",
+              "price": "$3,177.00"
+          },
+          {
+              "id": 100,
+              "name": "CM16TH1US",
+              "price": "$3,112.00"
+          },
+          {
+              "id": 101,
+              "name": "CM16TH3RS",
+              "price": "$2,977.00"
+          },
+          {
+              "id": 102,
+              "name": "CM16TH3US",
+              "price": "$2,909.00"
+          },
+          {
+              "id": 103,
+              "name": "CM16VH1RS",
+              "price": "$3,251.00"
+          },
+          {
+              "id": 104,
+              "name": "CM16VH1US",
+              "price": "$3,183.00"
+          },
+          {
+              "id": 105,
+              "name": "CM16VH3RS",
+              "price": "$2,969.00"
+          },
+          {
+              "id": 106,
+              "name": "CM16VH3US",
+              "price": "$2,903.00"
+          },
+          {
+              "id": 107,
+              "name": "CM16WH3RS",
+              "price": "$3,129.00"
+          },
+          {
+              "id": 108,
+              "name": "CM16WH3US",
+              "price": "$3,064.00"
+          },
+          {
+              "id": 109,
+              "name": "CM18MH3RS",
+              "price": "$3,041.00"
+          },
+          {
+              "id": 110,
+              "name": "CM18MH3US",
+              "price": "$2,975.00"
+          },
+          {
+              "id": 111,
+              "name": "CM18PH1RS",
+              "price": "$3,253.00"
+          },
+          {
+              "id": 112,
+              "name": "CM18PH1US",
+              "price": "$3,187.00"
+          },
+          {
+              "id": 113,
+              "name": "CM18PH3RS",
+              "price": "$3,067.00"
+          },
+          {
+              "id": 114,
+              "name": "CM18PH3US",
+              "price": "$3,000.00"
+          },
+          {
+              "id": 115,
+              "name": "CM18QH1RS",
+              "price": "$3,319.00"
+          },
+          {
+              "id": 116,
+              "name": "CM18QH1US",
+              "price": "$3,251.00"
+          },
+          {
+              "id": 117,
+              "name": "CM18QH3RS",
+              "price": "$3,092.00"
+          },
+          {
+              "id": 118,
+              "name": "CM18QH3US",
+              "price": "$3,027.00"
+          },
+          {
+              "id": 119,
+              "name": "CM18RH1RS",
+              "price": "$3,525.00"
+          },
+          {
+              "id": 120,
+              "name": "CM18RH1US",
+              "price": "$3,456.00"
+          },
+          {
+              "id": 121,
+              "name": "CM18RH3RS",
+              "price": "$3,105.00"
+          },
+          {
+              "id": 122,
+              "name": "CM18RH3US",
+              "price": "$3,039.00"
+          },
+          {
+              "id": 123,
+              "name": "CM18SH1RS",
+              "price": "$3,833.00"
+          },
+          {
+              "id": 124,
+              "name": "CM18SH1US",
+              "price": "$3,766.00"
+          },
+          {
+              "id": 125,
+              "name": "CM18SH3RS",
+              "price": "$3,126.00"
+          },
+          {
+              "id": 126,
+              "name": "CM18SH3US",
+              "price": "$3,062.00"
+          },
+          {
+              "id": 127,
+              "name": "CM18TH1RS",
+              "price": "$3,960.00"
+          },
+          {
+              "id": 128,
+              "name": "CM18TH1US",
+              "price": "$3,893.00"
+          },
+          {
+              "id": 129,
+              "name": "CM18TH3RS",
+              "price": "$3,150.00"
+          },
+          {
+              "id": 130,
+              "name": "CM18TH3US",
+              "price": "$3,080.00"
+          },
+          {
+              "id": 131,
+              "name": "CM18VH1RS",
+              "price": "$4,291.00"
+          },
+          {
+              "id": 132,
+              "name": "CM18VH1US",
+              "price": "$4,222.00"
+          },
+          {
+              "id": 133,
+              "name": "CM18VH3RS",
+              "price": "$3,285.00"
+          },
+          {
+              "id": 134,
+              "name": "CM18VH3US",
+              "price": "$3,219.00"
+          },
+          {
+              "id": 135,
+              "name": "CM18WH3RS",
+              "price": "$4,092.00"
+          },
+          {
+              "id": 136,
+              "name": "CM18WH3US",
+              "price": "$4,026.00"
+          },
+          {
+              "id": 137,
+              "name": "CM20MH3RS",
+              "price": "$3,619.00"
+          },
+          {
+              "id": 138,
+              "name": "CM20MH3US",
+              "price": "$3,554.00"
+          },
+          {
+              "id": 139,
+              "name": "CM20PH1RS",
+              "price": "$3,982.00"
+          },
+          {
+              "id": 140,
+              "name": "CM20PH1US",
+              "price": "$3,915.00"
+          },
+          {
+              "id": 141,
+              "name": "CM20PH3RS",
+              "price": "$3,624.00"
+          },
+          {
+              "id": 142,
+              "name": "CM20PH3US",
+              "price": "$3,559.00"
+          },
+          {
+              "id": 143,
+              "name": "CM20QH1RS",
+              "price": "$4,354.00"
+          },
+          {
+              "id": 144,
+              "name": "CM20QH1US",
+              "price": "$4,288.00"
+          },
+          {
+              "id": 145,
+              "name": "CM20QH3RS",
+              "price": "$3,695.00"
+          },
+          {
+              "id": 146,
+              "name": "CM20QH3US",
+              "price": "$3,629.00"
+          },
+          {
+              "id": 147,
+              "name": "CM20RH1RS",
+              "price": "$4,768.00"
+          },
+          {
+              "id": 148,
+              "name": "CM20RH1US",
+              "price": "$4,701.00"
+          },
+          {
+              "id": 149,
+              "name": "CM20RH3RS",
+              "price": "$3,775.00"
+          },
+          {
+              "id": 150,
+              "name": "CM20RH3US",
+              "price": "$3,710.00"
+          },
+          {
+              "id": 151,
+              "name": "CM20SH1RS",
+              "price": "$5,308.00"
+          },
+          {
+              "id": 152,
+              "name": "CM20SH1US",
+              "price": "$5,242.00"
+          },
+          {
+              "id": 153,
+              "name": "CM20SH3RS",
+              "price": "$3,878.00"
+          },
+          {
+              "id": 154,
+              "name": "CM20SH3US",
+              "price": "$3,813.00"
+          },
+          {
+              "id": 155,
+              "name": "CM20TH1RS",
+              "price": "$5,849.00"
+          },
+          {
+              "id": 156,
+              "name": "CM20TH1US",
+              "price": "$5,783.00"
+          },
+          {
+              "id": 157,
+              "name": "CM20TH3RS",
+              "price": "$3,976.00"
+          },
+          {
+              "id": 158,
+              "name": "CM20TH3US",
+              "price": "$3,910.00"
+          },
+          {
+              "id": 159,
+              "name": "CM20VH1RS",
+              "price": "$6,390.00"
+          },
+          {
+              "id": 160,
+              "name": "CM20VH1US",
+              "price": "$6,325.00"
+          },
+          {
+              "id": 161,
+              "name": "CM20VH3RS",
+              "price": "$4,074.00"
+          },
+          {
+              "id": 162,
+              "name": "CM20VH3US",
+              "price": "$4,009.00"
+          },
+          {
+              "id": 163,
+              "name": "CM20WH3RS",
+              "price": "$6,210.00"
+          },
+          {
+              "id": 164,
+              "name": "CM20WH3US",
+              "price": "$6,145.00"
+          },
+          {
+              "id": 165,
+              "name": "CM22MH3RS",
+              "price": "$4,150.00"
+          },
+          {
+              "id": 166,
+              "name": "CM22MH3US",
+              "price": "$4,085.00"
+          },
+          {
+              "id": 167,
+              "name": "CM22PH1RS",
+              "price": "$4,695.00"
+          },
+          {
+              "id": 168,
+              "name": "CM22PH1US",
+              "price": "$4,629.00"
+          },
+          {
+              "id": 169,
+              "name": "CM22PH3RS",
+              "price": "$4,313.00"
+          },
+          {
+              "id": 170,
+              "name": "CM22PH3US",
+              "price": "$4,248.00"
+          },
+          {
+              "id": 171,
+              "name": "CM22QH1RS",
+              "price": "$5,152.00"
+          },
+          {
+              "id": 172,
+              "name": "CM22QH1US",
+              "price": "$5,086.00"
+          },
+          {
+              "id": 173,
+              "name": "CM22QH3RS",
+              "price": "$4,437.00"
+          },
+          {
+              "id": 174,
+              "name": "CM22QH3US",
+              "price": "$4,372.00"
+          },
+          {
+              "id": 175,
+              "name": "CM22RH1RS",
+              "price": "$5,695.00"
+          },
+          {
+              "id": 176,
+              "name": "CM22RH1US",
+              "price": "$5,629.00"
+          },
+          {
+              "id": 177,
+              "name": "CM22RH3RS",
+              "price": "$4,558.00"
+          },
+          {
+              "id": 178,
+              "name": "CM22RH3US",
+              "price": "$4,493.00"
+          },
+          {
+              "id": 179,
+              "name": "CM22SH1RS",
+              "price": "$6,238.00"
+          },
+          {
+              "id": 180,
+              "name": "CM22SH1US",
+              "price": "$6,172.00"
+          },
+          {
+              "id": 181,
+              "name": "CM22SH3RS",
+              "price": "$4,687.00"
+          },
+          {
+              "id": 182,
+              "name": "CM22SH3US",
+              "price": "$4,621.00"
+          },
+          {
+              "id": 183,
+              "name": "CM22TH1RS",
+              "price": "$6,825.00"
+          },
+          {
+              "id": 184,
+              "name": "CM22TH1US",
+              "price": "$6,759.00"
+          },
+          {
+              "id": 185,
+              "name": "CM22TH3RS",
+              "price": "$4,816.00"
+          },
+          {
+              "id": 186,
+              "name": "CM22TH3US",
+              "price": "$4,751.00"
+          },
+          {
+              "id": 187,
+              "name": "CM22VH1RS",
+              "price": "$7,405.00"
+          },
+          {
+              "id": 188,
+              "name": "CM22VH1US",
+              "price": "$7,339.00"
+          },
+          {
+              "id": 189,
+              "name": "CM22VH3RS",
+              "price": "$4,945.00"
+          },
+          {
+              "id": 190,
+              "name": "CM22VH3US",
+              "price": "$4,880.00"
+          },
+          {
+              "id": 191,
+              "name": "CM22WH3RS",
+              "price": "$7,020.00"
+          },
+          {
+              "id": 192,
+              "name": "CM22WH3US",
+              "price": "$6,954.00"
+          },
+          {
+              "id": 193,
+              "name": "CM24MH3RS",
+              "price": "$5,192.00"
+          },
+          {
+              "id": 194,
+              "name": "CM24MH3US",
+              "price": "$5,127.00"
+          },
+          {
+              "id": 195,
+              "name": "CM24PH1RS",
+              "price": "$6,061.00"
+          },
+          {
+              "id": 196,
+              "name": "CM24PH1US",
+              "price": "$5,995.00"
+          },
+          {
+              "id": 197,
+              "name": "CM24PH3RS",
+              "price": "$5,297.00"
+          },
+          {
+              "id": 198,
+              "name": "CM24PH3US",
+              "price": "$5,231.00"
+          },
+          {
+              "id": 199,
+              "name": "CM24QH1RS",
+              "price": "$6,456.00"
+          },
+          {
+              "id": 200,
+              "name": "CM24QH1US",
+              "price": "$6,391.00"
+          },
+          {
+              "id": 201,
+              "name": "CM24QH3RS",
+              "price": "$5,476.00"
+          },
+          {
+              "id": 202,
+              "name": "CM24QH3US",
+              "price": "$5,410.00"
+          },
+          {
+              "id": 203,
+              "name": "CM24RH1RS",
+              "price": "$6,981.00"
+          },
+          {
+              "id": 204,
+              "name": "CM24RH1US",
+              "price": "$6,915.00"
+          },
+          {
+              "id": 205,
+              "name": "CM24RH3RS",
+              "price": "$5,656.00"
+          },
+          {
+              "id": 206,
+              "name": "CM24RH3US",
+              "price": "$5,591.00"
+          },
+          {
+              "id": 207,
+              "name": "CM24SH1RS",
+              "price": "$7,506.00"
+          },
+          {
+              "id": 208,
+              "name": "CM24SH1US",
+              "price": "$7,440.00"
+          },
+          {
+              "id": 209,
+              "name": "CM24SH3RS",
+              "price": "$5,835.00"
+          },
+          {
+              "id": 210,
+              "name": "CM24SH3US",
+              "price": "$5,769.00"
+          },
+          {
+              "id": 211,
+              "name": "CM24TH1RS",
+              "price": "$8,031.00"
+          },
+          {
+              "id": 212,
+              "name": "CM24TH1US",
+              "price": "$7,966.00"
+          },
+          {
+              "id": 213,
+              "name": "CM24TH3RS",
+              "price": "$6,014.00"
+          },
+          {
+              "id": 214,
+              "name": "CM24TH3US",
+              "price": "$5,948.00"
+          },
+          {
+              "id": 215,
+              "name": "CM24VH1RS",
+              "price": "$8,556.00"
+          },
+          {
+              "id": 216,
+              "name": "CM24VH1US",
+              "price": "$8,491.00"
+          },
+          {
+              "id": 217,
+              "name": "CM24VH3RS",
+              "price": "$6,192.00"
+          },
+          {
+              "id": 218,
+              "name": "CM24VH3US",
+              "price": "$6,127.00"
+          },
+          {
+              "id": 219,
+              "name": "CM24WH3RS",
+              "price": "$8,082.00"
+          },
+          {
+              "id": 220,
+              "name": "CM24WH3US",
+              "price": "$8,016.00"
+          },
+          {
+              "id": 221,
+              "name": "CM26MH3RS",
+              "price": "$5,234.00"
+          },
+          {
+              "id": 222,
+              "name": "CM26MH3US",
+              "price": "$5,169.00"
+          },
+          {
+              "id": 223,
+              "name": "CM26PH1RS",
+              "price": "$6,209.00"
+          },
+          {
+              "id": 224,
+              "name": "CM26PH1US",
+              "price": "$6,144.00"
+          },
+          {
+              "id": 225,
+              "name": "CM26PH3RS",
+              "price": "$5,380.00"
+          },
+          {
+              "id": 226,
+              "name": "CM26PH3US",
+              "price": "$5,314.00"
+          },
+          {
+              "id": 227,
+              "name": "CM26QH1RS",
+              "price": "$6,738.00"
+          },
+          {
+              "id": 228,
+              "name": "CM26QH1US",
+              "price": "$6,672.00"
+          },
+          {
+              "id": 229,
+              "name": "CM26QH3RS",
+              "price": "$5,658.00"
+          },
+          {
+              "id": 230,
+              "name": "CM26QH3US",
+              "price": "$5,593.00"
+          },
+          {
+              "id": 231,
+              "name": "CM26RH1RS",
+              "price": "$7,004.00"
+          },
+          {
+              "id": 232,
+              "name": "CM26RH1US",
+              "price": "$6,939.00"
+          },
+          {
+              "id": 233,
+              "name": "CM26RH3RS",
+              "price": "$5,918.00"
+          },
+          {
+              "id": 234,
+              "name": "CM26RH3US",
+              "price": "$5,853.00"
+          },
+          {
+              "id": 235,
+              "name": "CM26SH1RS",
+              "price": "$7,677.00"
+          },
+          {
+              "id": 236,
+              "name": "CM26SH1US",
+              "price": "$7,612.00"
+          },
+          {
+              "id": 237,
+              "name": "CM26SH3RS",
+              "price": "$6,123.00"
+          },
+          {
+              "id": 238,
+              "name": "CM26SH3US",
+              "price": "$6,057.00"
+          },
+          {
+              "id": 239,
+              "name": "CM26TH1RS",
+              "price": "$7,998.00"
+          },
+          {
+              "id": 240,
+              "name": "CM26TH1US",
+              "price": "$7,933.00"
+          },
+          {
+              "id": 241,
+              "name": "CM26TH3RS",
+              "price": "$6,367.00"
+          },
+          {
+              "id": 242,
+              "name": "CM26TH3US",
+              "price": "$6,301.00"
+          },
+          {
+              "id": 243,
+              "name": "CM26VH1RS",
+              "price": "$8,791.00"
+          },
+          {
+              "id": 244,
+              "name": "CM26VH1US",
+              "price": "$8,726.00"
+          },
+          {
+              "id": 245,
+              "name": "CM26VH3RS",
+              "price": "$6,698.00"
+          },
+          {
+              "id": 246,
+              "name": "CM26VH3US",
+              "price": "$6,633.00"
+          },
+          {
+              "id": 247,
+              "name": "CM26WH3RS",
+              "price": "$8,625.00"
+          },
+          {
+              "id": 248,
+              "name": "CM26WH3US",
+              "price": "$8,560.00"
+          },
+          {
+              "id": 249,
+              "name": "CM28MH3RS",
+              "price": "$5,590.00"
+          },
+          {
+              "id": 250,
+              "name": "CM28MH3US",
+              "price": "$5,525.00"
+          },
+          {
+              "id": 251,
+              "name": "CM28PH1RS",
+              "price": "$6,701.00"
+          },
+          {
+              "id": 252,
+              "name": "CM28PH1US",
+              "price": "$6,636.00"
+          },
+          {
+              "id": 253,
+              "name": "CM28PH3RS",
+              "price": "$5,946.00"
+          },
+          {
+              "id": 254,
+              "name": "CM28PH3US",
+              "price": "$5,881.00"
+          },
+          {
+              "id": 255,
+              "name": "CM28QH1RS",
+              "price": "$7,145.00"
+          },
+          {
+              "id": 256,
+              "name": "CM28QH1US",
+              "price": "$7,080.00"
+          },
+          {
+              "id": 257,
+              "name": "CM28QH3RS",
+              "price": "$6,189.00"
+          },
+          {
+              "id": 258,
+              "name": "CM28QH3US",
+              "price": "$6,124.00"
+          },
+          {
+              "id": 259,
+              "name": "CM28RH1RS",
+              "price": "$7,589.00"
+          },
+          {
+              "id": 260,
+              "name": "CM28RH1US",
+              "price": "$7,524.00"
+          },
+          {
+              "id": 261,
+              "name": "CM28RH3RS",
+              "price": "$6,425.00"
+          },
+          {
+              "id": 262,
+              "name": "CM28RH3US",
+              "price": "$6,360.00"
+          },
+          {
+              "id": 263,
+              "name": "CM28SH1RS",
+              "price": "$8,154.00"
+          },
+          {
+              "id": 264,
+              "name": "CM28SH1US",
+              "price": "$8,089.00"
+          },
+          {
+              "id": 265,
+              "name": "CM28SH3RS",
+              "price": "$6,650.00"
+          },
+          {
+              "id": 266,
+              "name": "CM28SH3US",
+              "price": "$6,585.00"
+          },
+          {
+              "id": 267,
+              "name": "CM28TH1RS",
+              "price": "$8,589.00"
+          },
+          {
+              "id": 268,
+              "name": "CM28TH1US",
+              "price": "$8,524.00"
+          },
+          {
+              "id": 269,
+              "name": "CM28TH3RS",
+              "price": "$6,960.00"
+          },
+          {
+              "id": 270,
+              "name": "CM28TH3US",
+              "price": "$6,895.00"
+          },
+          {
+              "id": 271,
+              "name": "CM28VH1RS",
+              "price": "$9,024.00"
+          },
+          {
+              "id": 272,
+              "name": "CM28VH1US",
+              "price": "$8,959.00"
+          },
+          {
+              "id": 273,
+              "name": "CM28VH3RS",
+              "price": "$7,275.00"
+          },
+          {
+              "id": 274,
+              "name": "CM28VH3US",
+              "price": "$7,210.00"
+          },
+          {
+              "id": 275,
+              "name": "CM28WH3RS",
+              "price": "$9,019.00"
+          },
+          {
+              "id": 276,
+              "name": "CM28WH3US",
+              "price": "$8,954.00"
+          },
+          {
+              "id": 277,
+              "name": "CM30MH3RS",
+              "price": "$5,946.00"
+          },
+          {
+              "id": 278,
+              "name": "CM30MH3US",
+              "price": "$5,880.00"
+          },
+          {
+              "id": 279,
+              "name": "CM30PH1RS",
+              "price": "$7,121.00"
+          },
+          {
+              "id": 280,
+              "name": "CM30PH1US",
+              "price": "$7,055.00"
+          },
+          {
+              "id": 281,
+              "name": "CM30PH3RS",
+              "price": "$6,214.00"
+          },
+          {
+              "id": 282,
+              "name": "CM30PH3US",
+              "price": "$6,149.00"
+          },
+          {
+              "id": 283,
+              "name": "CM30QH1RS",
+              "price": "$7,633.00"
+          },
+          {
+              "id": 284,
+              "name": "CM30QH1US",
+              "price": "$7,567.00"
+          },
+          {
+              "id": 285,
+              "name": "CM30QH3RS",
+              "price": "$6,511.00"
+          },
+          {
+              "id": 286,
+              "name": "CM30QH3US",
+              "price": "$6,446.00"
+          },
+          {
+              "id": 287,
+              "name": "CM30RH1RS",
+              "price": "$8,278.00"
+          },
+          {
+              "id": 288,
+              "name": "CM30RH1US",
+              "price": "$8,212.00"
+          },
+          {
+              "id": 289,
+              "name": "CM30RH3RS",
+              "price": "$6,776.00"
+          },
+          {
+              "id": 290,
+              "name": "CM30RH3US",
+              "price": "$6,711.00"
+          },
+          {
+              "id": 291,
+              "name": "CM30SH1RS",
+              "price": "$8,888.00"
+          },
+          {
+              "id": 292,
+              "name": "CM30SH1US",
+              "price": "$8,822.00"
+          },
+          {
+              "id": 293,
+              "name": "CM30SH3RS",
+              "price": "$7,046.00"
+          },
+          {
+              "id": 294,
+              "name": "CM30SH3US",
+              "price": "$6,981.00"
+          },
+          {
+              "id": 295,
+              "name": "CM30TH1RS",
+              "price": "$9,433.00"
+          },
+          {
+              "id": 296,
+              "name": "CM30TH1US",
+              "price": "$9,367.00"
+          },
+          {
+              "id": 297,
+              "name": "CM30TH3RS",
+              "price": "$7,479.00"
+          },
+          {
+              "id": 298,
+              "name": "CM30TH3US",
+              "price": "$7,414.00"
+          },
+          {
+              "id": 299,
+              "name": "CM30VH1RS",
+              "price": "$10,153.00"
+          },
+          {
+              "id": 300,
+              "name": "CM30VH1US",
+              "price": "$10,087.00"
+          },
+          {
+              "id": 301,
+              "name": "CM30VH3RS",
+              "price": "$8,212.00"
+          },
+          {
+              "id": 302,
+              "name": "CM30VH3US",
+              "price": "$8,146.00"
+          },
+          {
+              "id": 303,
+              "name": "CM30WH3RS",
+              "price": "$10,016.00"
+          },
+          {
+              "id": 304,
+              "name": "CM30WH3US",
+              "price": "$9,950.00"
+          },
+          {
+              "id": 305,
+              "name": "CM32MH3RS",
+              "price": "$6,066.00"
+          },
+          {
+              "id": 306,
+              "name": "CM32MH3US",
+              "price": "$6,000.00"
+          },
+          {
+              "id": 307,
+              "name": "CM32PH1RS",
+              "price": "$7,648.00"
+          },
+          {
+              "id": 308,
+              "name": "CM32PH1US",
+              "price": "$7,582.00"
+          },
+          {
+              "id": 309,
+              "name": "CM32PH3RS",
+              "price": "$6,769.00"
+          },
+          {
+              "id": 310,
+              "name": "CM32PH3US",
+              "price": "$6,704.00"
+          },
+          {
+              "id": 311,
+              "name": "CM32QH1RS",
+              "price": "$8,113.00"
+          },
+          {
+              "id": 312,
+              "name": "CM32QH1US",
+              "price": "$8,047.00"
+          },
+          {
+              "id": 313,
+              "name": "CM32QH3RS",
+              "price": "$7,115.00"
+          },
+          {
+              "id": 314,
+              "name": "CM32QH3US",
+              "price": "$7,050.00"
+          },
+          {
+              "id": 315,
+              "name": "CM32RH1RS",
+              "price": "$8,580.00"
+          },
+          {
+              "id": 316,
+              "name": "CM32RH1US",
+              "price": "$8,514.00"
+          },
+          {
+              "id": 317,
+              "name": "CM32RH3RS",
+              "price": "$7,460.00"
+          },
+          {
+              "id": 318,
+              "name": "CM32RH3US",
+              "price": "$7,395.00"
+          },
+          {
+              "id": 319,
+              "name": "CM32SH1RS",
+              "price": "$9,195.00"
+          },
+          {
+              "id": 320,
+              "name": "CM32SH1US",
+              "price": "$9,129.00"
+          },
+          {
+              "id": 321,
+              "name": "CM32SH3RS",
+              "price": "$7,761.00"
+          },
+          {
+              "id": 322,
+              "name": "CM32SH3US",
+              "price": "$7,696.00"
+          },
+          {
+              "id": 323,
+              "name": "CM32TH1RS",
+              "price": "$9,669.00"
+          },
+          {
+              "id": 324,
+              "name": "CM32TH1US",
+              "price": "$9,604.00"
+          },
+          {
+              "id": 325,
+              "name": "CM32TH3RS",
+              "price": "$8,046.00"
+          },
+          {
+              "id": 326,
+              "name": "CM32TH3US",
+              "price": "$7,981.00"
+          },
+          {
+              "id": 327,
+              "name": "CM32VH1RS",
+              "price": "$10,781.00"
+          },
+          {
+              "id": 328,
+              "name": "CM32VH1US",
+              "price": "$10,715.00"
+          },
+          {
+              "id": 329,
+              "name": "CM32VH3RS",
+              "price": "$8,768.00"
+          },
+          {
+              "id": 330,
+              "name": "CM32VH3US",
+              "price": "$8,703.00"
+          },
+          {
+              "id": 331,
+              "name": "CM32WH3RS",
+              "price": "$10,642.00"
+          },
+          {
+              "id": 332,
+              "name": "CM32WH3US",
+              "price": "$10,576.00"
+          }
+            
+          ],
+          "submittals": [
+            {
+              "type": "CM",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-cm.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-cm.pdf"
+            }
+          ]
+          
+
         }
       ]
     }
