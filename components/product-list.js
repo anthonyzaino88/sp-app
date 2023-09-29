@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  fetch("http://127.0.0.1:5500/data/products.json") // Update with your JSON data source
+  fetch("./data/products.json") // Update with your JSON data source
     .then((response) => response.json())
     .then((data) => {
       // Iterate through each product in the JSON data
