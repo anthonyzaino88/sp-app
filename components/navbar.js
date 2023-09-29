@@ -12,19 +12,18 @@ class BottomNavbar extends HTMLElement {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #7c7c7c;
+            background-color: #053658;
             color: #fff;
-            padding: 10px;
+            padding: 15px;
             position: fixed;
             bottom: 0;
             left: 0;
             right: 0;
             z-index: 999;
-            opacity: .95;
-            margin-left: 12px;
-            margin-right: 12px;
-            border-radius: 10px;
-            margin-bottom: 10px;
+            opacity: 1;
+         
+    
+           
             box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
            
            
@@ -34,7 +33,7 @@ class BottomNavbar extends HTMLElement {
             text-decoration: none;
             color: #fff;
             text-align: center;
-            font-size: 15px;
+            font-size: 12px;
             letter-spacing: 1px;
           }
   
@@ -42,23 +41,23 @@ class BottomNavbar extends HTMLElement {
   
         <nav>
           <a class="nav-link" href="/">
-          <img src="../assets/images/home.svg" alt="home" class="icon-color">
+          <img src="/assets/images/home.svg" alt="home" class="icon-color">
             <span class="nav-icon"></span><br>Home
           </a>
           <a class="nav-link" href="/products.html">
-          <img src="../assets/images/fan-white.svg" alt="Products" class="icon-color">
+          <img src="/assets/images/fan-white.svg" alt="Products" class="icon-color">
             <span class="nav-icon"></span><br>Products
           </a>
           <a class="nav-link" href="/products.html">
-          <img src="../assets/images/library.svg" alt="Products" class="icon-color">
+          <img src="/assets/images/library.svg" alt="Products" class="icon-color">
             <span class="nav-icon"></span><br>Library
           </a>
           <a class="nav-link" href="/products.html">
-          <img src="../assets/images/right-left-white.svg" alt="Products" class="icon-color">
-            <span class="nav-icon"></span><br>Cross-Reference
+          <img src="/assets/images/right-left-white.svg" alt="Products" class="icon-color">
+            <span class="nav-icon"></span><br>Cross-Ref
           </a>
-          <a class="nav-link" href="/products.html">
-          <img src="../assets/images/solidplay-white.svg" alt="Products" class="icon-color">
+          <a class="nav-link" href="/pages/products.html">
+          <img src="/assets/images/solidplay-white.svg" alt="Products" class="icon-color">
             <span class="nav-icon"></span><br>Media
           </a>
         </nav>

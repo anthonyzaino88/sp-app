@@ -5,6 +5,41 @@ function createContainer(elementType, className) {
   return container;
 }
 
+// Define a function to add a description section
+function addDescription(description) {
+  // Create a container for the description
+  const descriptionContainer = createContainer("div", "description-container");
+  // Create a paragraph element for the description text
+  const descriptionText = document.createElement("div");
+  descriptionText.textContent = description;
+  // Append the description text to the container
+  descriptionContainer.appendChild(descriptionText);
+  // Append the description container to the product info container
+  productInfoContainer.appendChild(descriptionContainer);
+}
+
+// Function to display the product description
+function displayDescription(product, selectedSeries) {
+  // Clear existing content in the descriptionContainer
+  descriptionContainer.textContent = "";
+
+  // Find the selected series by name
+  const selectedSeriesObj = product.series.find((series) => series.name === selectedSeries);
+
+  // Check if the selected series is found
+  if (selectedSeriesObj) {
+    // Create a paragraph element for the description text
+    const descriptionText = document.createElement("p");
+    descriptionText.textContent = selectedSeriesObj.description;
+
+    // Append the description text to the descriptionContainer
+    descriptionContainer.appendChild(descriptionText);
+  } else {
+    // Handle the case where the selected series is not found
+    console.error("Selected series not found:", selectedSeries);
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   // Find the main product container
   const productContainer = document.querySelector(".product-list-container");
@@ -21,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Create a back arrow for reloading product listings
   const backArrow = createContainer("div", "back-arrow");
-  backArrow.innerHTML = `<img src="../assets/images/return-back-button.svg" alt="back" />`;
+  backArrow.innerHTML = `<img src="/assets/images/return-back-button.svg" alt="back" />`;
 
   // Create a div for the product name and style it
   const productNameDiv = createContainer("div", "product-name");
@@ -40,14 +75,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const dropdownsContainer = createContainer("div", "dropdowns-container");
   dropdownsContainer.style.display = "flex"; // Apply flex display
   dropdownsContainer.style.alignItems = "center"; // Center items vertically
+  dropdownsContainer.style.flexWrap = "wrap";
 
   // Create containers for series, models dropdowns, price, series image, other docs, and submittals
   const seriesDropdownContainer = createContainer("div", "series-dropdown-container");
   const modelsDropdownContainer = createContainer("div", "models-dropdown-container");
   const priceContainer = createContainer("div", "price-container");
   const seriesImageContainer = createContainer("div", "series-image-container");
-  const otherDocsContainer = createContainer("div", "other-docs-container");
-  const submittalsContainer = createContainer("div", "submittals-container");
+  const descriptionContainer = createContainer("div", "description-container");
   const displayedProductInfo = createContainer("div", "displayed-product-info"); // Container for displayed product info
   const literatureDropdownContainer = createContainer("div", "literature-dropdown-container"); // Container for Literature dropdown
 
@@ -64,7 +99,12 @@ document.addEventListener("DOMContentLoaded", () => {
     literatureToggleButton.textContent = isHidden ? "Literature -" : "Literature +";
   });
 
+  // Create a container for Literature titles and wrap the otherDocsContainer and submittalsContainer
+  const litTitlesContainer = createContainer("div", "lit-titles-container");
 
+  // Create containers for otherDocsContainer and submittalsContainer
+  const otherDocsContainer = createContainer("div", "other-docs-container");
+  const submittalsContainer = createContainer("div", "submittals-container");
 
   // Append the product info containers to the main product container
   productContainer.appendChild(productInfoContainer);
@@ -76,10 +116,12 @@ document.addEventListener("DOMContentLoaded", () => {
   dropdownsContainer.appendChild(modelsDropdownContainer);
   productInfoContainer.appendChild(seriesImageContainer);
   productInfoContainer.appendChild(priceContainer);
-  literatureDropdownContainer.appendChild(literatureToggleButton);   // Append the button to the Literature dropdown container
-  productInfoContainer.appendChild(literatureDropdownContainer);     // Append the Literature dropdown container to the product info container
-  productInfoContainer.appendChild(otherDocsContainer);
-  productInfoContainer.appendChild(submittalsContainer);
+  productInfoContainer.appendChild(descriptionContainer); // Append the description container
+  productInfoContainer.appendChild(literatureDropdownContainer); // Append the Literature dropdown container to the product info container
+  literatureDropdownContainer.appendChild(literatureToggleButton); // Append the button to the Literature dropdown container
+  literatureDropdownContainer.appendChild(litTitlesContainer); // Append the lit-titles-container to the Literature dropdown container
+  litTitlesContainer.appendChild(otherDocsContainer);
+  litTitlesContainer.appendChild(submittalsContainer);
 
   // Add an event listener to the back arrow
   backArrow.addEventListener("click", () => {
@@ -104,6 +146,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Hide the series image
     seriesImageContainer.style.display = "none"; // Add this line to hide the series image
 
+    descriptionContainer.innerHTML = "";
+
     // Clear submittalsContainer
     submittalsContainer.innerHTML = ""; // Add this line to clear submittals
     otherDocsContainer.innerHTML = "";
@@ -121,14 +165,36 @@ document.addEventListener("DOMContentLoaded", () => {
    
   });
 
-  // Replace this with your actual JSON data fetching logic
-  fetch("../data/products.json") // Update with your JSON data source
+  function displayDescription(product, selectedSeries) {
+    // Clear existing content in the descriptionContainer
+    descriptionContainer.textContent = "";
+  
+    // Find the selected series by name
+    const selectedSeriesObj = product.series.find((series) => series.name === selectedSeries);
+  
+    // Check if the selected series is found
+    if (selectedSeriesObj) {
+      // Create a paragraph element for the description text
+      const descriptionText = document.createElement("div");
+      descriptionText.textContent = selectedSeriesObj.description;
+  
+      // Append the description text to the descriptionContainer
+      descriptionContainer.appendChild(descriptionText);
+    } else {
+      // Handle the case where the selected series is not found
+      console.error("Selected series not found:", selectedSeries);
+    }
+  }
+
+  fetch("http://127.0.0.1:5500/data/products.json") // Update with your JSON data source
     .then((response) => response.json())
     .then((data) => {
       // Iterate through each product in the JSON data
       data.forEach((product) => {
         // Create a container for the product listing
         const productListing = createContainer("div", "product-listing");
+
+        literatureDropdownContainer.style.display = "none";
 
         // Create an HTML template for the product listing
         const productHTML = `
@@ -157,7 +223,6 @@ document.addEventListener("DOMContentLoaded", () => {
           isProductInfoVisible = true;
           literatureDropdownContainer.style.display = "none";
         });
-
         // Append the product listing to the series container
         seriesContainer.appendChild(productListing);
       });
@@ -193,28 +258,31 @@ document.addEventListener("DOMContentLoaded", () => {
       if (selectedSeries) {
         // Populate the models dropdown with models from the selected series
         modelsDropdown.innerHTML = `
-          <option value="">Price by Model</option>
-          ${selectedSeries.models.map((model) => `<option value="${model.name}">${model.name}</option>`).join("")}
-        `;
+        <option value="">Price by Model</option>
+        ${Array.isArray(selectedSeries.models) ? selectedSeries.models.map((model) => `<option value="${model.name}">${model.name}</option>`).join("") : ""}
+      `;
+    
         // Set the background image of the seriesImageContainer
         seriesImageContainer.style.backgroundImage = `url('${selectedSeries.image}')`;
         seriesImageContainer.style.display = "block"; // Show the series image container
-
+    
         // Show the models dropdown since a series is selected
         modelsDropdownContainer.style.display = "block";
-
+    
         literatureDropdownContainer.style.display = "block";
-
+    
         otherDocsContainer.style.display = "none";
         submittalsContainer.style.display = "none";
-        
-
+       
+    
+        // Display the description for the selected series
+        displayDescription(product, selectedSeriesName);
 
 
         // Populate otherDocsContainer with other documents for the selected series
         if (selectedSeries.otherDocs && selectedSeries.otherDocs.length > 0) {
           otherDocsContainer.innerHTML = `
-            <h3>${product.name}</h3>
+            <div class="lit-item-title">${product.name}</div>
             <ul>
               ${selectedSeries.otherDocs.map((doc) => `<li><a href="${doc.url}" target="_blank">${doc.type}</a></li>`).join("")}
             </ul>
@@ -227,7 +295,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Populate submittalsContainer with submittals for the selected series
         if (selectedSeries.submittals) {
           submittalsContainer.innerHTML = `
-            <h3>Submittals</h3>
+            <div class="lit-item-title">Submittals</div>
             <ul>
               ${selectedSeries.submittals.map((submittal) => `<li><a href="${submittal.url}" target="_blank">${submittal.type}</a></li>`).join("")}
             </ul>
@@ -242,6 +310,10 @@ document.addEventListener("DOMContentLoaded", () => {
         // Clear the background image and hide the series image container
         seriesImageContainer.style.backgroundImage = "";
         seriesImageContainer.style.display = "none";
+
+        descriptionContainer.innerHTML = "";
+
+        
         // Clear otherDocsContainer and submittalsContainer when series selection changes
         otherDocsContainer.innerHTML = "";
         submittalsContainer.innerHTML = "";
@@ -267,10 +339,12 @@ document.addEventListener("DOMContentLoaded", () => {
         const selectedSeries = product.series.find((series) =>
           series.models.some((model) => model.name === selectedModelName)
         );
-        
+    
         if (selectedSeries) {
           const selectedModel = selectedSeries.models.find((model) => model.name === selectedModelName);
-          if (selectedModel && selectedModel.price) {
+    
+          // Check if selectedModel exists and has a price
+          if (selectedModel && selectedModel.hasOwnProperty("price")) {
             priceContainer.textContent = `Price: ${selectedModel.price}`;
           } else {
             // Clear the price container or remove it
@@ -297,7 +371,6 @@ document.addEventListener("DOMContentLoaded", () => {
         // }
       }
     });
-
     // Append the dropdowns to their respective containers
     seriesDropdownContainer.appendChild(seriesDropdown);
     modelsDropdownContainer.appendChild(modelsDropdown);
