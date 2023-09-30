@@ -40,7 +40,7 @@ class BottomNavbar extends HTMLElement {
         </style>
   
         <nav>
-          <a class="nav-link" href="/">
+          <a class="nav-link" href="https://anthonyzaino88.github.io/sp-app/">
           <img src="../assets/images/home.svg" alt="home" class="icon-color">
             <span class="nav-icon"></span><br>Home
           </a>
