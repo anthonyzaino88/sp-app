@@ -78,7 +78,7 @@ padding: 1rem;
 .product-image {
     width: 100%; /* Adjust the width as needed */
     height: 100px; /* Adjust the height as needed */
-    background-size: contain;
+    background-size: inherit;
     background-position: center;
     background-repeat: no-repeat;
     transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition for smooth movement */
