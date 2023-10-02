@@ -5,6 +5,9 @@ function createContainer(elementType, className) {
   return container;
 }
 
+
+
+
 // Define a function to add a description section
 function addDescription(description) {
   // Create a container for the description
@@ -29,7 +32,7 @@ function displayDescription(product, selectedSeries) {
   // Check if the selected series is found
   if (selectedSeriesObj) {
     // Create a paragraph element for the description text
-    const descriptionText = document.createElement("p");
+    const descriptionText = document.createElement("div");
     descriptionText.textContent = selectedSeriesObj.description;
 
     // Append the description text to the descriptionContainer
@@ -39,6 +42,11 @@ function displayDescription(product, selectedSeries) {
     console.error("Selected series not found:", selectedSeries);
   }
 }
+
+
+
+
+
 
 document.addEventListener("DOMContentLoaded", () => {
   // Find the main product container
@@ -56,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Create a back arrow for reloading product listings
   const backArrow = createContainer("div", "back-arrow");
-  backArrow.innerHTML = `<img src="../assets/images/return-back-button.svg" alt="back" />`;
+  backArrow.innerHTML = `<img src="/assets/images/return-back-button.svg" alt="back" />`;
 
   // Create a div for the product name and style it
   const productNameDiv = createContainer("div", "product-name");
@@ -70,6 +78,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Create a container for the product info
   const productInfoContainer = createContainer("div", "product-info-container");
+
+  const productImageContainer = createContainer("div", "product-image-container");
+  productInfoContainer.appendChild(productImageContainer);
+  productImageContainer.style.display = "none"; // Initially hide it
 
   // Create a container for the series and models dropdowns
   const dropdownsContainer = createContainer("div", "dropdowns-container");
@@ -99,6 +111,10 @@ document.addEventListener("DOMContentLoaded", () => {
     literatureToggleButton.textContent = isHidden ? "Literature -" : "Literature +";
   });
 
+  const imageProductContainer = createContainer("div", "product-image-container");
+
+
+
   // Create a container for Literature titles and wrap the otherDocsContainer and submittalsContainer
   const litTitlesContainer = createContainer("div", "lit-titles-container");
 
@@ -123,6 +139,12 @@ document.addEventListener("DOMContentLoaded", () => {
   litTitlesContainer.appendChild(otherDocsContainer);
   litTitlesContainer.appendChild(submittalsContainer);
 
+    // Append the product image container below the product info container
+    productContainer.insertBefore(imageProductContainer, productInfoContainer.nextSibling);
+  
+    // Initially hide the imageProductContainer
+    imageProductContainer.style.display = "none";
+
   // Add an event listener to the back arrow
   backArrow.addEventListener("click", () => {
     // Show all product listings
@@ -146,6 +168,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Hide the series image
     seriesImageContainer.style.display = "none"; // Add this line to hide the series image
 
+    productImageContainer.style.display = "none";
+
     descriptionContainer.innerHTML = "";
 
     // Clear submittalsContainer
@@ -154,30 +178,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
     modelsDropdownContainer.style.display = "";
     submittalsContainer.style.display = "none";
-    otherDocsContainer.style.display= "none";
+    otherDocsContainer.style.display = "none";
 
     literatureDropdownContainer.style.display = "none";
-   
+
+    imageProductContainer.style.display = "none";
+
     if (literatureDropdownContainer.style.display = "none") {
       literatureToggleButton.textContent = "Literature +";
     }
-
-   
   });
 
   function displayDescription(product, selectedSeries) {
     // Clear existing content in the descriptionContainer
     descriptionContainer.textContent = "";
-  
+
     // Find the selected series by name
     const selectedSeriesObj = product.series.find((series) => series.name === selectedSeries);
-  
+
     // Check if the selected series is found
     if (selectedSeriesObj) {
       // Create a paragraph element for the description text
       const descriptionText = document.createElement("div");
       descriptionText.textContent = selectedSeriesObj.description;
-  
+
       // Append the description text to the descriptionContainer
       descriptionContainer.appendChild(descriptionText);
     } else {
@@ -186,7 +210,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  fetch("../data/products.json") // Update with your JSON data source
+  // Fetch product data from a JSON source
+  fetch("http://127.0.0.1:5500/data/products.json") // Update with your JSON data source
     .then((response) => response.json())
     .then((data) => {
       // Iterate through each product in the JSON data
@@ -217,6 +242,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
           // Display the product information underneath in a separate container
           displayProductInfo(product);
+          displayProductImages(product);
 
           // Show the back arrow
           backArrow.style.display = "flex";
@@ -261,23 +287,22 @@ document.addEventListener("DOMContentLoaded", () => {
         <option value="">Price by Model</option>
         ${Array.isArray(selectedSeries.models) ? selectedSeries.models.map((model) => `<option value="${model.name}">${model.name}</option>`).join("") : ""}
       `;
-    
+
         // Set the background image of the seriesImageContainer
         seriesImageContainer.style.backgroundImage = `url('${selectedSeries.image}')`;
         seriesImageContainer.style.display = "block"; // Show the series image container
-    
+
         // Show the models dropdown since a series is selected
         modelsDropdownContainer.style.display = "block";
-    
+
         literatureDropdownContainer.style.display = "block";
-    
+
         otherDocsContainer.style.display = "none";
         submittalsContainer.style.display = "none";
-       
-    
+        imageProductContainer.style.display = "none";
+
         // Display the description for the selected series
         displayDescription(product, selectedSeriesName);
-
 
         // Populate otherDocsContainer with other documents for the selected series
         if (selectedSeries.otherDocs && selectedSeries.otherDocs.length > 0) {
@@ -310,22 +335,19 @@ document.addEventListener("DOMContentLoaded", () => {
         // Clear the background image and hide the series image container
         seriesImageContainer.style.backgroundImage = "";
         seriesImageContainer.style.display = "none";
+        imageProductContainer.style.display = "flex";
+        
 
         descriptionContainer.innerHTML = "";
 
-        
         // Clear otherDocsContainer and submittalsContainer when series selection changes
         otherDocsContainer.innerHTML = "";
         submittalsContainer.innerHTML = "";
 
         // Hide the models dropdown when no series is selected
         modelsDropdownContainer.style.display = "none";
-        literatureDropdownContainer.style.display = "none"
-        
+        literatureDropdownContainer.style.display = "none";
       }
-
-      
-
 
       // Clear the price container when series selection changes
       priceContainer.textContent = "";
@@ -333,16 +355,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
     modelsDropdown.addEventListener("change", () => {
       const selectedModelName = modelsDropdown.value;
-    
+
       // Check if a model is selected (i.e., the selectedModelName is not an empty string)
       if (selectedModelName) {
         const selectedSeries = product.series.find((series) =>
           series.models.some((model) => model.name === selectedModelName)
         );
-    
+
         if (selectedSeries) {
           const selectedModel = selectedSeries.models.find((model) => model.name === selectedModelName);
-    
+
           // Check if selectedModel exists and has a price
           if (selectedModel && selectedModel.hasOwnProperty("price")) {
             priceContainer.textContent = `Price: ${selectedModel.price}`;
@@ -376,6 +398,49 @@ document.addEventListener("DOMContentLoaded", () => {
     modelsDropdownContainer.appendChild(modelsDropdown);
   }
 
+  function displayProductImages(product) {
+    // Clear existing content in the imageProductContainer
+    imageProductContainer.innerHTML = '';
+  
+    // Iterate through each series in the active product
+    product.series.forEach((series) => {
+      // Create a container for the series image
+      const seriesImageContainer = createContainer("div", "series-image");
+  
+      // Set the background image for the series
+      seriesImageContainer.style.backgroundImage = `url('${series.image}')`;
+  
+      // Add a click event listener to the series image
+      seriesImageContainer.addEventListener("click", () => {
+        // Find the series dropdown element
+        const seriesDropdown = document.querySelector(".series-dropdown");
+  
+        // Check if the series dropdown element exists
+        if (seriesDropdown) {
+          // Set the value of the series dropdown to the clicked series name
+          seriesDropdown.value = series.name;
+  
+          // Trigger the change event on the series dropdown to populate data
+          seriesDropdown.dispatchEvent(new Event("change"));
+        }
+      });
+  
+      // Create a title for the series image
+      const titleElement = createContainer("div", "title-img-series");
+      titleElement.textContent = series.name;
+  
+      // Append the title to the series image container
+      seriesImageContainer.appendChild(titleElement);
+  
+      // Append the series image container to the imageProductContainer
+      imageProductContainer.appendChild(seriesImageContainer);
+    });
+  
+    // Show the imageProductContainer
+    imageProductContainer.style.display = "flex";
+  }
+  
+
   function clearProductInfo() {
     const seriesDropdownContainer = productInfoContainer.querySelector(".series-dropdown-container");
     const modelsDropdownContainer = productInfoContainer.querySelector(".models-dropdown-container");
@@ -397,12 +462,9 @@ document.addEventListener("DOMContentLoaded", () => {
     if (displayedProductInfo) {
       displayedProductInfo.textContent = ""; // Clear displayed product info
     }
+  }
 
-  
-    }
-
-    function updateProductName(name) {
-      productNameDiv.textContent = name;
-    }
-
-  });
+  function updateProductName(name) {
+    productNameDiv.textContent = name;
+  }
+});
