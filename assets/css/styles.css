@@ -161,8 +161,8 @@ select.series-dropdown {
     font-size: 14px!important;
     
     /* Reset appearance properties to default */
-    -webkit-appearance: initial;
-    appearance: initial;
+    -webkit-appearance: initial!important;
+    appearance: initial!important;
       
 }
 
