@@ -150,7 +150,7 @@ padding: 1rem;
 }
 
 select.series-dropdown {
-    padding: 0.75rem!important;
+    padding: 1rem!important;
     border-radius: 8px!important;
     border: none!important;
     background-color: whitesmoke!important;
@@ -161,12 +161,12 @@ select.series-dropdown {
 }
 
 .models-dropdown {
-    padding: 0.75rem!important;
+    padding: 1rem!important;
     border-radius: 8px!important;
     border: none!important;
     background-color: whitesmoke!important;
     color: #053658!important;
-    font-size: 15px!important;
+    font-size: 18px!important;
 }
 
 .submittals-container h3 {
@@ -189,7 +189,7 @@ select.series-dropdown {
 
  button {
     font-size: 18px!important;
-    padding: 0.75rem!important;
+    padding: 1rem!important;
     border-radius: 8px!important;
     border: none!important;
     background-color: whitesmoke!important;
