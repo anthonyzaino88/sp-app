@@ -15,7 +15,7 @@ padding: 1rem;
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    height: 80vh; /* 100% of the viewport height */
+    height: 90vh; /* 100% of the viewport height */
     flex-direction: column;
 }
 
