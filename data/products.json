@@ -2,12 +2,13 @@
     {
       "id": 1,
       "name": "Ceiling & Cabinet Fans",
+     
     
        "series": [
         {
           "id": 1,
           "name": "Ceiling Mount Ventilator",
-          "image": "../assets/images/Losone-Select-Ceiling.webp",
+          "image": "/assets/images/Losone-Select-Ceiling.webp",
           "description": "Incredibly reliable. Unbelievably quiet. Offering the CFM choices you need at the lowest sound levels in the industry.",
           "models": [
             {
@@ -3461,60 +3462,8 @@
         }
       ]
     },
-    {
-      "id": 8,
-      "name": "Jet Fan Series",
   
-      "series": [
-        {
-          "id": 1,
-          "name": "IFFT and IFFTe",
-          "image": "https://www.solerpalau-usa.com/images/products/jetfans/products/ifft-recat.png"
-        },
-        {
-          "id": 2,
-          "name": "TJFU",
-          "image": "https://www.solerpalau-usa.com/images/products/jetfans/products/ifft-recat.png"
-        },
-        {
-          "id": 3,
-          "name": "IFAB and IFEB",
-          "image": "https://www.solerpalau-usa.com/images/products/jetfans/products/ifab-recat.png"
-        },
-        {
-          "id": 4,
-          "name": "6002, 6002-14B, 6002A and 6002-14A",
-          "image": "https://www.solerpalau-usa.com/images/products/jetfans/products/vgd-recat.png"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "name": "Kitchen Hoods",
-  
-      "series": [
-        {
-          "id": 1,
-          "name": "EO",
-          "image": "https://www.solerpalau-usa.com/images/products/kitchenhoods/EO.webp"
-        },
-        {
-          "id": 2,
-          "name": "EO-FPSP",
-          "image": "https://www.solerpalau-usa.com/images/products/kitchenhoods/eo-fpsp.webp"
-        },
-        {
-          "id": 3,
-          "name": "EOLC",
-          "image": "https://www.solerpalau-usa.com/images/products/kitchenhoods/EOLC.webp"
-        },
-        {
-          "id": 4,
-          "name": "EOLC-FPSP",
-          "image": "https://www.solerpalau-usa.com/images/products/kitchenhoods/EOLC-FPSP.webp"
-        }
-      ]
-    },
+ 
     {
       "id": 10,
       "name": "Outside Air Motorized Damper Kits",
