@@ -148,22 +148,25 @@ padding: 1rem;
 }
 
 select.series-dropdown {
-    padding: 0.5rem!important;
+    padding: 1rem!important;
     border-radius: 8px!important;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px!important;
     border: none!important;
     letter-spacing: 1px!important;
     color: black!important;
+    background-color: transparent!important;
+    
 
   
 }
 
 .models-dropdown {
-    padding: 0.5rem;
-    border-radius: 8px;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-    border: none;
-    letter-spacing: 1px;
+    padding: 0.5rem!important;
+    border-radius: 8px!important;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px!important;
+    border: none!important;
+    letter-spacing: 1px!important;
+    background-color: transparent!important;
 }
 
 .submittals-container h3 {
