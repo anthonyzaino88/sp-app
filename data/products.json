@@ -8,7 +8,7 @@
         {
           "id": 1,
           "name": "Ceiling Mount Ventilator",
-          "image": "../assets/images/Losone-Select-Ceiling.webp",
+          "image": "/assets/images/Losone-Select-Ceiling.webp",
           "description": "Incredibly reliable. Unbelievably quiet. Offering the CFM choices you need at the lowest sound levels in the industry.",
           "models": [
             {
@@ -3367,7 +3367,7 @@
           "id": 12,
           "name": "SQD and eSQD",
           "image": "https://www.solerpalau-usa.com/images/products/isdf/SQD-recat.png",
-          "description": "",
+          "description": "The SQD square inline duct fan, suitable for tight spaces, comes in sizes 6-15, moving up to 2,800 CFM. eSQD models with EC motors are available in sizes 8, 10, and 12. Their compact design allows for versatile mounting and easy access via removable doors.",
           "models": [
             {
               "id": 1,
