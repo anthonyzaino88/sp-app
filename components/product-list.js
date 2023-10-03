@@ -340,7 +340,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       } else {
         // Clear the models dropdown if no series is selected
-        modelsDropdown.innerHTML = `<option value="">List Price by Model</option>`;
+        modelsDropdown.innerHTML = `<option value="">Remove Price</option>`;
         // Clear the background image and hide the series image container
         seriesImageContainer.style.backgroundImage = "";
         seriesImageContainer.style.display = "none";
