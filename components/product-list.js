@@ -102,14 +102,23 @@ document.addEventListener("DOMContentLoaded", () => {
   const literatureToggleButton = document.createElement("button");
   literatureToggleButton.textContent = "Literature +";
   literatureToggleButton.addEventListener("click", () => {
-    // Toggle the visibility of Other Docs and Submittals
     const isHidden = otherDocsContainer.style.display === "none";
     otherDocsContainer.style.display = isHidden ? "block" : "none";
     submittalsContainer.style.display = isHidden ? "block" : "none";
-
+  
     // Toggle the button text
     literatureToggleButton.textContent = isHidden ? "Literature -" : "Literature +";
-  });
+  
+    // Find the Literature section container by its id
+    const literatureSection = submittalsContainer;
+  
+    // Check if the Literature section exists
+    if (literatureSection) {
+      // Scroll to the Literature section with smooth animation
+      literatureSection.scrollIntoView({ behavior: "smooth" });
+    }
+ });
+
 
   const imageProductContainer = createContainer("div", "product-image-container");
 
