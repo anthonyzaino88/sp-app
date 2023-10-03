@@ -284,7 +284,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (selectedSeries) {
         // Populate the models dropdown with models from the selected series
         modelsDropdown.innerHTML = `
-        <option value="">Price by Model</option>
+        <option value="">List Price by Model</option>
         ${Array.isArray(selectedSeries.models) ? selectedSeries.models.map((model) => `<option value="${model.name}">${model.name}</option>`).join("") : ""}
       `;
 
