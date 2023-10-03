@@ -48,15 +48,15 @@ class BottomNavbar extends HTMLElement {
           <img src="../assets/images/fan-white.svg" alt="Products" class="icon-color">
             <span class="nav-icon"></span><br>Products
           </a>
-          <a class="nav-link" href="/products.html">
+          <a class="nav-link" href="https://anthonyzaino88.github.io/sp-app/pages/library.html">
           <img src="../assets/images/library.svg" alt="Products" class="icon-color">
             <span class="nav-icon"></span><br>Library
           </a>
-          <a class="nav-link" href="/products.html">
+          <a class="nav-link" href="https://anthonyzaino88.github.io/sp-app/">
           <img src="../assets/images/right-left-white.svg" alt="Products" class="icon-color">
             <span class="nav-icon"></span><br>Cross-Ref
           </a>
-          <a class="nav-link" href="/pages/products.html">
+          <a class="nav-link" href="https://anthonyzaino88.github.io/sp-app/">
           <img src="../assets/images/solidplay-white.svg" alt="Products" class="icon-color">
             <span class="nav-icon"></span><br>Media
           </a>
