@@ -8,7 +8,7 @@
         {
           "id": 1,
           "name": "Ceiling Mount Ventilator",
-          "image": "../assets/images/Losone-Select-Ceiling.webp",
+          "image": "/assets/images/Losone-Select-Ceiling.webp",
           "description": "Incredibly reliable. Unbelievably quiet. Offering the CFM choices you need at the lowest sound levels in the industry.",
           "models": [
             {
@@ -3858,7 +3858,7 @@
           "id": 2,
           "name": "reFresh Low Profile",
           "image": "https://www.solerpalau-usa.com/images/products/refresh/RF8-120EC-Low-Profile.webp",
-          "description": "",
+          "description": "Low profile, all-in-one units to introduce fresh air from the outside into the residence. The reFresh series is specifically engineered to meet building and energy codes that call for ASHRAE 62.2 CFM requirements. The reFresh Low Profile Units have set speeds at 40, 100, and 140 CFM (Low, Medium, and High).",
           "models": [
             {
               "id": 1,
@@ -3926,7 +3926,7 @@
           "id": 3,
           "name": "reFresh Value",
           "image": "https://www.solerpalau-usa.com/images/products/refresh/products/RFV-recat.png",
-          "description": "",
+          "description": "The reFresh Value Series introduces fresh air from the outside into the residence. The value model is specifically engineered to meet building and energy codes that call for ASHRAE 62.2 (2010), IRC (2012/2015), and IMC (2012/2015) requirements.",
           "models": [
             {
               "id": 1,
@@ -3978,42 +3978,893 @@
         {
           "id": 1,
           "name": "ACF",
-          "image": "https://www.solerpalau-usa.com/images/products/spf/ACF-recat.png"
+          "image": "https://www.solerpalau-usa.com/images/products/spf/ACF-recat.png",
+          "description": "Made of corrosion-resistant galvanized steel, the ACF48 is a durable, value-priced fan with an IP55 motor and sealed ball bearings for diverse applications. It's easily installed via frame holes, with an optional wall box kit available.",
+          "models": [
+            {
+              "id": 1,
+              "name": "ACF48SL3D",
+              "price": "$1,336"
+            },
+            {
+              "id": 2,
+              "name": "ACF48WHSL3D",
+              "price": "$2,040"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "ACF",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-acf.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-acf2.pdf"
+            },
+            
+            {
+              "type": "Flyer",
+              "url": "https://www.solerpalau-usa.com/documents/Flyer/Flyer_ACF48.pdf"
+            },
+            {
+              "type": "Flyer",
+              "url": "https://www.solerpalau-usa.com/documents/Flyer/Flyer_ACF48.pdf"
+            }
+          ]
+          
         },
-        {
-          "id": 2,
-          "name": "WA",
-          "image": ""
-        },
+        
         {
           "id": 3,
           "name": "LCE and LCS",
-          "image": ""
-        },
-        {
-          "id": 4,
-          "name": "L2E and L2S",
-          "image": ""
-        },
-        {
-          "id": 5,
-          "name": "L3E and L3S",
-          "image": ""
-        },
-        {
-          "id": 6,
-          "name": "GED/eGED and GSD/eGSD",
-          "image": ""
-        },
-        {
-          "id": 7,
-          "name": "DFE and DFS",
-          "image": ""
-        },
-        {
-          "id": 8,
-          "name": "DDE and DDS",
-          "image": ""
+          "image": "https://www.solerpalau-usa.com/images/products/spf/LCE.png",
+          "description": "LCE (exhaust) and LCS (supply) are belt-driven propeller fans rated for 3,000 to 40,000 CFM and up to 5/8\" w.g. Designed for large volume air movement at low pressures, they're ideal for commercial spaces like warehouses, gyms, poultry houses, and greenhouses.",
+          "models": [
+            {
+              "id": 1,
+              "name": "LCE20MH1S",
+              "price": "$924.00"
+            },
+            {
+              "id": 2,
+              "name": "LCE20MH3S",
+              "price": "$951.00"
+            },
+            {
+              "id": 3,
+              "name": "LCE20PH1S",
+              "price": "$945.00"
+            },
+            {
+              "id": 4,
+              "name": "LCE20PH3S",
+              "price": "$934.00"
+            },
+            {
+              "id": 5,
+              "name": "LCE20QH1S",
+              "price": "$1,086.00"
+            },
+            {
+              "id": 6,
+              "name": "LCE20QH3S",
+              "price": "$1,022.00"
+            },
+            {
+              "id": 7,
+              "name": "LCE20RH1S",
+              "price": "$1,140.00"
+            },
+            {
+              "id": 8,
+              "name": "LCE20RH3S",
+              "price": "$957.00"
+            },
+            {
+              "id": 9,
+              "name": "LCE24MH1S",
+              "price": "$1,023.00"
+            },
+            {
+              "id": 10,
+              "name": "LCE24MH3S",
+              "price": "$1,049.00"
+            },
+            {
+              "id": 11,
+              "name": "LCE24PH1S",
+              "price": "$1,048.00"
+            },
+            {
+              "id": 12,
+              "name": "LCE24PH3S",
+              "price": "$1,035.00"
+            },
+            {
+              "id": 13,
+              "name": "LCE24QH1S",
+              "price": "$1,182.00"
+            },
+            {
+              "id": 14,
+              "name": "LCE24QH3S",
+              "price": "$1,121.00"
+            },
+            {
+              "id": 15,
+              "name": "LCE24RH1S",
+              "price": "$1,225.00"
+            },
+            {
+              "id": 16,
+              "name": "LCE24RH3S",
+              "price": "$1,138.00"
+            },
+            {
+              "id": 17,
+              "name": "LCE24SH1S",
+              "price": "$1,424.00"
+            },
+            {
+              "id": 18,
+              "name": "LCE24SH3S",
+              "price": "$1,310.00"
+            },
+            {
+              "id": 19,
+              "name": "LCE24TH1S",
+              "price": "$1,568.00"
+            },
+            {
+              "id": 20,
+              "name": "LCE24TH3S",
+              "price": "$1,358.00"
+            },
+            {
+              "id": 21,
+              "name": "LCE30MH1S",
+              "price": "$1,128.00"
+            },
+            {
+              "id": 22,
+              "name": "LCE30MH3S",
+              "price": "$1,155.00"
+            },
+            {
+              "id": 23,
+              "name": "LCE30PH1S",
+              "price": "$1,149.00"
+            },
+            {
+              "id": 24,
+              "name": "LCE30PH3S",
+              "price": "$1,135.00"
+            },
+            {
+              "id": 25,
+              "name": "LCE30QH1S",
+              "price": "$1,261.00"
+            },
+            {
+              "id": 26,
+              "name": "LCE30QH3S",
+              "price": "$1,197.00"
+            },
+            {
+              "id": 27,
+              "name": "LCE30RH1S",
+              "price": "$1,309.00"
+            },
+            {
+              "id": 28,
+              "name": "LCE30RH3S",
+              "price": "$1,221.00"
+            },
+            {
+              "id": 29,
+              "name": "LCE30SH1S",
+              "price": "$1,507.00"
+            },
+            {
+              "id": 30,
+              "name": "LCE30SH3S",
+              "price": "$1,393.00"
+            },
+            {
+              "id": 31,
+              "name": "LCE30TH1S",
+              "price": "$1,638.00"
+            },
+            {
+              "id": 32,
+              "name": "LCE30TH3S",
+              "price": "$1,430.00"
+            },
+            {
+              "id": 33,
+              "name": "LCE36PH1S",
+              "price": "$1,157.00"
+            },
+            {
+              "id": 34,
+              "name": "LCE36PH3S",
+              "price": "$1,143.00"
+            },
+            {
+              "id": 35,
+              "name": "LCE36QH1S",
+              "price": "$1,277.00"
+            },
+            {
+              "id": 36,
+              "name": "LCE36QH3S",
+              "price": "$1,213.00"
+            },
+            {
+              "id": 37,
+              "name": "LCE36RH1S",
+              "price": "$1,335.00"
+            },
+            {
+              "id": 38,
+              "name": "LCE36RH3S",
+              "price": "$1,246.00"
+            },
+            {
+              "id": 39,
+              "name": "LCE36SH1S",
+              "price": "$1,512.00"
+            },
+            {
+              "id": 40,
+              "name": "LCE36SH3S",
+              "price": "$1,398.00"
+            },
+            {
+              "id": 41,
+              "name": "LCE36TH1S",
+              "price": "$1,653.00"
+            },
+            {
+              "id": 42,
+              "name": "LCE36TH3S",
+              "price": "$1,442.00"
+            },
+            {
+              "id": 43,
+              "name": "LCE36VH1S",
+              "price": "$1,814.00"
+            },
+            {
+              "id": 44,
+              "name": "LCE36VH3S",
+              "price": "$1,365.00"
+            },
+            {
+              "id": 45,
+              "name": "LCE42PH1S",
+              "price": "$1,409.00"
+            },
+            {
+              "id": 46,
+              "name": "LCE42PH3S",
+              "price": "$1,397.00"
+            },
+            {
+              "id": 47,
+              "name": "LCE42QH1S",
+              "price": "$1,526.00"
+            },
+            {
+              "id": 48,
+              "name": "LCE42QH3S",
+              "price": "$1,464.00"
+            },
+            {
+              "id": 49,
+              "name": "LCE42RH1S",
+              "price": "$1,543.00"
+            },
+            {
+              "id": 50,
+              "name": "LCE42RH3S",
+              "price": "$1,457.00"
+            },
+            {
+              "id": 51,
+              "name": "LCE42SH1S",
+              "price": "$1,716.00"
+            },
+            {
+              "id": 52,
+              "name": "LCE42SH3S",
+              "price": "$1,604.00"
+            },
+            {
+              "id": 53,
+              "name": "LCE42TH1S",
+              "price": "$1,858.00"
+            },
+            {
+              "id": 54,
+              "name": "LCE42TH3S",
+              "price": "$1,647.00"
+            },
+            {
+              "id": 55,
+              "name": "LCE42VH1S",
+              "price": "$2,013.00"
+            },
+            {
+              "id": 56,
+              "name": "LCE42VH3S",
+              "price": "$1,564.00"
+            },
+            {
+              "id": 57,
+              "name": "LCE48QH1S",
+              "price": "$1,626.00"
+            },
+            {
+              "id": 58,
+              "name": "LCE48QH3S",
+              "price": "$1,563.00"
+            },
+            {
+              "id": 59,
+              "name": "LCE48RH1S",
+              "price": "$1,659.00"
+            },
+            {
+              "id": 60,
+              "name": "LCE48RH3S",
+              "price": "$1,571.00"
+            },
+            {
+              "id": 61,
+              "name": "LCE48SH1S",
+              "price": "$1,814.00"
+            },
+            {
+              "id": 62,
+              "name": "LCE48SH3S",
+              "price": "$1,697.00"
+            },
+            {
+              "id": 63,
+              "name": "LCE48TH1S",
+              "price": "$1,947.00"
+            },
+            {
+              "id": 64,
+              "name": "LCE48TH3S",
+              "price": "$1,739.00"
+            },
+            {
+              "id": 65,
+              "name": "LCE48VH1S",
+              "price": "$2,121.00"
+            },
+            {
+              "id": 66,
+              "name": "LCE48VH3S",
+              "price": "$1,673.00"
+            },
+            {
+              "id": 67,
+              "name": "LCE54RH1S",
+              "price": "$2,243.00"
+            },
+            {
+              "id": 68,
+              "name": "LCE54RH3S",
+              "price": "$2,156.00"
+            },
+            {
+              "id": 69,
+              "name": "LCE54SH1S",
+              "price": "$2,438.00"
+            },
+            {
+              "id": 70,
+              "name": "LCE54SH3S",
+              "price": "$2,326.00"
+            },
+            {
+              "id": 71,
+              "name": "LCE54TH1S",
+              "price": "$2,550.00"
+            },
+            {
+              "id": 72,
+              "name": "LCE54TH3S",
+              "price": "$2,341.00"
+            },
+            {
+              "id": 73,
+              "name": "LCE54VH1S",
+              "price": "$2,726.00"
+            },
+            {
+              "id": 74,
+              "name": "LCE54VH3S",
+              "price": "$2,279.00"
+            },
+            {
+              "id": 75,
+              "name": "LCE54WH3S",
+              "price": "$2,540.00"
+            },
+            {
+              "id": 76,
+              "name": "LCE60SH1S",
+              "price": "$2,452.00"
+            },
+            {
+              "id": 77,
+              "name": "LCE60SH3S",
+              "price": "$2,339.00"
+            },
+            {
+              "id": 78,
+              "name": "LCE60TH1S",
+              "price": "$2,582.00"
+            },
+            {
+              "id": 79,
+              "name": "LCE60TH3S",
+              "price": "$2,375.00"
+            },
+            {
+              "id": 80,
+              "name": "LCE60VH1S",
+              "price": "$2,761.00"
+            },
+            {
+              "id": 81,
+              "name": "LCE60VH3S",
+              "price": "$2,313.00"
+            },
+            {
+              "id": 82,
+              "name": "LCE60WH3S",
+              "price": "$2,562.00"
+            },
+            {
+              "id": 83,
+              "name": "LCS20MH1S",
+              "price": "$986.00"
+            },
+            {
+              "id": 84,
+              "name": "LCS20MH3S",
+              "price": "$1,011.00"
+            },
+            {
+              "id": 85,
+              "name": "LCS20PH1S",
+              "price": "$1,006.00"
+            },
+            {
+              "id": 86,
+              "name": "LCS20PH3S",
+              "price": "$994.00"
+            },
+            {
+              "id": 87,
+              "name": "LCS20QH1S",
+              "price": "$1,156.00"
+            },
+            {
+              "id": 88,
+              "name": "LCS20QH3S",
+              "price": "$1,088.00"
+            },
+            {
+              "id": 89,
+              "name": "LCS20RH1S",
+              "price": "$1,213.00"
+            },
+            {
+              "id": 90,
+              "name": "LCS20RH3S",
+              "price": "$1,021.00"
+            },
+            {
+              "id": 91,
+              "name": "LCS24MH1S",
+              "price": "$1,071.00"
+            },
+            {
+              "id": 92,
+              "name": "LCS24MH3S",
+              "price": "$1,098.00"
+            },
+            {
+              "id": 93,
+              "name": "LCS24PH1S",
+              "price": "$1,096.00"
+            },
+            {
+              "id": 94,
+              "name": "LCS24PH3S",
+              "price": "$1,083.00"
+            },
+            {
+              "id": 95,
+              "name": "LCS24QH1S",
+              "price": "$1,236.00"
+            },
+            {
+              "id": 96,
+              "name": "LCS24QH3S",
+              "price": "$1,172.00"
+            },
+            {
+              "id": 97,
+              "name": "LCS24RH1S",
+              "price": "$1,282.00"
+            },
+            {
+              "id": 98,
+              "name": "LCS24RH3S",
+              "price": "$1,192.00"
+            },
+            {
+              "id": 99,
+              "name": "LCS24SH1S",
+              "price": "$1,489.00"
+            },
+            {
+              "id": 100,
+              "name": "LCS24SH3S",
+              "price": "$1,371.00"
+            },
+            {
+              "id": 101,
+              "name": "LCS24TH1S",
+              "price": "$1,641.00"
+            },
+            {
+              "id": 102,
+              "name": "LCS24TH3S",
+              "price": "$1,421.00"
+            },
+            {
+              "id": 103,
+              "name": "LCS30MH1S",
+              "price": "$1,180.00"
+            },
+            {
+              "id": 104,
+              "name": "LCS30MH3S",
+              "price": "$1,208.00"
+            },
+            {
+              "id": 105,
+              "name": "LCS30PH1S",
+              "price": "$1,203.00"
+            },
+            {
+              "id": 106,
+              "name": "LCS30PH3S",
+              "price": "$1,191.00"
+            },
+            {
+              "id": 107,
+              "name": "LCS30QH1S",
+              "price": "$1,319.00"
+            },
+            {
+              "id": 108,
+              "name": "LCS30QH3S",
+              "price": "$1,254.00"
+            },
+            {
+              "id": 109,
+              "name": "LCS30RH1S",
+              "price": "$1,370.00"
+            },
+            {
+              "id": 110,
+              "name": "LCS30RH3S",
+              "price": "$1,278.00"
+            },
+            {
+              "id": 111,
+              "name": "LCS30SH1S",
+              "price": "$1,578.00"
+            },
+            {
+              "id": 112,
+              "name": "LCS30SH3S",
+              "price": "$1,460.00"
+            },
+            {
+              "id": 113,
+              "name": "LCS30TH1S",
+              "price": "$1,714.00"
+            },
+            {
+              "id": 114,
+              "name": "LCS30TH3S",
+              "price": "$1,497.00"
+            },
+            {
+              "id": 115,
+              "name": "LCS36PH1S",
+              "price": "$1,209.00"
+            },
+            {
+              "id": 116,
+              "name": "LCS36PH3S",
+              "price": "$1,196.00"
+            },
+            {
+              "id": 117,
+              "name": "LCS36QH1S",
+              "price": "$1,336.00"
+            },
+            {
+              "id": 118,
+              "name": "LCS36QH3S",
+              "price": "$1,269.00"
+            },
+            {
+              "id": 119,
+              "name": "LCS36RH1S",
+              "price": "$1,395.00"
+            },
+            {
+              "id": 120,
+              "name": "LCS36RH3S",
+              "price": "$1,302.00"
+            },
+            {
+              "id": 121,
+              "name": "LCS36SH1S",
+              "price": "$1,579.00"
+            },
+            {
+              "id": 122,
+              "name": "LCS36SH3S",
+              "price": "$1,463.00"
+            },
+            {
+              "id": 123,
+              "name": "LCS36TH1S",
+              "price": "$1,726.00"
+            },
+            {
+              "id": 124,
+              "name": "LCS36TH3S",
+              "price": "$1,507.00"
+            },
+            {
+              "id": 125,
+              "name": "LCS36VH1S",
+              "price": "$1,896.00"
+            },
+            {
+              "id": 126,
+              "name": "LCS36VH3S",
+              "price": "$1,427.00"
+            },
+            {
+              "id": 127,
+              "name": "LCS42PH1S",
+              "price": "$1,480.00"
+            },
+            {
+              "id": 128,
+              "name": "LCS42PH3S",
+              "price": "$1,468.00"
+            },
+            {
+              "id": 129,
+              "name": "LCS42QH1S",
+              "price": "$1,604.00"
+            },
+            {
+              "id": 130,
+              "name": "LCS42QH3S",
+              "price": "$1,536.00"
+            },
+            {
+              "id": 131,
+              "name": "LCS42RH1S",
+              "price": "$1,621.00"
+            },
+            {
+              "id": 132,
+              "name": "LCS42RH3S",
+              "price": "$1,529.00"
+            },
+            {
+              "id": 133,
+              "name": "LCS42SH1S",
+              "price": "$1,804.00"
+            },
+            {
+              "id": 134,
+              "name": "LCS42SH3S",
+              "price": "$1,683.00"
+            },
+            {
+              "id": 135,
+              "name": "LCS42TH1S",
+              "price": "$1,952.00"
+            },
+            {
+              "id": 136,
+              "name": "LCS42TH3S",
+              "price": "$1,731.00"
+            },
+            {
+              "id": 137,
+              "name": "LCS42VH1S",
+              "price": "$2,114.00"
+            },
+            {
+              "id": 138,
+              "name": "LCS42VH3S",
+              "price": "$1,642.00"
+            },
+            {
+              "id": 139,
+              "name": "LCS48QH1S",
+              "price": "$1,687.00"
+            },
+            {
+              "id": 140,
+              "name": "LCS48QH3S",
+              "price": "$1,621.00"
+            },
+            {
+              "id": 141,
+              "name": "LCS48RH1S",
+              "price": "$1,722.00"
+            },
+            {
+              "id": 142,
+              "name": "LCS48RH3S",
+              "price": "$1,628.00"
+            },
+            {
+              "id": 143,
+              "name": "LCS48SH1S",
+              "price": "$1,881.00"
+            },
+            {
+              "id": 144,
+              "name": "LCS48SH3S",
+              "price": "$1,761.00"
+            },
+            {
+              "id": 145,
+              "name": "LCS48TH1S",
+              "price": "$2,017.00"
+            },
+            {
+              "id": 146,
+              "name": "LCS48TH3S",
+              "price": "$1,801.00"
+            },
+            {
+              "id": 147,
+              "name": "LCS48VH1S",
+              "price": "$2,200.00"
+            },
+            {
+              "id": 148,
+              "name": "LCS48VH3S",
+              "price": "$1,736.00"
+            },
+            {
+              "id": 149,
+              "name": "LCS54RH1S",
+              "price": "$2,345.00"
+            },
+            {
+              "id": 150,
+              "name": "LCS54RH3S",
+              "price": "$2,254.00"
+            },
+            {
+              "id": 151,
+              "name": "LCS54SH1S",
+              "price": "$2,549.00"
+            },
+            {
+              "id": 152,
+              "name": "LCS54SH3S",
+              "price": "$2,430.00"
+            },
+            {
+              "id": 153,
+              "name": "LCS54TH1S",
+              "price": "$2,666.00"
+            },
+            {
+              "id": 154,
+              "name": "LCS54TH3S",
+              "price": "$2,445.00"
+            },
+            {
+              "id": 155,
+              "name": "LCS54VH1S",
+              "price": "$2,849.00"
+            },
+            {
+              "id": 156,
+              "name": "LCS54VH3S",
+              "price": "$2,380.00"
+            },
+            {
+              "id": 157,
+              "name": "LCS54WH3S",
+              "price": "$2,653.00"
+            },
+            {
+              "id": 158,
+              "name": "LCS60SH1S",
+              "price": "$2,452.00"
+            },
+            {
+              "id": 159,
+              "name": "LCS60SH3S",
+              "price": "$2,339.00"
+            },
+            {
+              "id": 160,
+              "name": "LCS60TH1S",
+              "price": "$2,582.00"
+            },
+            {
+              "id": 161,
+              "name": "LCS60TH3S",
+              "price": "$2,375.00"
+            },
+            {
+              "id": 162,
+              "name": "LCS60VH1S",
+              "price": "$2,761.00"
+            },
+            {
+              "id": 163,
+              "name": "LCS60VH3S",
+              "price": "$2,313.00"
+            },
+            {
+              "id": 164,
+              "name": "LCS60WH3S",
+              "price": "$2,562.00"
+            }
+            
+          ],
+          "submittals": [
+            {
+              "type": "LCE and LCS",
+              "url": "https://www.solerpalau-usa.com/documents/Submittal/sub-lc.pdf"
+            }
+            
+          ],
+          "otherDocs": [ 
+            {
+              "type": "IOM",
+              "url": "https://www.solerpalau-usa.com/documents/IOM/iom-lc-l2-l3.pdf"
+            },
+            
+            {
+              "type": "Catalog",
+              "url": "https://www.solerpalau-usa.com/documents/Catalog/cat-lc-l2-l3.pdf"
+            }
+          ]
+          
         }
       ]
     },
@@ -4027,7 +4878,7 @@
           "id": 1,
           "name": "CM",
           "image": "https://www.solerpalau-usa.com/images/products/uvs/CM-recat.png",
-          "description": "",
+          "description": "The CM Series utility fans are belt-driven for medium to high-pressure commercial and industrial uses. They come with a motor on an adjustable base, v-belt drives, and durable ball bearings. Their easy installation design is cost-effective, and each fan undergoes testing for reliable, low-maintenance operation.",
           "models": [
             {
               "id": 1,
