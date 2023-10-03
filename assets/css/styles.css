@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    height: 100%; /* 100% of the viewport height */
+    height: 90%; /* 100% of the viewport height */
     flex-direction: column;
     margin-left: 1rem;
     margin-right: 1rem;
