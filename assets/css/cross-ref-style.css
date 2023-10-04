@@ -1,0 +1,115 @@
+/* Container Styles */
+.my-container {
+    max-width: 100%; /* Make it responsive to various screen sizes */
+    margin: 0 auto; /* Center align horizontally */
+    padding: 1rem; /* Add padding for better spacing */
+    margin-top: 6rem;
+}
+
+/* Table Styles */
+/* Table Styles */
+table {
+    font-family: Arial, sans-serif;
+    width: 100%; /* Make the table responsive to its container */
+    font-size: 14px; /* Increase font size for better readability */
+    border-collapse: collapse; /* Remove spacing between table cells */
+}
+
+/* Set a specific width for table headers and cells */
+.header th, #myTable tbody tr td {
+    max-width: 10px; /* Adjust the maximum width as needed */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Show ellipsis for overflowed text */
+    padding: .25rem;
+    border: solid 1px rgba(0, 0, 0, 0.200);
+}
+
+
+
+tbody {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.header {
+     position: sticky!important;
+     top: 0;
+     
+}
+
+.header th {
+    font-size: 13px; /* Increase font size for better readability */
+    text-align: center; /* Center-align headers */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Show ellipsis for overflowed text */
+    background-color: #053658 ;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+/* Hide the 4th column */
+#myTable tbody tr td:nth-child(4),
+.header th:nth-child(4) {
+    display: none;
+}
+
+/* Image Styles */
+.table-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Input Styles */
+input.left-input {
+    width: 90%; /* Wider input fields for touch-friendly usability */
+    padding: 8px;
+    letter-spacing: 1px;
+    border: 1px solid #dddddd; /* Make border thinner */
+    border-radius: 2px; /* Slightly round the corners */
+    background-color: whitesmoke;
+}
+
+/* Dropdown Styles */
+.input-dropdown-container {
+    margin-top: 5px;
+}
+
+select#inputroot {
+    width: 60%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #dddddd;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: whitesmoke;
+}
+
+label {
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* Wrapper Styles */
+.table-wrapper {
+    max-height: 500px; /* Limit table height for scrolling */
+    overflow-y: auto; /* Add vertical scroll if needed */
+   
+}
+
+/* Other Styles */
+.icon-style {
+    background-color: #dddddd;
+    padding: 8px; /* Increase padding for touch-friendliness */
+    border-radius: 5px; /* Slightly round the corners */
+    display: inline-block;
+    cursor: pointer; /* Show pointer cursor for clickable elements */
+}
+
+/* Font Awesome Styles (if needed) */
+.fa, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    /* Add any other necessary styles for your icons */
+}
