@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competitive Cross Reference | S&amp;P USA Ventilation Systems, LLC</title>
+    <link rel="stylesheet" href="/assets/css/cross-ref-style.css">
+</head>
+<body>
+    <div style="color: whitesmoke; background-color: #053658 ; font-size: 25px; width: 100%; position: fixed; top: 0; display: flex; justify-content: space-between; opacity: 1; z-index: 9999;">
+        <div style="padding: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            align-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            font-weight: 500;
+        ">Cross Reference</div>
+        <img style="padding: 1rem;" src="//www.solerpalau-usa.com/images/logos/logo-mb.png" alt="logo" srcset="">
+    </div>
+
+      <div class="my-container">
+      <div class="search-component-container">
+        <div class="input-container">
+        <input class="left-input" type="text" id="myInput" placeholder="Search Cross Reference" title="Type in a name">
+        </div>
+    <div class="input-dropdown-container">
+        <form>
+          <label for="Select Competitor">Competitors:</label>      
+          <select id="inputroot"></select>
+        </form>
+      </div>
+    </div>
+    <div class="table-wrapper">
+          <table id="myTable">
+            <thead>
+            <tr class="header">
+              <th>Competitor<br> Series</th>
+              <th>Competitor<br> Name</th>
+              <th>S&P <br> Series</th>
+              <th>Description</th>
+              <th>Image</th>
+            </tr>
+          </thead>
+          <tr id="root"></tr>
+        </table>
+     </div>
+    </div>
+    <div class="container">
+      <p class="my-3 hidden-sm hidden-md"><b>NOTE:</b> S&amp;P or Competitor models may change without notice.</p>
+    </div>
+    
+    <bottom-navbar></bottom-navbar>
+    <script src="/components/navbar.js"></script>
+  
+    <script src="/components/cross-reference-table.js"></script>
+    
+    
+      </body>
+      </html>
