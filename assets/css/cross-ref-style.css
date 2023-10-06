@@ -78,11 +78,12 @@ tbody {
 /* Input Styles */
 input.left-input {
     width: 90%; /* Wider input fields for touch-friendly usability */
-    padding: 8px;
     letter-spacing: 1px;
-    border: 1px solid #dddddd; /* Make border thinner */
-    border-radius: 2px; /* Slightly round the corners */
-    background-color: whitesmoke;
+    padding: 0.75rem!important;
+    border-radius: 8px!important;
+    border: none!important;
+    background-color: whitesmoke!important;
+    font-size: 15px!important;
 }
 
 /* Dropdown Styles */
@@ -94,14 +95,17 @@ select#inputroot {
     width: 60%;
     margin-top: 12px;
     margin-bottom: 12px;
-    border: 1px solid #dddddd;
-    color: rgba(0, 0, 0, 0.8);
-    background-color: whitesmoke;
+    letter-spacing: 1px;
+    padding: 0.5rem!important;
+    border-radius: 8px!important;
+    border: none!important;
+    background-color: whitesmoke!important;
+    font-size: 15px!important;
 }
 
 label {
     letter-spacing: 1px;
-    color: rgba(0, 0, 0, 0.8);
+    color: #053658!important;
 }
 
 /* Wrapper Styles */
