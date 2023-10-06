@@ -101,7 +101,7 @@ select#inputroot {
     border: none!important;
     background-color: whitesmoke!important;
     font-size: 15px!important;
-    color: rgba(0, 0, 0, 0.8);!important;
+    color: rgba(0, 0, 0, 0.5);!important;
 }
 
 label {
