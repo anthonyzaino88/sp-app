@@ -52,13 +52,13 @@ class BottomNavbar extends HTMLElement {
           <img src="../assets/images/library.svg" alt="Products" class="icon-color">
             <span class="nav-icon"></span><br>Library
           </a>
-          <a class="nav-link" href="https://anthonyzaino88.github.io/sp-app/">
+          <a class="nav-link" href="https://anthonyzaino88.github.io/sp-app/pages/cross-ref.html">
           <img src="../assets/images/right-left-white.svg" alt="Products" class="icon-color">
             <span class="nav-icon"></span><br>Cross-Ref
           </a>
           <a class="nav-link" href="https://anthonyzaino88.github.io/sp-app/">
-          <img src="../assets/images/solidplay-white.svg" alt="Products" class="icon-color">
-            <span class="nav-icon"></span><br>Media
+          <img src="../assets/images/links-nav.svg" alt="Links" class="icon-color">
+            <span class="nav-icon"></span><br>Links
           </a>
         </nav>
       `;
