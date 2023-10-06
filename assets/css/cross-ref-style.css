@@ -6,6 +6,10 @@
     margin-top: 6rem;
 }
 
+body {
+    margin: 0;
+}
+
 /* Table Styles */
 /* Table Styles */
 table {
@@ -23,6 +27,7 @@ table {
     text-overflow: ellipsis; /* Show ellipsis for overflowed text */
     padding: .25rem;
     border: solid 1px rgba(0, 0, 0, 0.200);
+    
 }
 
 
@@ -30,11 +35,17 @@ table {
 tbody {
     background-color: whitesmoke;
     color: black;
+    padding-top: 50px; /* Adjust the height as per your sticky header's height */
+    overflow-y: scroll; 
 }
 
 .header {
      position: sticky!important;
      top: 0;
+     background-color: #053658; 
+     height: 60px;
+     
+   
      
 }
 
@@ -47,6 +58,8 @@ tbody {
     background-color: #053658 ;
     color: whitesmoke;
     font-weight: 500;
+
+    
 }
 
 /* Hide the 4th column */
