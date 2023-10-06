@@ -10,7 +10,7 @@ body {
     margin: 0;
 }
 
-/* Table Styles */
+
 /* Table Styles */
 table {
     font-family: Arial, sans-serif;
@@ -26,7 +26,7 @@ table {
     overflow: hidden;
     text-overflow: ellipsis; /* Show ellipsis for overflowed text */
     padding: .25rem;
-    border: solid 1px rgba(0, 0, 0, 0.200);
+  
     
 }
 
@@ -42,9 +42,7 @@ tbody {
 .header {
      position: sticky!important;
      top: 0;
-     background-color: #053658; 
-     height: 60px;
-     
+    
    
      
 }
