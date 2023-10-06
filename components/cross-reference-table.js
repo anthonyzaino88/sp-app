@@ -6,7 +6,7 @@ let competitorSorted = true;
 let sortColumn = 'CompetitorModel';
 let sortBySeries = false;
 
-fetch('/data/cross-references.json')
+fetch('./data/cross-references.json')
   .then(response => response.json())
   .then(jsonData => {
     data = jsonData;
@@ -17,7 +17,7 @@ fetch('/data/cross-references.json')
   })
   .catch(error => console.error(error));
 
-fetch('/data/competitors.json')
+fetch('./data/competitors.json')
   .then(response => response.json())
   .then(data => {
     dropdown.appendChild(createOption('--Select-All--'));
