@@ -136,3 +136,9 @@ label {
     font-weight: 900;
     /* Add any other necessary styles for your icons */
 }
+
+.disclaimer { 
+    padding: 1rem;
+    font-size: 14px;
+
+}
