@@ -45,7 +45,7 @@ tbody {
      z-index: 1;
 }
 
-.header th::before {
+.header th::after {
     content: ''!important; /* Add an empty pseudo-element */
     position: absolute!important;
     top: 0!important;
