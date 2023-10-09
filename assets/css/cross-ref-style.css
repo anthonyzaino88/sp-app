@@ -43,18 +43,10 @@ tbody {
      position: sticky!important;
      top: 0;
      z-index: 1;
+
 }
 
-.header th::after {
-    content: ''!important; /* Add an empty pseudo-element */
-    position: absolute!important;
-    top: 0!important;
-    left: 0!important;
-    width: 100%!important;
-    height: 100%!important;
-    border-bottom: solid 1px rgba(0, 0, 0, 0.100)!important; /* Apply the border to the pseudo-element */
-    box-sizing: border-box!important;
-}
+
 
 .header th {
     font-size: 13px; /* Increase font size for better readability */
@@ -66,6 +58,7 @@ tbody {
     color: #053658 ;
     font-weight: 500;
     padding: 0.5rem;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.100)!important; /* Apply the border to the pseudo-element */
     
 }
 
