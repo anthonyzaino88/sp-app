@@ -50,7 +50,7 @@ tbody {
 
 .header th {
     font-size: 13px; /* Increase font size for better readability */
-    text-align: center; /* Center-align headers */
+    text-align: left; /* Center-align headers */
     white-space: nowrap; /* Prevent text from wrapping */
     overflow: hidden;
     text-overflow: ellipsis; /* Show ellipsis for overflowed text */
@@ -59,6 +59,7 @@ tbody {
     font-weight: 500;
     padding: 0.5rem;
      border-bottom: solid 1px rgba(0, 0, 0, 0.200);
+    top: 0;
 
     
 }
