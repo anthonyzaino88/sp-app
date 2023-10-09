@@ -113,13 +113,13 @@ select#inputroot {
     border: none!important;
     background-color: whitesmoke!important;
     font-size: 15px!important;
-    color: rgba(0, 0, 0, 0.5);!important;
+    color: rgba(0, 0, 0, 0.5)!important;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 label {
     letter-spacing: 1px;
-    color: rgba(0, 0, 0, 0.8);!important;
+    color: rgba(0, 0, 0, 0.8)!important;
 }
 
 /* Wrapper Styles */
