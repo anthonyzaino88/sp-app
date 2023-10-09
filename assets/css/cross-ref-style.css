@@ -42,10 +42,17 @@ tbody {
 .header {
      position: sticky!important;
      top: 0;
-    
-    
-   
-     
+}
+
+.header th::before {
+    content: ''; /* Add an empty pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgba(0, 0, 0, 0.200); /* Apply the border to the pseudo-element */
+    box-sizing: border-box;
 }
 
 .header th {
