@@ -53,8 +53,8 @@ tbody {
     white-space: nowrap; /* Prevent text from wrapping */
     overflow: hidden;
     text-overflow: ellipsis; /* Show ellipsis for overflowed text */
-    background-color: #053658 ;
-    color: whitesmoke;
+    background-color: whitesmoke ;
+    color: #053658 ;
     font-weight: 500;
     padding: 0.5rem;
 
