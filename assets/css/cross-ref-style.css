@@ -93,7 +93,7 @@ input.left-input {
     letter-spacing: 1px;
     padding: 0.75rem!important;
     border-radius: 8px!important;
-    border: none!important;
+    border: 1px solid rgba(0, 0, 0, 0.2)!important;
     background-color: whitesmoke!important;
     font-size: 15px!important;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -111,7 +111,7 @@ select#inputroot {
     letter-spacing: 1px;
     padding: 0.5rem!important;
     border-radius: 8px!important;
-    border: none!important;
+    border: 1px solid rgba(0, 0, 0, 0.2)!important;
     background-color: whitesmoke!important;
     font-size: 15px!important;
     color: rgba(0, 0, 0, 0.5)!important;
