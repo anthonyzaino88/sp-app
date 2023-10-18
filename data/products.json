@@ -2,13 +2,14 @@
     {
       "id": 1,
       "name": "Ceiling & Cabinet Fans",
+      "description": "S&P's range of Ceiling and Wall Mounted Centrifugal Exhaust fans primarily exhaust air from bathrooms in residential and commercial settings.",
      
     
        "series": [
         {
           "id": 1,
           "name": "Ceiling Mount Ventilator",
-          "image": "../assets/images/Losone-Select-Ceiling.webp",
+          "image": "/assets/images/Losone-Select-Ceiling.webp",
           "description": "Incredibly reliable. Unbelievably quiet. Offering the CFM choices you need at the lowest sound levels in the industry.",
           "models": [
             {
@@ -142,6 +143,7 @@
     {
       "id": 2,
       "name": "Centrifugal Filtered Supply Fans",
+      "description": "Centrifugal Filtered Supply fans provide make-up air to commercial or industrial applications.",
   
       "series": [
         {
@@ -695,6 +697,7 @@
     {
       "id": 3,
       "name": "Centrifugal Roof & Wall Fans",
+      "description":"Centrifugal Roof and Wall fans are installed on a roof curb or exterior wall. These types of fans are used to exhaust and/or supply air in commercial or institutional buildings.",
   
       "series": [
         {
@@ -2061,6 +2064,7 @@
     {
       "id": 4,
       "name": "Energy Recovery Ventilators",
+      "description": "Energy Recovery Ventilators supply and exhaust equal amounts of air creating a balanced system which is optimal for all applications.",
   
       "series": [
         {
@@ -2476,6 +2480,7 @@
     {
       "id": 5,
       "name": "Gravity Vents",
+      "description" : "Gravity Vents are spun aluminum intake/relief ventilators designed for use in both gravity and mechanical ventilation systems.",
   
       "series": [
         {
@@ -2626,6 +2631,7 @@
     {
       "id": 7,
       "name": "In-line/Sidewall Duct Fans",
+      "description" : "Duct Mounted Mixed Flow In-line fans are used to exhaust, supply, or boost air through ductwork from one area to another in residential and commercial settings.",
   
       "series": [
         {
@@ -3467,6 +3473,7 @@
     {
       "id": 10,
       "name": "Outside Air Motorized Damper Kits",
+      "description" : "The MDX-ES24VK from S&P allows air to enter dwellings to meet building code and ventilation standards requirements through a motorized damper controlled by a 24V temperature/humidity monitoring control.",
   
       "series": [
         {
@@ -3523,6 +3530,7 @@
     {
       "id": 11,
       "name": "Premium CHOICE Series",
+      "description" : "Premium CHOICE Series ventilation fans give you the flexibility to create the ventilation system you need with our unique plug-&-play technology developed by S&P.",
   
       "series": [
         {
@@ -3747,6 +3755,7 @@
     {
       "id": 12,
       "name": "reFresh Series",
+      "description" : "The reFresh Series is engineered to meet building and energy codes that call for ASHRAE 62.2 CFM requirements with a design that provides homeowners with the best IAQ solution in an all-in-one unit.",
   
       "series": [
         {
@@ -3972,6 +3981,7 @@
     {
       "id": 14,
       "name": "Sidewall Propeller Fans",
+      "description": "Sidewall Propeller fans are installed on the exterior wall of a building. These types of fans are used to pull air inside the building and expel it outside.",
 
   
       "series": [
@@ -4872,6 +4882,7 @@
     {
       "id": 16,
       "name": "Utility Vent Sets",
+      "description": "The Roof-Mounted Centrifugal Utility Vent sets are designed to work in medium and high-pressure static pressure applications to exhaust or supply air.",
   
       "series": [
         {
