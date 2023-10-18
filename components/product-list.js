@@ -5,9 +5,6 @@ function createContainer(elementType, className) {
   return container;
 }
 
-
-
-
 // Define a function to add a description section
 function addDescription(description) {
   // Create a container for the description
@@ -43,18 +40,51 @@ function displayDescription(product, selectedSeries) {
   }
 }
 
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
+  // Function to extract URL parameters
+  function getUrlParameter(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+  }
+
+
+  // Add the popstate event listener to handle browser back button clicks
+window.addEventListener("popstate", (event) => {
+  // Check the event state for the previous state
+  const previousState = event.state;
+
+  // If the previous state exists and contains path information
+  if (previousState && previousState.path) {
+    // Handle any actions you need when the back button is clicked
+    // This may include hiding the product info and showing the series container
+    // Update the URL to remove the product and series parameters
+    const updatedUrl = "../pages/products.html"; // Remove the parameters
+    window.history.pushState({ path: updatedUrl }, "", updatedUrl);
+  }
+
+  // Handle any other actions you need to perform when navigating back
+});
+
+
+
+
+
+
+
+
+
+
+  // Extract product and series parameters from the URL
+  const selectedProduct = getUrlParameter("product");
+
+
   // Find the main product container
   const productContainer = document.querySelector(".product-list-container");
 
   // Initialize variables
   let activeProductImage = null; // Track the currently clicked product image
   let isProductInfoVisible = false; // Track whether product info is visible
+
 
   // Create a container for the product series
   const seriesContainer = createContainer("div", "series-container");
@@ -105,25 +135,21 @@ document.addEventListener("DOMContentLoaded", () => {
     const isHidden = otherDocsContainer.style.display === "none";
     otherDocsContainer.style.display = isHidden ? "block" : "none";
     submittalsContainer.style.display = isHidden ? "block" : "none";
-  
+
     // Toggle the button text
     literatureToggleButton.textContent = isHidden ? "Literature -" : "Literature +";
-  
+
     // Find the Literature section container by its id
     const literatureSection = submittalsContainer;
-  
+
     // Check if the Literature section exists
     if (literatureSection) {
       // Scroll to the Literature section with smooth animation
       literatureSection.scrollIntoView({ behavior: "smooth" });
     }
- });
-
+  });
 
   const imageProductContainer = createContainer("div", "product-image-container");
-
-
-
   // Create a container for Literature titles and wrap the otherDocsContainer and submittalsContainer
   const litTitlesContainer = createContainer("div", "lit-titles-container");
 
@@ -148,11 +174,11 @@ document.addEventListener("DOMContentLoaded", () => {
   litTitlesContainer.appendChild(otherDocsContainer);
   litTitlesContainer.appendChild(submittalsContainer);
 
-    // Append the product image container below the product info container
-    productContainer.insertBefore(imageProductContainer, productInfoContainer.nextSibling);
-  
-    // Initially hide the imageProductContainer
-    imageProductContainer.style.display = "none";
+  // Append the product image container below the product info container
+  productContainer.insertBefore(imageProductContainer, productInfoContainer.nextSibling);
+
+  // Initially hide the imageProductContainer
+  imageProductContainer.style.display = "none";
 
   // Add an event listener to the back arrow
   backArrow.addEventListener("click", () => {
@@ -196,6 +222,10 @@ document.addEventListener("DOMContentLoaded", () => {
     if (literatureDropdownContainer.style.display = "none") {
       literatureToggleButton.textContent = "Literature +";
     }
+
+      // Update the URL to remove the product and series parameters
+  const updatedUrl = "../pages/products.html"; // Remove the parameters
+  window.history.pushState({ path: updatedUrl }, "", updatedUrl);
   });
 
   function displayDescription(product, selectedSeries) {
@@ -218,7 +248,6 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error("Selected series not found:", selectedSeries);
     }
   }
-
   // Fetch product data from a JSON source
   fetch("../data/products.json") // Update with your JSON data source
     .then((response) => response.json())
@@ -227,6 +256,14 @@ document.addEventListener("DOMContentLoaded", () => {
       data.forEach((product) => {
         // Create a container for the product listing
         const productListing = createContainer("div", "product-listing");
+
+           // Check if a selected product exists in the URL
+           if (selectedProduct) {
+            // If selectedProduct exists, hide products that don't match the selected product
+            if (product.name !== selectedProduct) {
+              productListing.style.display = "none";
+            }
+          }
 
         literatureDropdownContainer.style.display = "none";
 
@@ -239,15 +276,18 @@ document.addEventListener("DOMContentLoaded", () => {
         productListing.innerHTML = productHTML;
 
         // Add a click event listener to the product image
-        productListing.querySelector(".product-image").addEventListener("click", () => {
+        const productImage = productListing.querySelector(".product-image");
+        productImage.addEventListener("click", () => {
+          // Set the data-product-name attribute on the product-image-container
+          productImageContainer.setAttribute("data-product-name", product.name);
+
           // Hide all other product listings
           document.querySelectorAll(".product-listing").forEach((listing) => {
             listing.style.display = "none";
           });
 
           // Set the clicked image as active
-          activeProductImage = productListing.querySelector(".product-image");
-          activeProductImage.classList.add("active");
+          productImage.classList.add("active");
 
           // Display the product information underneath in a separate container
           displayProductInfo(product);
@@ -257,9 +297,20 @@ document.addEventListener("DOMContentLoaded", () => {
           backArrow.style.display = "flex";
           isProductInfoVisible = true;
           literatureDropdownContainer.style.display = "none";
+
+          // Update the URL with the selected product and series
+          const updatedUrl = `https://anthonyzaino88.github.io/sp-app/pages/products.html?product=${encodeURIComponent(product.name)}`;
+          window.history.pushState({ path: updatedUrl }, "", updatedUrl);
         });
+
         // Append the product listing to the series container
         seriesContainer.appendChild(productListing);
+
+        // Check if the current product matches the selected product from the URL
+        if (product.name === selectedProduct) {
+          // Simulate a click event on the matching product image
+          productImage.click();
+        }
       });
     })
     .catch((error) => {
@@ -340,12 +391,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       } else {
         // Clear the models dropdown if no series is selected
-        modelsDropdown.innerHTML = `<option value="">Remove Price</option>`;
+        modelsDropdown.innerHTML = `<option value="">Select a Model</option>`;
         // Clear the background image and hide the series image container
         seriesImageContainer.style.backgroundImage = "";
         seriesImageContainer.style.display = "none";
         imageProductContainer.style.display = "flex";
-        
 
         descriptionContainer.innerHTML = "";
 
@@ -410,45 +460,60 @@ document.addEventListener("DOMContentLoaded", () => {
   function displayProductImages(product) {
     // Clear existing content in the imageProductContainer
     imageProductContainer.innerHTML = '';
-  
+
     // Iterate through each series in the active product
     product.series.forEach((series) => {
       // Create a container for the series image
       const seriesImageContainer = createContainer("div", "series-image");
-  
+
       // Set the background image for the series
       seriesImageContainer.style.backgroundImage = `url('${series.image}')`;
-  
+
       // Add a click event listener to the series image
       seriesImageContainer.addEventListener("click", () => {
         // Find the series dropdown element
         const seriesDropdown = document.querySelector(".series-dropdown");
-  
+
         // Check if the series dropdown element exists
         if (seriesDropdown) {
           // Set the value of the series dropdown to the clicked series name
           seriesDropdown.value = series.name;
-  
+
           // Trigger the change event on the series dropdown to populate data
           seriesDropdown.dispatchEvent(new Event("change"));
         }
       });
-  
+
       // Create a title for the series image
       const titleElement = createContainer("div", "title-img-series");
       titleElement.textContent = series.name;
-  
+
       // Append the title to the series image container
       seriesImageContainer.appendChild(titleElement);
-  
+
       // Append the series image container to the imageProductContainer
       imageProductContainer.appendChild(seriesImageContainer);
     });
-  
+
     // Show the imageProductContainer
     imageProductContainer.style.display = "flex";
   }
-  
+
+    
+  // Add the popstate event listener
+  window.addEventListener("popstate", (event) => {
+    // Check the event state for the previous state
+    const previousState = event.state;
+
+    // If the previous state exists and contains path information
+    if (previousState && previousState.path) {
+      // Update the URL to remove the product and series parameters
+      const updatedUrl = "https://anthonyzaino88.github.io/sp-app/pages/products.html"; // Remove the parameters
+      window.history.pushState({ path: updatedUrl }, "", updatedUrl);
+    }
+
+  });
+
 
   function clearProductInfo() {
     const seriesDropdownContainer = productInfoContainer.querySelector(".series-dropdown-container");
