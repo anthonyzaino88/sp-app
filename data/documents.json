@@ -1,0 +1,2120 @@
+{
+
+"categories" :    [
+
+{
+  "name": "Brochure",
+    "items" :  [
+    {
+      "name": "Assisted Living Application Guide",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/assisted-living-application-guide.pdf"
+    },
+    {
+      "name": "Ecowatt®",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/Ecowatt-Brochure.pdf"
+    },
+    {
+      "name": "Food Retail Application Guide",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/Food_Retail_Application_Guide.pdf"
+    },
+    {
+      "name": "High Volume Low Speed Fan Series",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/THVLS-Brochure.pdf"
+    },
+    {
+      "name": "Hotel and Resorts Application Guide",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/hotel-resort-application-guide.pdf"
+    },
+    {
+      "name": "Inline Fan Options",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/inline-fan-options.pdf"
+    },
+    {
+      "name": "Jet Fan Series",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/Jet-Fans-Brochure.pdf"
+    },
+    {
+      "name": "Kitchen Hoods",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/Kitchen Hoods/KitchenHoods.pdf"
+    },
+    {
+      "name": "Mitigating Covid-19 in the Workplace",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/Mixed-Use_Building_Application_Guide.pdf"
+    },
+    {
+      "name": "Mixed-Use Building Application Guide",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/Mixed-Use_Building_Application_Guide.pdf"
+    },
+    {
+      "name": "Outside Air Solutions",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/OAS-Brochure.pdf"
+    },
+    {
+      "name": "Premium CHOICE Series",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/Premium-CHOICE-Series.pdf"
+    },
+    {
+      "name": "Product Line Overview",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/Product-Line-Overview.pdf"
+    },
+    {
+      "name": "Quickship Catalog",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/Quickship_Catalog.pdf"
+    },
+    {
+      "name": "Radon Mitigation Fans",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/radon-mitigation.pdf"
+    },
+    {
+      "name": "reFresh Series",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/ReFresh-Brochure.pdf"
+    },
+    {
+      "name": "Residential Application Guide",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/Residential_Application_Guide.pdf"
+    },
+    {
+      "name": "Restaurants Application Guide",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/Restaurants_Application_Guide.pdf"
+    },
+    {
+      "name": "Total Recovery Ventilators",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/TRV-updated.pdf"
+    },
+    {
+      "name": "Warehouse/Distribution Center Application Guide",
+      "link": "https://www.solerpalau-usa.com/documents/Brochure/Warehouse_Distribution_Center_Application_Guide.pdf"
+    }]
+  },
+
+
+{
+  "name": "Flyer",
+    "items" : [
+
+  {
+    "name": "6002, 6002-14B, 6002A and 6002-14A",
+    "description" : "Ventilation Gas Detectors",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/6002-Flyer-031621.pdf"
+  },
+  {
+    "name": "ACF48",
+    "description" : "Agricultural Circulating Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/Flyer_ACF48.pdf"
+  },
+  {
+    "name": "Backdraft Motorized Dampers",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/BMD.pdf"
+  },
+  {
+    "name": "Commercial Products",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/Commercial_Products_Flyer.pdf"
+  },
+  {
+    "name": "ECM-MSPD",
+    "description" : "EC Motor Multispeed Control",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/ECM-MSPD.pdf"
+  },
+  {
+    "name": "Ecowatt®-Drive",
+    "description" : "Variable Frequency Drive",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/Ecowatt_Drive.pdf"
+  },
+  {
+    "name": "ENERGY STAR® Most Efficient 2019",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/reFresh-ESME2019.pdf"
+  },
+  {
+    "name": "ERV",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/ERV_Flyer.pdf"
+  },
+  {
+    "name": "HREB-P",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/HREB_P.pdf"
+  },
+  {
+    "name": "Jet Fans Series",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/Jet-Fans-Flyer.pdf"
+  },
+  {
+    "name": "Jet Fans Series",
+    "description" : "IFFTe50",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/IFFTe50-Flyer.pdf"
+  },
+  {
+    "name": "Kitchen Hoods",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/Kitchen Hoods/KitchenHoods_Flyer_05172022.pdf"
+  },
+  {
+    "name": "KSFV-FB",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/KSFV-FB-Flyer.pdf"
+  },
+  {
+    "name": "MDX-ES24VK",
+    "description" : "Outside Air Motorized Damper Kit",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/MDX-ES24VK.pdf"
+  },
+  {
+    "name": "S-Series",
+    "description" : "(Centrifugal Roof and Sidewall Fans) High Wind Tie-Down Kit",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/tie-down-kit-flyer.pdf"
+  },
+  {
+    "name": "Outside Product Applications",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/OAS-ProductApp.pdf"
+  },
+  {
+    "name": "Outside Air Solutions Flyer",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/OAS-Flyer.pdf"
+  },
+  {
+    "name": "PC",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/PC_Flyer.pdf"
+  },
+  {
+    "name": "PC50XP",
+    "description" : "Ceiling Mounted Exhaust Fan with AC Motor",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/PC50XP.pdf"
+  },
+  {
+    "name": "PCD110XP",
+    "description" : "Premium CHOICE DC Motor Model with Autoflo™",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/PCD110XP.pdf"
+  },
+  {
+    "name": "PCD80XHP",
+    "description" : "Premium CHOICE DC Motor Model with Humidity Sensor",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/PCD80XHP.pdf"
+  },
+  {
+    "name": "PCLP80XP",
+    "description" : "Premium CHOICE Low Profile XP Series",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/PCLPXP-Flyer.pdf"
+  },
+  {
+    "name": "PCLP100XP",
+    "description" : "Premium CHOICE Low Profile XP Series",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/PCLPXP-Flyer.pdf"
+  },
+  {
+    "name": "PCLPD100XHP",
+    "description" : "Premium CHOICE Low Profile Exhaust Fan with DC Motor",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/PCLPD100XHP-Flyer.pdf"
+  },
+  {
+    "name": "Premium CHOICE XP Series",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/PCXP.pdf"
+  },
+  {
+    "name": "PV-DEDPV",
+    "description" : "Dryer Exhaust Duct Power Ventilator",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/PVDEDPV_Flyer.pdf"
+  },
+  {
+    "name": "reFresh Series",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/reFresh-Flyer.pdf"
+  },
+  {
+    "name": "reFresh Value Series",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/RFV8.pdf"
+  },
+  {
+    "name": "S-Series",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/S-Series.pdf"
+  },
+  {
+    "name": "SMXD",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/SMXD.pdf"
+  },
+  {
+    "name": "SMXD-HT",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/SMXDHT-flyer-USA.pdf"
+  },
+  {
+    "name": "SMXDK",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/SMXDK-SMXDKHT.pdf"
+  },
+  {
+    "name": "SMXDK-HT",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/SMXDK-SMXDKHT.pdf"
+  },
+  {
+    "name": "STXB-HT",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/STXB-HT.pdf"
+  },
+  {
+    "name": "STXB-HT2",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/STXB-HT.pdf"
+  },
+  {
+    "name": "TD",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/TD_Flyer.pdf"
+  },
+  {
+    "name": "TRe",
+    "description" : "Total Recovery Premium",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/TRe-Flyer.pdf"
+  },
+  {
+    "name": "TRe90",
+    "description" : "Total Recovery Premium",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/tre90-flyer.pdf"
+  },
+  {
+    "name": "TRLPe",
+    "description" : "Total Recovery Low Profile with EC Motor",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/trlpe110-usa-flyer.pdf"
+  },
+  {
+    "name": "UBSRD-P",
+    "description" : "Remote Drive Upblast Propeller Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Flyer/UBSRD-P-Flyer.pdf"
+  }
+
+  ]
+},
+
+
+
+{
+  "name": "Catalog", 
+  "items" : [
+  
+  {
+    "name": "ARE and ARS",
+    "description" : "Dome Axial Power Roof Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-ar.pdf"
+  },
+  {
+    "name": "BGH",
+    "description" : "Fabricated Gravity Relief/Intake Ventilator",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-bgh.pdf"
+  },
+  {
+    "name": "Centrifugal Roof and Sidewall Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-centrifugal-roof-and-sidewall.pdf"
+  },
+  {
+    "name": "CFD",
+    "description" : "Forward Curved Belt Drive In-line Duct Blower",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-cfd.pdf"
+  },
+  {
+    "name": "CM",
+    "description" : "Belt Drive Utility Vent Set",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-cm.pdf"
+  },
+  {
+    "name": "CSF",
+    "description" : "Belt Drive Centrifugal Filtered Roof Supply Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-csf.pdf"
+  },
+  {
+    "name": "CTB and CTBRHUL",
+    "description" : "In-line Tubular Centrifugal Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-ctb.pdf"
+  },
+  {
+    "name": "CWD",
+    "description" : "Direct Drive Centrifugal Sidewall Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-centrifugal-roof-and-sidewall.pdf"
+  },
+  {
+    "name": "GED/GSD, DFE/DFS, and DDE/DDS",
+    "description" : " Direct Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-gd-df-dd.pdf"
+  },
+  {
+    "name": "HREB-C, HREB-P, and HRED-C",
+    "description" : "Hooded Propeller Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-hre.pdf"
+  },
+  {
+    "name": "HRSB and HRSD",
+    "description" : "Hooded Propeller Roof Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-hrs.pdf"
+  },
+  {
+    "name": "KSFV",
+    "description" : "Belt Drive Kitchen Supply Fan with Variations",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-ksfv.pdf"
+  },
+  {
+    "name": "KSFV-FB",
+    "description" : "Optional Filter Bank",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-ksfv-fb.pdf"
+  },
+  {
+    "name": "LCE/LCS, L2E/L2S, and L3E/L3S",
+    "description" : "Belt Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-lc-l2-l3.pdf"
+  },
+  {
+    "name": "Losone Select Series",
+    "description" : "Ceiling and Cabinet Ventilators",
+    "link": "https://www.solerpalau-usa.com/documents/Brochure/Losone-Select-Series-Brochure.pdf"
+  },
+  {
+    "name": "LPD and LPD-SF",
+    "description" : "Low Profile Direct Drive Centrifugal Roof/Sidewall Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-centrifugal-roof-and-sidewall.pdf"
+  },
+  {
+    "name": "LSF",
+    "description" : "Belt Drive Centrifugal Filtered Roof Supply Fan with Louvered Housing",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-lsf.pdf"
+  },
+  {
+    "name": "PV In-line Centrifugal Duct Fan",
+    "description" : "",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-pv.pdf"
+  },
+  {
+    "name": "RCXII and RCXII-SF",
+    "description" : "Gravity Relief/Intake Ventilators",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-rcxii.pdf"
+  },
+  {
+    "name": "RLX",
+    "description" : "Louvered Penthouse",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-rlx.pdf"
+  },
+  {
+    "name": "SDB",
+    "description" : "Belt Drive Centrifugal Downblast Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-sdb.pdf"
+  },
+  {
+    "name": "SDBD and SDBDe",
+    "description" : "Downblast Direct Drive Centrifugal Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-sdbd-sdbde.pdf"
+  },
+  {
+    "name": "SMXD and SMXD-HT",
+    "description" : "Direct Drive Mixed Flow Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-smxd-smxdht.pdf"
+  },
+  {
+    "name": "SMXDK and SMXDK-HT",
+    "description" : "",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-smxdk-smxdkht-smxdke.pdf"
+  },
+  {
+    "name": "SQB",
+    "description" : "Belt Drive Square In-line Centrifugal Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-sqb.pdf"
+  },
+  {
+    "name": "SQD and eSQD ",
+    "description" : "Direct Drive Square In-line Centrifugal Duct Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-sqd.pdf"
+  },
+  {
+    "name": "STXB",
+    "description" : "Upblast Belt Drive Centrifugal Roof/Sidewall Exhaust Fans (All Variants)",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-centrifugal-roof-and-sidewall.pdf"
+  },
+  {
+    "name": "STXB-HT2 and STXB-HT",
+    "description" : "Upblast Belt Drive Centrifugal Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-centrifugal-roof-and-sidewall.pdf"
+  },
+  {
+    "name": "STXD and STXDe",
+    "description" : "Upblast Direct Drive Centrifugal Roof/Sidewall Exhaust Fans (All Variants)",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-stxd-stxde.pdf"
+  },
+  {
+    "name": "SWF Sidewall Centrifugal Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-swf.pdf"
+  },
+  {
+    "name": "TDB",
+    "description" : "Belt Drive Tubeaxial In-line Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-tdb.pdf"
+  },
+  {
+    "name": "TDD",
+    "description" : "Direct Drive Tubeaxial In-line Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-tdd.pdf"
+  },
+  {
+    "name": "TD-MIXVENT",
+    "description" : " In-line Mixed Flow Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-td-mixvent.pdf"
+  },
+  {
+    "name": "TD-SILENT",
+    "description" : "In-line Mixed Flow Duct Fan (Designed for Rigid Duct Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-td-silent.pdf"
+  },
+  {
+    "name": "TUB",
+    "description" : "Tubeaxial Upblast Propeller Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-tub.pdf"
+  },
+  {
+    "name": "TUB-HT",
+    "description" : "Tubeaxial Upblast Propeller Roof Exhaust Fan for Heat and Smoke Removal",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-tub-ht.pdf"
+  },
+  {
+    "name": "UBB and UBX",
+    "description" : "Upblast Propeller Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-ubb-ubx.pdf"
+  },
+  {
+    "name": "UBRD",
+    "description" : "Remote Drive Upblast Propeller Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-ubrd.pdf"
+  },
+  {
+    "name": "UBS and UBS-P",
+    "description" : "Belt Drive Upblast Propeller Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-ubs.pdf"
+  },
+  {
+    "name": "UBSRD and UBSRD-P",
+    "description" : "Remote Drive Upblast Propeller Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-ubsrd.pdf"
+  },
+  {
+    "name": "UBSRD-HT and UBSRD-HT1",
+    "description" : "Remote Drive Upblast Propeller Roof Exhaust Fans for Heat and Smoke Removal",
+    "link": "https://www.solerpalau-usa.com/documents/Catalog/cat-ubsrd-ht.pdf"
+  }
+
+ ]
+},
+
+
+
+{
+  "name": "Resource",
+  "items" : [
+  {
+    "name": "Chemical Resistance Chart",
+    "link": "https://www.solerpalau-usa.com/documents/Resource/chemical-resistance-chart.pdf"
+  },
+  {
+    "name": "Mounting Arrangement for GED/GSD, DFE/DFS, and DDE/DDS models",
+    "link": "https://www.solerpalau-usa.com/documents/Resource/mounting-arrangement(gd-df-dd).pdf"
+  },
+  {
+    "name": "Mounting Arrangement for LCE/LCS, L2E/L2S, and L3E/L3S models",
+    
+    "link": "https://www.solerpalau-usa.com/documents/Resource/mounting-arrangement(lc-l2-l3).pdf"
+  },
+  {
+    "name": "Sizing Instructions for Gravity Ventilators",
+    "link": "https://www.solerpalau-usa.com/documents/Resource/sizing-chart(gravity-vent).pdf"
+  },
+  {
+    "name": "Static Pressure Calculator",
+    "link": "https://www.solerpalau-usa.com/documents/Resource/static-pressure-calculator.xls"
+  },
+  {
+    "name": "Wire Connection Diagram for eSQD models with a Speed Control",
+    "link": "https://www.solerpalau-usa.com/documents/Resource/wiring-diagram(esqd).pdf"
+  },
+  {
+    "name": "Wire Connection Diagram for PC models with a AC motor",
+    "link": "https://www.solerpalau-usa.com/documents/Resource/wiring-diagram(pc).pdf"
+  },
+  {
+    "name": "Wire Connection Diagram for PCD models with a DC motor",
+    "link": "https://www.solerpalau-usa.com/documents/Resource/wiring-diagram(pcd).pdf"
+  },
+  {
+    "name": "Wire Connection Diagram for PCXP models",
+    "link": "https://www.solerpalau-usa.com/documents/Resource/wiring-diagram(pcxp).pdf"
+  }
+ ]
+},
+
+{
+  "name" : "IOM",
+  "items" : [
+  {
+    "name": "6002, 6002-14B, 6002A and 6002-14A",
+    "description" : "Ventilation Gas Detectors",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-6002-6002A-6002-14A-6002-14B.pdf"
+  },
+  {
+    "name": "80L Electronic Speed Control (Internal)",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-80l.pdf"
+  },
+  {
+    "name": "ACF48",
+    "description" : "Agricultural Circulating Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-acf2.pdf"
+  },
+  {
+    "name": "ARE and ARS",
+    "description" : "Dome Axial Power Roof Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-ar.pdf"
+  },
+  {
+    "name": "BGH",
+    "description": "Fabricated Gravity Relief/Intake Ventilator",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-bgh.pdf"
+  },
+  {
+    "name": "CFD",
+    "description" : "Forward Curved Belt Drive In-line Duct Blower",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-cfd.pdf"
+  },
+  {
+    "name": "CM",
+    "description" : "Belt Drive Utility Vent Set",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-cm.pdf"
+  },
+  {
+    "name": "CSF",
+    "description" : "Belt Drive Centrifugal Filtered Roof Supply Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-csf-lsf.pdf"
+  },
+  {
+    "name": "CTB and CTBRHUL",
+    "description" : "In-line Tubular Centrifugal Fans",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-ctb.pdf"
+  },
+  {
+    "name": "CWD",
+    "description" : "Direct Drive Centrifugal Sidewall Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-cwd.pdf"
+  },
+  {
+    "name": "DH6-120V",
+    "description" : "In-line Duct Heater",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-dh6-120v.pdf"
+  },
+  {
+    "name": "ECM-DPC EC Differential Pressure Control",
+    "description" : "",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-ecm-dpc.pdf"
+  },
+  {
+    "name": "ECM-MSPD EC Motor Multispeed Control",
+    "description" : "",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-ecm-mspd.pdf"
+  },
+  {
+    "name": "eGED and eGSD",
+    "description" : " Direct Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-egd.pdf"
+  },
+  {
+    "name": "eSQD",
+    "description" : "Direct Drive Square Inline Centrifugal Duct Fans",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-esqd.pdf"
+  },
+  {
+    "name": "ES24V",
+    "description" : "Envirosense Ventilation Control",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-es24v.pdf"
+  },
+  {
+    "name": "GED/GSD, DFE/DFS, and DDE/DDS",
+    "description" : "Direct Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-gd-df-dd.pdf"
+  },
+  {
+    "name": "GENERAL IOM",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-generalUpdated.pdf"
+  },
+  {
+    "name": "HREB-C, HREB-P, and HRED-C",
+    "description" : " Hooded Propeller Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-hre.pdf"
+  },
+  {
+    "name": "HRSB and HRSD",
+    "description" : "Hooded Propeller Roof Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-hrs.pdf"
+  },
+  {
+    "name": "IFAB and IFEB",
+    "description" : "Jet Fan Series",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-jet-fans.pdf"
+  },
+  {
+    "name": "EO, EO-FPSP, EOLC, EOLC-FPSP",
+    "description" : "Kitchen Hoods",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/Kitchen Hoods/KitchenHood-iom.pdf"
+  },
+  {
+    "name": "KSFV",
+    "description" : "Belt Drive Kitchen Supply Fan with Variations",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-ksfv.pdf"
+  },
+  {
+    "name": "LCE/LCS, L2E/L2S, and L3E/L3S",
+    "description" : "Belt Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-lc-l2-l3.pdf"
+  },
+  {
+    "name": "Losone Select Series",
+    "description" : "Ceiling and Cabinet Ventilators",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-Losone-Select.pdf"
+  },
+  {
+    "name": "LPD and LPD-SF",
+    "description" : "Low Profile Direct Drive Centrifugal Roof/Sidewall Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-lpd.pdf"
+  },
+  {
+    "name": "LSF",
+    "description" : "Belt Drive Centrifugal Filtered Roof Supply Fan with Louvered Housing",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-csf-lsf.pdf"
+  },
+  {
+    "name": "MD Motorized Damper",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-md.pdf"
+  },
+  {
+    "name": "MDX-ES24VK",
+    "description" : "Outside Air Motorized Damper Kit",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-mdx-es24vk.pdf"
+  },
+  {
+    "name": "PC80XP and PC110XP",
+    "description" : "Premium CHOICE XP Series Model",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-pcxp.pdf"
+  },
+  {
+    "name": "PCD80XHP",
+    "description" : "Premium CHOICE DC Motor Model with Humidity Sensor",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-pcd80xhp.pdf"
+  },
+  {
+    "name": "PCD110XIAQS",
+    "description" : "Premium CHOICE DC Motor Model with VOC/Humidity Sensor",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-pcd110xiaqs.pdf"
+  },
+  {
+    "name": "PCD110XP",
+    "description" : "Premium CHOICE DC Motor Model with AUTOFLO™",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-pcd110xp.pdf"
+  },
+  {
+    "name": "PCLP",
+    "description" : "Premium CHOICE Low Profile Model",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-pclp.pdf"
+  },
+  {
+    "name": "PCLPD100XHP",
+    "description" : "Premium CHOICE Low Profile Exhaust Fan with DC Motor",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-pclpd100xhp.pdf"
+  },
+  {
+    "name": "PCLPRD",
+    "description" : "Radiation Damper",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-pclprd.pdf"
+  },
+  {
+    "name": "PCLPXP",
+    "description" : "Premium CHOICE Low Profile Model XP Series",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-pclpxp.pdf"
+  },
+  {
+    "name": "PCV",
+    "description" : "Premium CHOICE Value Series Model",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-pcv.pdf"
+  },
+  {
+    "name": "PRF",
+    "description" : "Radon Mitigation Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-prf.pdf"
+  },
+  {
+    "name": "PV",
+    "description" : "In-line Centrifugal Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-pv.pdf"
+  },
+  {
+    "name": "PV-DEDPV",
+    "description" : "Dryer Exhaust Duct Power Ventilator",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-pvdedpv.pdf"
+  },
+  {
+    "name": "RCXII and RCXII-SF",
+    "description" : " Gravity Relief/Intake Ventilators",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-rcxii.pdf"
+  },
+  {
+    "name": "RF10 reFresh",
+    "description" : "Full Size Units (All Variants)",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-refresh.pdf"
+  },
+  {
+    "name": "RF8 reFresh",
+    "description" : "Low Profile (All Variants)",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-refresh.pdf"
+  },
+  {
+    "name": "RFV",
+    "description": "reFresh Value",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-refresh.pdf"
+  },
+  {
+    "name": "RLX",
+    "description": "Louvered Penthouse",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-rlx.pdf"
+  },
+  {
+    "name": "SCO2-W",
+    "description": "Carbon Dioxide Control for ERV's",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-sco2-w.pdf"
+  },
+  {
+    "name": "SDB",
+    "description" : "Belt Drive Centrifugal Downblast Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-sdb.pdf"
+  },
+  {
+    "name": "SDBD",
+    "description" : "Downblast Direct Drive Centrifugal Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-sdbd.pdf"
+  },
+  {
+    "name": "SDBDe",
+    "description" : "Downblast Direct Drive Centrifugal Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-SDBDe-STXDe-STXDeRHUL.pdf"
+  },
+  {
+    "name": "SFM",
+    "description" : "Percent Timer Control with Furnace Interlock",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-sfm.pdf"
+  },
+  {
+    "name": "SMC-C",
+    "description" : "Series Occupancy Sensor",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-smc-c.pdf"
+  },
+  {
+    "name": "SMXD",
+    "description" : "Direct Drive Mixed Flow Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-smxd.pdf"
+  },
+  {
+    "name": "SMXD-HT",
+    "description" : "Direct Drive Mixed Flow Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-smxd-ht.pdf"
+  },
+  {
+    "name": "SPBL",
+    "description" : "Push Button Point-Of-Use Control-Lighted",
+    "link": "https://www.solerpalau-usa.com/documents/iom/iom-spbl-Updated.pdf"
+  },
+  {
+    "name": "SPBT",
+    "description" : "Push Button Boost Timer Point-of-Use Control",
+    "link": "https://www.solerpalau-usa.com/documents/iom/iom-spbt.pdf"
+  },
+  {
+    "name": "SPTL",
+    "description" : "Push Button Boost Timer Point-of-Use Control",
+    "link": "https://www.solerpalau-usa.com/documents/iom/iom-sptl.pdf"
+  },
+  {
+    "name": "SQB",
+    "description" : "Belt Drive Square In-line Centrifugal Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-sqb.pdf"
+  },
+  {
+    "name": "SQD",
+    "description" : "Direct Drive Square In-line Centrifugal Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-sqd.pdf"
+  },
+  {
+    "name": "STC7D",
+    "description" : "Digital Time Clock",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-STC7D.pdf"
+  },
+  {
+    "name": "STXB",
+    "description" : "Upblast Belt Drive Centrifugal Roof/Sidewall Exhaust Fans (All Variants)",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/stxb-iom.pdf"
+  },
+  {
+    "name": "STXB-HT2 and STXB-HT",
+    "description" : "Upblast Belt Drive Centrifugal Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/stxb-iom.pdf"
+  },
+  {
+    "name": "STXD",
+    "description" : "Upblast Direct Drive Centrifugal Roof/Sidewall Exhaust Fans (All Variants)",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-stxd.pdf"
+  },
+  {
+    "name": "STXDe",
+    "description" : "Upblast Direct Drive Centrifugal Roof/Sidewall Exhaust Fans (All Variants)",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-SDBDe-STXDe-STXDeRHUL.pdf"
+  },
+  {
+    "name": "STXDeRHUL",
+    "description" : "Upblast Direct Drive Centrifugal Roof/Sidewall Exhaust Fans (All Variants)",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-SDBDe-STXDe-STXDeRHUL.pdf"
+  },
+  {
+    "name": "SWF",
+    "description" : "Sidewall Centrifugal Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-swf-sidewall.pdf"
+  },
+  {
+    "name": "TDB",
+    "description" : "Belt Drive Tubeaxial In-line Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-tdb.pdf"
+  },
+  {
+    "name": "TDD",
+    "description" : "Direct Drive Tubeaxial In-line Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-tdd.pdf"
+  },
+  {
+    "name": "TD-MIXVENT",
+    "description" : "(Size 100 to 315) In-line Mixed Flow Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-td-mixvent(100-315).pdf"
+  },
+  {
+    "name": "TD-MIXVENT",
+    "description" : "(Size 355 to 400) In-line Mixed Flow Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-td-mixvent(355-400).pdf"
+  },
+  {
+    "name": "TD-SILENT",
+    "description" : "In-line Mixed Flow Duct Fan (Designed for Rigid Duct Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-td-silent.pdf"
+  },
+  {
+    "name": "TempestHigh",
+    "description": "Volume Low Speed Fans",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-tempest.pdf"
+  },
+  {
+    "name": "TJFU",
+    "description" : "Jet Fan Series",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-jet-fans.pdf"
+  },
+  {
+    "name": "TornadoHigh",
+    "description" : "Volume Low Speed Fans",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-tornado.pdf"
+  },
+  {
+    "name": "TR",
+    "description" : "(Size 130 to 300) Total Recovery for All Climates",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-tr(130-300).pdf"
+  },
+  {
+    "name": "TR",
+    "description" : "(Size 90) Total Recovery for All Climates",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-tr(90).pdf"
+  },
+  {
+    "name": "TRC500",
+    "description" : "Total Recovery for All Climates (Commercial Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-trc500.pdf"
+  },
+  {
+    "name": "TRC800",
+    "description" : "Total Recovery for All Climates (Commercial Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-trc800.pdf"
+  },
+  {
+    "name": "TRC1200",
+    "description" : "Total Recovery for All Climates (Commercial Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-trc1200.pdf"
+  },
+  {
+    "name": "TRC1600",
+    "description" : "Total Recovery for All Climates (Commercial Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-trc1600.pdf"
+  },
+  {
+    "name": "TRCe",
+    "description" : "Total Recovery with EC Motor for All Climates (Commercial Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-trceUpdated.pdf"
+  },
+  {
+    "name": "TRe",
+    "description" : "Total Recovery Premium",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/IOM-TRE.pdf"
+  },
+  {
+    "name": "TRe90",
+    "description" : "Total Recovery Premium",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-tre90.pdf"
+  },
+  {
+    "name": "TRLPe",
+    "description" : "Total Recovery Low Profile Unit with EC Motor",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-TRLPe110.pdf"
+  },
+  {
+    "name": "TUB",
+    "description" : "Tubeaxial Upblast Propeller Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-tub.pdf"
+  },
+  {
+    "name": "TUB-HT",
+    "description" : "Tubeaxial Upblast Propeller Roof Exhaust Fan for Heat and Smoke Removal",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-tub-ht.pdf"
+  },
+  {
+    "name": "UBB and UBX",
+    "description" : "Upblast Propeller Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-ubb-ubx.pdf"
+  },
+  {
+    "name": "UBRD",
+    "description" : "Remote Drive Upblast Propeller Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-ubrd.pdf"
+  },
+  {
+    "name": "UBS and UBS-P",
+    "description" : "Belt Drive Upblast Propeller Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-ubs.pdf"
+  },
+  {
+    "name": "UBSRD and UBSRD-P",
+    "description" : "Remote Drive Upblast Propeller Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-ubsrd.pdf"
+  },
+  {
+    "name": "UBSRD-HT and UBSRD-HT1",
+    "description" : "Remote Drive Upblast Propeller Roof Exhaust Fans for Heat and Smoke Removal",
+    "link": "https://www.solerpalau-usa.com/documents/IOM/iom-ubsrd-ht.pdf"
+  }
+]
+},
+
+
+{
+  "name": "Submittal",
+  "items"  : [
+
+  {
+    "name": "ACF48",
+    "description" : "Agricultural Circulating Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-acf.pdf"
+  },
+  {
+    "name": "ARE and ARS",
+    "description" : "Dome Axial Power Roof Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ar.pdf"
+  },
+  {
+    "name": "BGH",
+    "description" : "Fabricated Gravity Relief/Intake Ventilator",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-bgh.pdf"
+  },
+  {
+    "name": "CFD",
+    "description" : "Forward Curved Belt Drive In-line Duct Blower",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-cfd.pdf"
+  },
+  {
+    "name": "CM",
+    "description" : "Belt Drive Utility Vent Set",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-cm.pdf"
+  },
+  {
+    "name": "CSF",
+    "description" : "Belt Drive Centrifugal Filtered Roof Supply Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-csf.pdf"
+  },
+  {
+    "name": "CTB and CTBRHUL",
+    "description": " In-line Tubular Centrifugal Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ctb.pdf"
+  },
+  {
+    "name": "CWD",
+    "description": "Direct Drive Centrifugal Sidewall Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-cwd.pdf"
+  },
+  {
+    "name": "DDE and DDS",
+    "description": " Direct Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-dd.pdf"
+  },
+  {
+    "name": "DFE and DFS",
+    "description": "Direct Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-df.pdf"
+  },
+  {
+    "name": "eGED and eGSD",
+    "description": "Direct Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-egd.pdf"
+  },
+  {
+    "name": "eSQD",
+    "description": "Direct Drive Square Inline Centrifugal Duct Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-esqd.pdf"
+  },
+  {
+    "name": "GED and GSD",
+    "description": "Direct Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-gd.pdf"
+  },
+  {
+    "name": "HREB-C, HREB-P, and HRED-C",
+     "description": "Hooded Propeller Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-hre.pdf"
+  },
+  {
+    "name": "HRSB and HRSD",
+     "description": "Hooded Propeller Roof Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-hrs.pdf"
+  },
+  {
+    "name": "IFAB and IFEB",
+     "description": "Jet Fan Series",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ifab-ifeb.pdf"
+  },
+  {
+    "name": "IFFT and IFFTe",
+     "description": "Jet Fan Series",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ifft-iffte.pdf"
+  },
+  {
+    "name": "EO",
+     "description": "Kitchen Hoods",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/Kitchen-Hoods/EO_Submittal.pdf"
+  },
+  {
+    "name": "EO-FPSP",
+     "description": "Kitchen Hoods",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/Kitchen-Hoods/EO-FPSP_Submittal.pdf"
+  },
+  {
+    "name": "EOLC",
+     "description": "Kitchen Hoods",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/Kitchen-Hoods/EOLC_Submittal.pdf"
+  },
+  {
+    "name": "EOLC-FPSP",
+     "description": "Kitchen Hoods",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/Kitchen-Hoods/EOLC-FPSP_Submittal.pdf"
+  },
+  {
+    "name": "KSFV",
+     "description": "Belt Drive Kitchen Supply Fan with Variations",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ksfv.pdf"
+  },
+  {
+    "name": "L2E and L2S",
+     "description": "Belt Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-l2.pdf"
+  },
+  {
+    "name": "L3E and L3S",
+     "description": "Belt Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-l3.pdf"
+  },
+  {
+    "name": "LCE and LCS",
+     "description": "Belt Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-lc.pdf"
+  },
+  {
+    "name": "Losone Select Series(E-Series)",
+     "description": "Ceiling and Cabinet Ventilators",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-E-series.pdf"
+  },
+  {
+    "name": "Losone Select Series(EL-Series)",
+     "description": "Ceiling and Cabinet Ventilators",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-EL-series.pdf"
+  },
+  {
+    "name": "Losone Select Series",
+     "description": "Ceiling and Cabinet Ventilators",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-Losone-Select-Series.pdf"
+  },
+  {
+    "name": "LPD and LPD-SF",
+     "description": "Low Profile Direct Drive Centrifugal Roof/Sidewall Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-lpd.pdf"
+  },
+  {
+    "name": "LSF",
+     "description": "Belt Drive Centrifugal Filtered Roof Supply Fan with Louvered Housing",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-lsf.pdf"
+  },
+  {
+    "name": "PC80XP",
+     "description": "Premium CHOICE XP Series Model",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pc80x.pdf"
+  },
+  {
+    "name": "PC110XP",
+     "description": "Premium CHOICE XP Series Model",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pc110xp.pdf"
+  },
+  {
+    "name": "PCD80XHP",
+     "description": "Premium CHOICE DC Motor Model with Humidity Sensor",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-PCD80XHP.pdf"
+  },
+  {
+    "name": "PCD110XP",
+     "description": "Premium CHOICE DC Motor Model with Autoflo™",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pdsub-pcd110xp.pdf"
+  },
+  {
+    "name": "PCLP80",
+     "description": "Premium CHOICE Low Profile Model",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pclp80.pdf"
+  },
+  {
+    "name": "PCLP80XP",
+     "description": "Premium CHOICE Low Profile Model",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pclp80xp.pdf"
+  },
+  {
+    "name": "PCLP100",
+     "description": "Premium CHOICE Low Profile Model",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pclp100.pdf"
+  },
+  {
+    "name": "PCLP100XP",
+     "description": "Premium CHOICE Low Profile Model",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pclp100xp.pdf"
+  },
+  {
+    "name": "PCLPD100XHP",
+     "description": "Premium CHOICE Low Profile Exhaust Fan with DC Motor",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pclpd100xhp.pdf"
+  },
+  {
+    "name": "PCV",
+     "description": "Premium CHOICE Value Series Model",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pcv.pdf"
+  },
+  {
+    "name": "PRF",
+     "description": "Radon Mitigation Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-prf.pdf"
+  },
+  {
+    "name": "PV",
+     "description": "In-line Centrifugal Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pv.pdf"
+  },
+  {
+    "name": "PV-DEDPV",
+     "description": "Dryer Exhaust Duct Power Ventilator",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pvdedpv.pdf"
+  },
+  {
+    "name": "RCXII",
+    "description": "(size 6 to 20) Gravity Relief/Intake Ventilators",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-rcxii(6-20).pdf"
+  },
+  {
+    "name": "RCXII",
+    "description": "(size 24 to 36) Gravity Relief/Intake Ventilators",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-rcxii(24-36).pdf"
+  },
+  {
+    "name": "RCXII-SF",
+    "description": "Gravity Relief/Intake Ventilators",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-rcxii-sf.pdf"
+  },
+  {
+    "name": "RF10",
+    "description": "reFresh Full Size Units",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-refresh-full-size-units.pdf"
+  },
+  {
+    "name": "RF8",
+    "description": "reFresh Low Profile",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-refresh-low-profile.pdf"
+  },
+  {
+    "name": "RFV",
+    "description": "reFresh Value",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-rfv8-120ac-es24v.pdf"
+  },
+  {
+    "name": "RLX",
+    "description": "Louvered Penthouse",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-rlx.pdf"
+  },
+  {
+    "name": "SDB",
+    "description": "Belt Drive Centrifugal Downblast Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-sdb.pdf"
+  },
+  {
+    "name": "SDBD and SDBDe",
+    "description": "Downblast Direct Drive Centrifugal Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-sdbd.pdf"
+  },
+  {
+    "name": "SMXD",
+    "description": "Direct Drive Mixed Flow Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-smxd.pdf"
+  },
+  {
+    "name": "SMXD-HT",
+    "description": "Direct Drive Mixed Flow Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-smxd-ht.pdf"
+  },
+  {
+    "name": "SQB",
+    "description": "Belt Drive Square In-line Centrifugal Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-sqb.pdf"
+  },
+  {
+    "name": "SQD",
+    "description": "Direct Drive Square In-line Centrifugal Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-sqd.pdf"
+  },
+  {
+    "name": "STXB",
+    "description": "(All Variants) Upblast Belt Drive Centrifugal Roof/Sidewall Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-stxb.pdf"
+  },
+  {
+    "name": "STXB-HT2 and STXB-HT",
+    "description": "Upblast Belt Drive Centrifugal Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-stxb-ht-ht2.pdf"
+  },
+  {
+    "name": "STXDe",
+    "description": "Upblast Direct Drive Centrifugal Roof/Sidewall Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-stxd.pdf"
+  },
+  {
+    "name": "STXDeRHUL",
+    "description": "Upblast Direct Drive Centrifugal Roof/Sidewall Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-stxd.pdf"
+  },
+  {
+    "name": "SWF",
+    "description": "Sidewall Centrifugal Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-swf.pdf"
+  },
+  {
+    "name": "TDB",
+    "description": "Belt Drive Tubeaxial In-line Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-tdb.pdf"
+  },
+  {
+    "name": "TDD",
+    "description": "Direct Drive Tubeaxial In-line Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-tdd.pdf"
+  },
+  {
+    "name": "TD-MIXVENT",
+    "description": "In-line Mixed Flow Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-td-mixvent.pdf"
+  },
+  {
+    "name": "TD-SILENT",
+    "description": "In-line Mixed Flow Duct Fan (Designed for Rigid Duct Applications",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-td-silent.pdf"
+  },
+  {
+    "name": "Tempest",
+    "description": "High Volume Low Speed Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-tempest.pdf"
+  },
+  {
+    "name": "TJFU",
+    "description": "Jet Fan Series",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-tjfu.pdf"
+  },
+  {
+    "name": "Tornado",
+    "description": "High Volume Low Speed Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-tornado.pdf"
+  },
+  {
+    "name": "TR130",
+    "description": "Total Recovery for All Climates",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-tr130.pdf"
+  },
+  {
+    "name": "TR200",
+    "description": "Total Recovery for All Climates",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-tr200.pdf"
+  },
+  {
+    "name": "TR300",
+    "description": "Total Recovery for All Climates",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-tr300.pdf"
+  },
+  {
+    "name": "TR90",
+    "description": "Total Recovery for All Climates",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-tr90.pdf"
+  },
+  {
+    "name": "TR90G",
+    "description": "Total Recovery for All Climates",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-tr90g.pdf"
+  },
+  {
+    "name": "TRC500",
+    "description": "Total Recovery for All Climates (Commercial Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-trc500.pdf"
+  },
+  {
+    "name": "TRC800",
+    "description": "Total Recovery for All Climates (Commercial Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-trc800.pdf"
+  },
+  {
+    "name": "TRC800V",
+    "description": "Vertical Total Recovery for All Climates (Commercial Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-trc800v.pdf"
+  },
+  {
+    "name": "TRC1200",
+    "description": "Total Recovery for All Climates (Commercial Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-trc1200.pdf"
+  },
+  {
+    "name": "TRC1600",
+    "description": "Total Recovery for All Climates (Commercial Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-trc1600updated.pdf"
+  },
+  {
+    "name": "TRCe1200",
+    "description": "Total Recovery for All Climates (Commercial Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-trce1200.pdf"
+  },
+  {
+    "name": "TRCe500",
+    "description": "Total Recovery for All Climates (Commercial Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-trce500.pdf"
+  },
+  {
+    "name": "TRCe800",
+    "description": "Total Recovery for All Climates (Commercial Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-trce800.pdf"
+  },
+  {
+    "name": "TRCe800V",
+    "description": "Vertical Total Recovery for All Climates (Commercial Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-trce800v.pdf"
+  },
+  {
+    "name": "TRe90",
+    "description": "Total Recovery Premium",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-tre90.pdf"
+  },
+  {
+    "name": "TRe200",
+    "description": "Total Recovery Premium",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-tre200.pdf"
+  },
+  {
+    "name": "TRe300",
+    "description": "Total Recovery Premium",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-tre300.pdf"
+  },
+  {
+    "name": "TRLPe110",
+    "description": "Total Recovery Low Profile Unit with EC Motor",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-TRLPe110.pdf"
+  },
+  {
+    "name": "TRLPe110H",
+    "description": "Total Recovery Low Profile Unit with EC Motor",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-TRLPe110H.pdf"
+  },
+  {
+    "name": "TUB",
+    "description": "Tubeaxial Upblast Propeller Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-tub.pdf"
+  },
+  {
+    "name": "TUB-HT",
+    "description": " Tubeaxial Upblast Propeller Roof Exhaust Fan for Heat and Smoke Removal",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-tub-ht.pdf"
+  },
+  {
+    "name": "UBB",
+    "description": "Belt Drive Upblast Propeller Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ubb.pdf"
+  },
+  {
+    "name": "UBRD",
+    "description": "Remote Drive Upblast Propeller Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ubrd.pdf"
+  },
+  {
+    "name": "UBS and UBS-P",
+    "description": "Belt Drive Upblast Propeller Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ubs.pdf"
+  },
+  {
+    "name": "UBSRD and UBSRD-P",
+    "description": "Remote Drive Upblast Propeller Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ubsrd-ubsrd-p.pdf"
+  },
+  {
+    "name": "UBSRD-HT",
+    "description": "Remote Drive Upblast Propeller Roof Exhaust Fans for Heat and Smoke Removal",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ubsrd-ht.pdf"
+  },
+  {
+    "name": "UBSRD-HT1",
+    "description": "Remote Drive Upblast Propeller Roof Exhaust Fans for Heat and Smoke Removal",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ubsrd-ht1.pdf"
+  },
+  {
+    "name": "UBX",
+    "description": "Direct Drive Upblast Propeller Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ubx.pdf"
+  }
+
+
+  ]
+},
+  
+  
+  
+{
+  "name": "Accessory Submittals",
+  "items" : [
+  {
+    "name": "304SS",
+    "description": "Automatic Wall Shutter",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-304ss.pdf"
+  },
+  {
+    "name": "411",
+    "description": "Non-flanged Horizontal Mount Exhaust Backdraft Damper",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-411.pdf"
+  },
+  {
+    "name": "611",
+    "description": "Non-flanged Horizontal Mount Exhaust Backdraft Damper",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-611.pdf"
+  },
+  {
+    "name": "2521",
+    "description": "Potentiometer Speed Control",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-2521.pdf"
+  },
+  {
+    "name": "2525.5UL",
+    "description": "Rotary Speed Control",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-25255ul.pdf"
+  },
+  {
+    "name": "2727.1",
+    "description": "Rotary Speed Control",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-2727-1.pdf"
+  },
+  {
+    "name": "2828.1",
+    "description": "Rotary Speed Control",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-2828-1.pdf"
+  },
+  {
+    "name": "6002, 6002-14B, 6002A and 6002-14A",
+    "description": "Ventilation Gas Detectors",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-6002.pdf"
+  },
+  {
+    "name": "990076",
+    "description": " Universal Filter for the TR90(G) thru TR300 Models (10-pack)",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-990076.pdf"
+  },
+  {
+    "name": "990447",
+    "description": "Universal Filters for the TR90(G) thru TR300 Models (3-pack)",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-990447.pdf"
+  },
+  {
+    "name": "ACD",
+    "description": "Extruded Aluminum Motorized Volume Control Damper",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-acd.pdf"
+  },
+  {
+    "name": "ACL",
+    "description": "Extruded Aluminum Motorized Volume Control Damper",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-acl.pdf"
+  },
+  {
+    "name": "ACOP",
+    "description": "Flange Connector",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-acop.pdf"
+  },
+  {
+    "name": "ACOP-V",
+    "description": "Connector Clamps",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-acop-v.pdf"
+  },
+  {
+    "name": "BOC",
+    "description": "Metal Interior Air Valve",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-boc.pdf"
+  },
+  {
+    "name": "BOR",
+    "description": "Plastic Interior Air Valve",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-bor.pdf"
+  },
+  {
+    "name": "CAR",
+    "description": "Metal Backdraft Damper",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-car.pdf"
+  },
+  {
+    "name": "Commercial MERV Filter ERV Filters for TRC500 thru TRC1600",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-m8-m13-trc.pdf"
+  },
+  {
+    "name": "CS-325",
+    "description": "Current Sensor",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-cs325.pdf"
+  },
+  {
+    "name": "Curb Cap Adaptor",
+    "description": " Spun Products Only",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-curb-cap-adaptor.pdf"
+  },
+  {
+    "name": "CVC",
+    "description": "Continuous Ventilation Control",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-cvc.pdf"
+  },
+  {
+    "name": "Damper Birdscreen",
+    "description": "Belt/Direct Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-damper-birdscreen.pdf"
+  },
+  {
+    "name": "DEF-D",
+    "description": "Wire Guard",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-def-d.pdf"
+  },
+  {
+    "name": "DH6-120V",
+    "description": "In-line Duct Heater",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-dh6-120v.pdf"
+  },
+  {
+    "name": "Ecowatt®-Drive",
+    "description": " Variable Frequency Drive",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ecowatt-drive.pdf"
+  },
+  {
+    "name": "EPBT-60",
+    "description": "Push Button Timer",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-epbt60.pdf"
+  },
+  {
+    "name": "ES24V",
+    "description": "Envirosense Ventilation Control",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-es24v.pdf"
+  },
+  {
+    "name": "Filtered Wall Housing",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-filtered-wall-housing.pdf"
+  },
+  {
+    "name": "FLTD-60",
+    "description": "Fan/Light Delay Timer Switch",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-fltd.pdf"
+  },
+  {
+    "name": "FT247",
+    "description": "24/7 Programmable Fan Timer",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ft247.pdf"
+  },
+  {
+    "name": "FT622",
+    "description": "ASHRAE 62.2 Bathroom Fan Ventilation Control",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ft622.pdf"
+  },
+  {
+    "name": "GMD",
+    "description": "Heavy Duty Motorized Volume Control Damper",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-gmd.pdf"
+  },
+  {
+    "name": "GRA",
+    "description": "Aluminum Grille",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-gra.pdf"
+  },
+  {
+    "name": "Insulated Canted Roof Curb For SDB, SDBD, STXB, STXD",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-sdb-roof-curb.pdf"
+  },
+  {
+    "name": "Intake Extension",
+    "description": "(KSFV)",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ksfv-intake-extension.pdf"
+  },
+  {
+    "name": "KSFV-FB",
+    "description": "Optional Filter Bank",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ksfv-fb.pdf"
+  },
+  {
+    "name": "LT-100",
+    "description": "Lint Trap",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-lt-100.pdf"
+  },
+  {
+    "name": "MAR",
+    "description": " Rectangular Duct Connector",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-mar.pdf"
+  },
+  {
+    "name": "MCA",
+    "description": "Back Draft Damper",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-mca.pdf"
+  },
+  {
+    "name": "MD",
+    "description": "Motorized Damper",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-md.pdf"
+  },
+  {
+    "name": "MDX-ES24VK",
+    "description": " Outside Air Motorized Damper and Environsense Ventilation Control Kit",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-mdx-es24vk.pdf"
+  },
+  {
+    "name": "ME",
+    "description": " Sheet Metal Round Adjustable Elbow",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-me.pdf"
+  },
+  {
+    "name": "MFL",
+    "description": "Filtration Box",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-mfl.pdf"
+  },
+  {
+    "name": "MRJ",
+    "description": "TD Metal Mesh Grille",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-mrj.pdf"
+  },
+  {
+    "name": "PC3S",
+    "description": "3-Switch Control for PC Fan Options",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pc3s.pdf"
+  },
+  {
+    "name": "PCD110XMRD",
+    "description": "Radiation Damper for PCD110XM & PCD110XMH",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pcd110xmrd.pdf"
+  },
+  {
+    "name": "PCHS",
+    "description": "Premium CHOICE Humidity Sensor",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pchs.pdf"
+  },
+  {
+    "name": "PCHSP",
+    "description": "Humidity Sensor for Premium CHOICE XP Series",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pchsp.pdf"
+  },
+  {
+    "name": "PCIAQS",
+    "description": "Premium CHOICE VOC/Humidity Sensor",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pciaqs.pdf"
+  },
+  {
+    "name": "PCLEDKP",
+    "description": "LED Lighted Grille Kit for Premium CHOICE XP Series",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pcledkp.pdf"
+  },
+  {
+    "name": "PCLPHS",
+    "description": "Premium CHOICE Humidity Sensor for PC Low Profile Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pclphs.pdf"
+  },
+  {
+    "name": "PCLPHSP",
+    "description": "Premium CHOICE Humidity Sensor for PC Low Profile Fans XP Series",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pclphsp.pdf"
+  },
+  {
+    "name": "PCLPSC",
+    "description": "Premium CHOICE Speed Control for PC Low Profile Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pclpsc.pdf"
+  },
+  {
+    "name": "PCLPSCP",
+    "description": "Premium CHOICE Speed Control for PC Low Profile Fans XP Series",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pclpscp.pdf"
+  },
+  {
+    "name": "PCSC",
+    "description": "Premium CHOICE Speed Control",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pcsc.pdf"
+  },
+  {
+    "name": "PER-CN",
+    "description": "Aluminum Louver Shutter",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-per-cn.pdf"
+  },
+  {
+    "name": "PER-W",
+    "description": "Plastic Louver Shutter",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-per-w.pdf"
+  },
+  {
+    "name": "PG",
+    "description": "Premium Grille",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pg.pdf"
+  },
+  {
+    "name": "PIE",
+    "description": " Mounting Feet",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-pie.pdf"
+  },
+  {
+    "name": "R24V",
+    "description": "General Purpose Switching Relay",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-r24v.pdf"
+  },
+  {
+    "name": "RC",
+    "description": " Roof Cap",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-rc.pdf"
+  },
+  {
+    "name": "SC-15",
+    "description": "Rotary Speed Control",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-sc.pdf"
+  },
+  {
+    "name": "SCR",
+    "description": "Rotary Speed Control",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-scr.pdf"
+  },
+  {
+    "name": "SCS5",
+    "description": "Speed Control Slide",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-scs5.pdf"
+  },
+  {
+    "name": "Self-Flashing Curb",
+    "description": " (Excludes STXB-RHUL) Type SF",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-self-flashing-curb.pdf"
+  },
+  {
+    "name": "Self-Flashing Restaurant Curb",
+    "description": "(For STXB-RHUL only) Type SRF",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-Type-SFR-Special-Restaurant-Curbs.pdf"
+  },
+  {
+    "name": "SHW-20",
+    "description": "Wall Mounted Humidistat",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-shw20.pdf"
+  },
+  {
+    "name": "SIL",
+    "description": " In-line Duct Silencer",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-sil.pdf"
+  },
+  {
+    "name": "SPT-100X",
+    "description": " Pressure Switch",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-spt100x.pdf"
+  },
+  {
+    "name": "SR",
+    "description": "Sheet Metal Increaser/Reducer",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-sr.pdf"
+  },
+  {
+    "name": "SR5-4M",
+    "description": "Sheet Metal Increaser/Reducer",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-sr5-4.pdf"
+  },
+  {
+    "name": "SRT-30",
+    "description": "Rotary Spring Wound Timer",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-srt30.pdf"
+  },
+  {
+    "name": "S-Series",
+    "description": "Backdraft Damper",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-backdraft-damper.pdf"
+  },
+  {
+    "name": "SY",
+    "description": "Y Sheet Metal Adapter",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-sy.pdf"
+  },
+  {
+    "name": "THVLS Eco-Digital",
+    "description": "7” Digital Touch Screen Multi-Fan Controller",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-eco-digital.pdf"
+  },
+  {
+    "name": "THVLS Eco-Manual",
+    "description": " THVLS Eco-Manual Single Fan Controller",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-eco-analog.pdf"
+  },
+  {
+    "name": "VL",
+    "description": "Vent Light",
+    "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-vl.pdf"
+  }
+ ]
+},
+
+
+{
+  
+  
+  "name": "Specification Sheets",
+  "items" : [
+  {
+    "name": "ARE and ARS",
+    "description": "Dome Axial Power Roof Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/AR(E)(S).pdf"
+  },
+  {
+    "name": "BGH",
+    "description": "Fabricated Gravity Relief/Intake Ventilator",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/BGH.pdf"
+  },
+  {
+    "name": "CFD",
+    "description": "Forward Curved Belt Drive In-line Duct Blower",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/CFD.pdf"
+  },
+  {
+    "name": "CM",
+    "description": "Belt Drive Utility Vent Set",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/CM.pdf"
+  },
+  {
+    "name": "CSF",
+    "description": "Belt Drive Centrifugal Filtered Roof Supply Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/CSF.pdf"
+  },
+  {
+    "name": "CTB and CTBRHUL",
+    "description": "In-line Tubular Centrifugal Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/CTB(RHUL).pdf"
+  },
+  {
+    "name": "CWD",
+    "description": "Direct Drive Centrifugal Sidewall Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/CWD.pdf"
+  },
+  {
+    "name": "DDE and DDS",
+    "description": "Direct Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/DD(E)(S).pdf"
+  },
+  {
+    "name": "DFE and DFS",
+    "description": "Direct Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/DF(E)(S).pdf"
+  },
+  {
+    "name": "eSQD",
+    "description": "Direct Drive Square Inline Centrifugal Duct Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/(e)SQD.pdf"
+  },
+  {
+    "name": "GED and GSD",
+    "description": "Direct Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/G(E)(S)D.pdf"
+  },
+  {
+    "name": "HREB-C and HRED-C",
+    "description": "Hooded Propeller Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/HRE(B)(D)-C.pdf"
+  },
+  {
+    "name": "HREB-P",
+    "description": "Hooded Propeller Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/HREB-P.pdf"
+  },
+  {
+    "name": "HRSB and HRSD",
+    "description": "Hooded Propeller Roof Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/HRS(B)(D).pdf"
+  },
+  {
+    "name": "IFAB",
+    "description": "Jet Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/IFAB.pdf"
+  },
+  {
+    "name": "IFEB",
+    "description": "Jet Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/IFEB.pdf"
+  },
+  {
+    "name": "L2E and L2S",
+    "description": "Belt Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/L2(E)(S).pdf"
+  },
+  {
+    "name": "L3E and L3S",
+    "description": "Belt Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/L3(E)(S).pdf"
+  },
+  {
+    "name": "LCE and LCS",
+    "description": "Belt Drive Sidewall Propeller Exhaust/Supply Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/LC(E)(S).pdf"
+  },
+  {
+    "name": "Losone Select Series",
+    "description": "Ceiling and Cabinet Ventilators",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/Losone-Select-Specs.pdf"
+  },
+  {
+    "name": "LPD and LPD-SF",
+    "description": "Low Profile Direct Drive Centrifugal Roof/Sidewall Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/LPD.pdf"
+  },
+  {
+    "name": "LSF",
+    "description": "Belt Drive Centrifugal Filtered Roof Supply Fan with Louvered Housing",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/LSF.pdf"
+  },
+  {
+    "name": "PV-DEDPV",
+    "description": "Dryer Exhaust Duct Power Ventilator",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/PVDEDPV.pdf"
+  },
+  {
+    "name": "RCXII and RCXII-SF",
+    "description": "Gravity Relief/Intake Ventilators",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/RCXII(SF).pdf"
+  },
+  {
+    "name": "RLX",
+    "description": "Louvered Penthouse",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/RLX.pdf"
+  },
+  {
+    "name": "SDB",
+    "description": "Belt Drive Centrifugal Downblast Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/SDB.pdf"
+  },
+  {
+    "name": "SDBD",
+    "description": "Downblast Direct Drive Centrifugal Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/SDBD.pdf"
+  },
+  {
+    "name": "SDBDe",
+    "description": "Downblast Direct Drive Centrifugal Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/SDBDe.pdf"
+  },
+  {
+    "name": "SMXD",
+    "description": "Direct Drive Mixed Flow Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/SMXD.pdf"
+  },
+  {
+    "name": "SMXD-HT",
+    "description": "Direct Drive Mixed Flow Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/Spec-SMXD-HT.pdf"
+  },
+  {
+    "name": "SQB",
+    "description": "Belt Drive Square In-line Centrifugal Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/SQB.pdf"
+  },
+  {
+    "name": "STXB",
+    "description": "(All Variants) Upblast Belt Drive Centrifugal Roof/Sidewall Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/STXB(W).pdf"
+  },
+  {
+    "name": "SWF",
+    "description": "Sidewall Centrifugal Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/SWF.pdf"
+  },
+  {
+    "name": "TD-MIXVENT",
+    "description": "In-line Mixed Flow Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/TD-MIXVENT.pdf"
+  },
+  {
+    "name": "TDB",
+    "description": "Belt Drive Tubeaxial In-line Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/TDB.pdf"
+  },
+  {
+    "name": "TDD",
+    "description": "Direct Drive Tubeaxial In-line Duct Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/TDD.pdf"
+  },
+  {
+    "name": "TR",
+    "description": "Residential Total Recovery for All Climates",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/TR-Residential.pdf"
+  },
+  {
+    "name": "TRC500 and TRCe500",
+    "description": "Total Recovery",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/TRC500-TRCe500.pdf"
+  },
+  {
+    "name": "TRC800, TRC800V, TRCe800 and TRCe800V",
+    "description": "Total Recovery",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/TRC800-TRC800V-TRCe800-TRCe800V.pdf"
+  },
+  {
+    "name": "TRC1200 and TRCe1200",
+    "description": "Total Recovery",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/TRC1200-TRCe1200.pdf"
+  },
+  {
+    "name": "TRC1600",
+    "description": "Total Recovery for All Climates (Commercial Applications)",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/TRC1600.pdf"
+  },
+  {
+    "name": "TUB",
+    "description": "Tubeaxial Upblast Propeller Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/TUB.pdf"
+  },
+  {
+    "name": "TUB-HT",
+    "description": " Tubeaxial Upblast Propeller Roof Exhaust Fan for Heat and Smoke Removal",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/TUB-HT.pdf"
+  },
+  {
+    "name": "UBB and UBX",
+    "description": " Upblast Propeller Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/UBB-UBX.pdf"
+  },
+  {
+    "name": "UBS and UBS-P",
+    "description": " Belt Drive Upblast Propeller Roof Exhaust Fans",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/UBS.pdf"
+  },
+  {
+    "name": "UBSRD and UBSRD-P",
+    "description": "Remote Drive Upblast Propeller Roof Exhaust Fan",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/UBSRD-UBSRD-P.pdf"
+  },
+  {
+    "name": "UBSRD-HT",
+    "description": "Remote Drive Upblast Propeller Roof Exhaust Fans for Heat and Smoke Removal",
+    "link": "https://www.solerpalau-usa.com/documents/Specsheet/UBSRD-HT.pdf"
+  }
+ ]
+}
+   
+    
+   
+]
+}
