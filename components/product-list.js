@@ -94,7 +94,7 @@ window.addEventListener("popstate", (event) => {
 
   // Create a back arrow for reloading product listings
   const backArrow = createContainer("div", "back-arrow");
-  backArrow.innerHTML = `<img src="/assets/images/return-back-button.svg" alt="back" />`;
+  backArrow.innerHTML = `<img src="../assets/images/return-back-button.svg" alt="back" />`;
 
   // Create a div for the product name and style it
   const productNameDiv = createContainer("div", "product-name");
