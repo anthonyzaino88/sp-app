@@ -58,7 +58,7 @@ window.addEventListener("popstate", (event) => {
     // Handle any actions you need when the back button is clicked
     // This may include hiding the product info and showing the series container
     // Update the URL to remove the product and series parameters
-    const updatedUrl = "/pages/products.html"; // Remove the parameters
+    const updatedUrl = "../pages/products.html"; // Remove the parameters
     window.history.pushState({ path: updatedUrl }, "", updatedUrl);
   }
 
@@ -223,7 +223,7 @@ window.addEventListener("popstate", (event) => {
     }
 
       // Update the URL to remove the product and series parameters
-  const updatedUrl = "/pages/products.html"; // Remove the parameters
+  const updatedUrl = "../pages/products.html"; // Remove the parameters
   window.history.pushState({ path: updatedUrl }, "", updatedUrl);
   });
 
@@ -248,7 +248,7 @@ window.addEventListener("popstate", (event) => {
     }
   }
   // Fetch product data from a JSON source
-  fetch("http://127.0.0.1:5500/data/products.json") // Update with your JSON data source
+  fetch("../data/products.json") // Update with your JSON data source
     .then((response) => response.json())
     .then((data) => {
       // Iterate through each product in the JSON data
@@ -298,7 +298,7 @@ window.addEventListener("popstate", (event) => {
           literatureDropdownContainer.style.display = "none";
 
           // Update the URL with the selected product and series
-          const updatedUrl = `http://localhost:5500/pages/products.html?product=${encodeURIComponent(product.name)}`;
+          const updatedUrl = `../pages/products.html?product=${encodeURIComponent(product.name)}`;
           window.history.pushState({ path: updatedUrl }, "", updatedUrl);
         });
 
@@ -507,7 +507,7 @@ window.addEventListener("popstate", (event) => {
     // If the previous state exists and contains path information
     if (previousState && previousState.path) {
       // Update the URL to remove the product and series parameters
-      const updatedUrl = "http://localhost:5500/pages/products.html"; // Remove the parameters
+      const updatedUrl = "../pages/products.html"; // Remove the parameters
       window.history.pushState({ path: updatedUrl }, "", updatedUrl);
     }
 
