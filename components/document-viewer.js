@@ -49,8 +49,8 @@ class LibraryComponent extends HTMLElement {
         
         /* Set height when .categories.selected is active */
         .categories.selected .category {
-           height: 100%;
-           width: 100%;
+           height: 100%!important;
+           width: 100%!important;
            display: flex!important;
            text-wrap: nowrap!important;
            text-align: center!important;
