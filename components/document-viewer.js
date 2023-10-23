@@ -29,15 +29,14 @@ class LibraryComponent extends HTMLElement {
         }
 
         a {
-          text-decoration: none!important;
-          color: #053658!important;
+          text-decoration: none;
+          color: #053658;
         }
        
 
         .category {
           cursor: pointer;
           padding: 10px;
-          color: #053658!important;
           margin: 5px;
           background-color: whitesmoke;
           border: 1px solid #ccc;
@@ -49,12 +48,13 @@ class LibraryComponent extends HTMLElement {
         
         /* Set height when .categories.selected is active */
         .categories.selected .category {
-           height: 100%!important;
-           width: 100%!important;
-           display: flex!important;
-           white-space: nowrap!important; /* Correct property */
-           text-align: center!important;
-           align-content: center!important;
+           height: 100%;
+           width: auto;
+           display: flex;
+           text-wrap: nowrap;
+           text-align: center;
+           align-content: center;
+           flex-wrap: wrap;
         }
         
         /* Set height when .categories.selected is not active */
@@ -63,9 +63,6 @@ class LibraryComponent extends HTMLElement {
         }
 
 
-        .category:hover {
-          opacity: 0.7;
-        }
         .categories.selected {
           display: flex;
           justify-content: flex-start;
@@ -76,40 +73,23 @@ class LibraryComponent extends HTMLElement {
         
         }
 
-
-/* Style the scrollbar thumb (handle) */
-.documents::-webkit-scrollbar-thumb {
-  background-color: #999; /* Set the color of the thumb */
-  border-radius: 5px; /* Rounded corners for the thumb */
-}
-
-/* Style the scrollbar track */
-.documents::-webkit-scrollbar-track {
-  background-color: transparent; /* Set the color of the track */
-}
-
-/* Style the scrollbar corner (between vertical and horizontal scrollbar) */
-.documents::-webkit-scrollbar-corner {
-  background-color: transparent;
-}
-
         .category.active {
           background-color: #053658;
-          color: whitesmoke!important;
+          color: whitesmoke;
         }
 
         .documents {
-          margin-top: 5rem;
-          margin-bottom: 2rem;
+          margin-top: 2rem;
+          margin-bottom: 6rem;
+          transition: max-height 0.3s ease; /* Smooth transition for documents container */
           overflow-y: auto;
-           scrollbar-width: thin;
-           scrollbar-color: #ccc transparent; /* Set the color of the scrollbar thumb and track */
         }
         .documents.active {
-          margin-top: 4rem;
-          height: 400px;
+          margin-top: 2rem;
+          height: 450px;
+          transition: max-height 0.3s ease;
           overflow-y: auto;
-          margin-bottom: 3rem;
+          margin-bottom: 6rem;
         }
         .document {
           flex: 1;
@@ -120,7 +100,7 @@ class LibraryComponent extends HTMLElement {
         }
       </style>
       <div class="categories-outer">
-      <div class="categories"></div>
+      <div class="categories" id="categories-container"></div>
       </div>
       <div class="documents"></div>
     `;
@@ -129,11 +109,12 @@ class LibraryComponent extends HTMLElement {
     this.categoryContainerOuter = this.shadowRoot.querySelector('.categories-outer');    
     this.categoryContainer = this.shadowRoot.querySelector('.categories');
     this.documentsContainer = this.shadowRoot.querySelector('.documents');
+    this.categoryContainer = this.shadowRoot.querySelector('#categories-container');
   }
 
   loadJSONData() {
     // Replace with your JSON URL
-    const jsonURL = '../data/documents.json';
+    const jsonURL = '/data/documents.json';
 
     fetch(jsonURL)
       .then((response) => {
@@ -153,42 +134,53 @@ class LibraryComponent extends HTMLElement {
 
   renderCategories() {
     this.categoryContainer.innerHTML = '';
-
+  
     for (const category of this.categories) {
       const categoryButton = document.createElement('button');
       categoryButton.classList.add('category');
       categoryButton.textContent = category.name;
+      categoryButton.id = `category-${category.name.replace(/\s/g, '-')}`; // Replace spaces with hyphens
       categoryButton.addEventListener('click', () => this.toggleCategory(categoryButton, category));
       this.categoryContainer.appendChild(categoryButton);
     }
   }
-  
-  toggleCategory(categoryButton, category) {
-    const categoriesContainer = this.categoryContainer;
-    const documentsContainer = this.documentsContainer;
-  
-    // Remove 'active' class from all category buttons
-    const categoryButtons = this.shadowRoot.querySelectorAll('.category');
-    categoryButtons.forEach((button) => button.classList.remove('active'));
-  
-    if (categoriesContainer.classList.contains('selected') && this.selectedCategory === category) {
-      // If the same category is selected again, remove the 'selected' class
+
+toggleCategory(categoryButton, category) {
+  const categoriesContainer = this.categoryContainer;
+  const documentsContainer = this.documentsContainer;
+
+  // Remove 'active' class from all category buttons
+  const categoryButtons = this.shadowRoot.querySelectorAll('.category');
+  categoryButtons.forEach((button) => button.classList.remove('active'));
+
+  if (categoriesContainer.classList.contains('selected') && this.selectedCategory === category) {
+    // If the same category is selected again, remove the 'selected' class
+    // after a delay to allow for the transition
+    setTimeout(() => {
       categoriesContainer.classList.remove('selected');
       documentsContainer.classList.remove('active');
       this.selectedCategory = null;
-    } else {
-      // Otherwise, add 'selected' class to the categories container
-      categoriesContainer.classList.add('selected');
-      documentsContainer.classList.add('active');
-      this.selectedCategory = category;
-  
-      // Add 'active' class to the category button
-      categoryButton.classList.add('active');
-    }
-  
-    this.renderDocuments();
+    }, 300); // Adjust the delay (in milliseconds) to match your transition duration
+  } else {
+    // Otherwise, add 'selected' class to the categories container
+    categoriesContainer.classList.add('selected');
+    documentsContainer.classList.add('active');
+    this.selectedCategory = category;
+
+    // Add 'active' class to the category button
+    categoryButton.classList.add('active');
   }
-  
+
+  if (this.selectedCategory === category) {
+    const categoryId = `category-${category.name.replace(/\s/g, '-')}`;
+    console.log('Scrolling to element with ID:', categoryId);
+    const categoryElement = this.shadowRoot.querySelector(`#${categoryId}`);
+    console.log('Category element:', categoryElement);
+    categoryElement.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  this.renderDocuments();
+}
   
   renderDocuments() {
     this.documentsContainer.innerHTML = '';
