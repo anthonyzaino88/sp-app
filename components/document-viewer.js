@@ -103,18 +103,18 @@ class LibraryComponent extends HTMLElement {
 
         /* Style the scrollbar thumb (handle) */
          .documents::-webkit-scrollbar-thumb {
-            background-color: #999; /* Set the color of the thumb */
-            border-radius: 5px; /* Rounded corners for the thumb */
+            background-color: #999!important; 
+            border-radius: 5px!important; 
         }
 
          /* Style the scrollbar track */
          .documents::-webkit-scrollbar-track {
-             background-color: transparent; /* Set the color of the track */
+             background-color: transparent!important;
          }
 
         /* Style the scrollbar corner (between vertical and horizontal scrollbar) */
         .documents::-webkit-scrollbar-corner {
-             background-color: transparent;
+             background-color: transparent!important;
           }
       </style>
       <div class="categories-outer">
