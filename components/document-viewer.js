@@ -29,8 +29,8 @@ class LibraryComponent extends HTMLElement {
         }
 
         a {
-          text-decoration: none;
-          color: #053658;
+          text-decoration: none!important;
+          color: #053658!important;
         }
        
 
@@ -82,14 +82,14 @@ class LibraryComponent extends HTMLElement {
         }
 
         .documents {
-          margin-top: 2rem;
+          margin-top: 3rem;
           margin-bottom: 6rem;
           transition: max-height 0.3s ease; /* Smooth transition for documents container */
           overflow-y: auto;
         }
         .documents.active {
-          margin-top: 2rem;
-          height: 450px;
+          margin-top: 3rem;
+          height: 500px;
           transition: max-height 0.3s ease;
           overflow-y: auto;
           margin-bottom: 6rem;
