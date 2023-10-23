@@ -29,8 +29,8 @@ class LibraryComponent extends HTMLElement {
         }
 
         a {
-          text-decoration: none;
-          color: #053658;
+          text-decoration: none!important;
+          color: #053658!important;
         }
        
 
@@ -48,13 +48,13 @@ class LibraryComponent extends HTMLElement {
         
         /* Set height when .categories.selected is active */
         .categories.selected .category {
-           height: 100%;
-           width: auto;
-           display: flex;
-           text-wrap: nowrap;
-           text-align: center;
-           align-content: center;
-           flex-wrap: wrap;
+           height: 100%!important;
+           width: auto!important;
+           display: flex!important;
+           white-space: nowrap!important;
+           text-align: center!important;
+           align-content: center!important;
+           flex-wrap: wrap!important;
         }
         
         /* Set height when .categories.selected is not active */
@@ -74,8 +74,8 @@ class LibraryComponent extends HTMLElement {
         }
 
         .category.active {
-          background-color: #053658;
-          color: whitesmoke;
+          background-color: #053658!important;
+          color: whitesmoke!important;
         }
 
         .documents {
