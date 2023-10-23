@@ -58,7 +58,7 @@ window.addEventListener("popstate", (event) => {
     // Handle any actions you need when the back button is clicked
     // This may include hiding the product info and showing the series container
     // Update the URL to remove the product and series parameters
-    const updatedUrl = "../pages/products.html"; // Remove the parameters
+    const updatedUrl = "/pages/products.html"; // Remove the parameters
     window.history.pushState({ path: updatedUrl }, "", updatedUrl);
   }
 
@@ -94,7 +94,7 @@ window.addEventListener("popstate", (event) => {
 
   // Create a back arrow for reloading product listings
   const backArrow = createContainer("div", "back-arrow");
-  backArrow.innerHTML = `<img src="../assets/images/return-back-button.svg" alt="back" />`;
+  backArrow.innerHTML = `<img src="/assets/images/return-back-button.svg" alt="back" />`;
 
   // Create a div for the product name and style it
   const productNameDiv = createContainer("div", "product-name");
@@ -135,20 +135,19 @@ window.addEventListener("popstate", (event) => {
     const isHidden = otherDocsContainer.style.display === "none";
     otherDocsContainer.style.display = isHidden ? "block" : "none";
     submittalsContainer.style.display = isHidden ? "block" : "none";
-
+  
     // Toggle the button text
     literatureToggleButton.textContent = isHidden ? "Literature -" : "Literature +";
-
+  
     // Find the Literature section container by its id
     const literatureSection = submittalsContainer;
-
+  
     // Check if the Literature section exists
     if (literatureSection) {
       // Scroll to the Literature section with smooth animation
       literatureSection.scrollIntoView({ behavior: "smooth" });
     }
   });
-
   const imageProductContainer = createContainer("div", "product-image-container");
   // Create a container for Literature titles and wrap the otherDocsContainer and submittalsContainer
   const litTitlesContainer = createContainer("div", "lit-titles-container");
@@ -224,7 +223,7 @@ window.addEventListener("popstate", (event) => {
     }
 
       // Update the URL to remove the product and series parameters
-  const updatedUrl = "../pages/products.html"; // Remove the parameters
+  const updatedUrl = "/pages/products.html"; // Remove the parameters
   window.history.pushState({ path: updatedUrl }, "", updatedUrl);
   });
 
@@ -249,7 +248,7 @@ window.addEventListener("popstate", (event) => {
     }
   }
   // Fetch product data from a JSON source
-  fetch("../data/products.json") // Update with your JSON data source
+  fetch("http://127.0.0.1:5500/data/products.json") // Update with your JSON data source
     .then((response) => response.json())
     .then((data) => {
       // Iterate through each product in the JSON data
@@ -299,7 +298,7 @@ window.addEventListener("popstate", (event) => {
           literatureDropdownContainer.style.display = "none";
 
           // Update the URL with the selected product and series
-          const updatedUrl = `https://anthonyzaino88.github.io/sp-app/pages/products.html?product=${encodeURIComponent(product.name)}`;
+          const updatedUrl = `http://localhost:5500/pages/products.html?product=${encodeURIComponent(product.name)}`;
           window.history.pushState({ path: updatedUrl }, "", updatedUrl);
         });
 
@@ -508,7 +507,7 @@ window.addEventListener("popstate", (event) => {
     // If the previous state exists and contains path information
     if (previousState && previousState.path) {
       // Update the URL to remove the product and series parameters
-      const updatedUrl = "https://anthonyzaino88.github.io/sp-app/pages/products.html"; // Remove the parameters
+      const updatedUrl = "http://localhost:5500/pages/products.html"; // Remove the parameters
       window.history.pushState({ path: updatedUrl }, "", updatedUrl);
     }
 
@@ -542,3 +541,4 @@ window.addEventListener("popstate", (event) => {
     productNameDiv.textContent = name;
   }
 });
+
