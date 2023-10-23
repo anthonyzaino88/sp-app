@@ -114,7 +114,7 @@ class LibraryComponent extends HTMLElement {
 
   loadJSONData() {
     // Replace with your JSON URL
-    const jsonURL = '/data/documents.json';
+    const jsonURL = '../data/documents.json';
 
     fetch(jsonURL)
       .then((response) => {
