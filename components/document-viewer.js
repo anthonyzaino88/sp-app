@@ -76,6 +76,23 @@ class LibraryComponent extends HTMLElement {
         
         }
 
+
+/* Style the scrollbar thumb (handle) */
+.documents::-webkit-scrollbar-thumb {
+  background-color: #999; /* Set the color of the thumb */
+  border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+/* Style the scrollbar track */
+.documents::-webkit-scrollbar-track {
+  background-color: transparent; /* Set the color of the track */
+}
+
+/* Style the scrollbar corner (between vertical and horizontal scrollbar) */
+.documents::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
         .category.active {
           background-color: #053658;
           color: whitesmoke!important;
@@ -85,6 +102,8 @@ class LibraryComponent extends HTMLElement {
           margin-top: 5rem;
           margin-bottom: 2rem;
           overflow-y: auto;
+           scrollbar-width: thin;
+           scrollbar-color: #ccc transparent; /* Set the color of the scrollbar thumb and track */
         }
         .documents.active {
           margin-top: 4rem;
