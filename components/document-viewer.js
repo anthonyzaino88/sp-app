@@ -43,13 +43,14 @@ class LibraryComponent extends HTMLElement {
           border-radius: 5px;
           width: 185px;
           font-size: 18px;
+          color: #053658!important;
           transition: width 0.3s ease; /* Smooth transition for category buttons */
         }
         
         /* Set height when .categories.selected is active */
         .categories.selected .category {
           height: 100%!important;
-          width: 100%!important;
+          width: auto%!important;
           display: flex!important;
           white-space: nowrap!important; /* Correct property */
           text-align: center!important;
@@ -76,6 +77,8 @@ class LibraryComponent extends HTMLElement {
           background-color: #053658!important;
           color: whitesmoke!important;
         }
+
+
 
         .documents {
           margin-top: 2rem;
