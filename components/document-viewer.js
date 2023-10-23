@@ -37,6 +37,7 @@ class LibraryComponent extends HTMLElement {
         .category {
           cursor: pointer;
           padding: 10px;
+          color: #053658!important;
           margin: 5px;
           background-color: whitesmoke;
           border: 1px solid #ccc;
