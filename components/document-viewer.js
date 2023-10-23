@@ -79,7 +79,7 @@ class LibraryComponent extends HTMLElement {
 
         .category.active {
           background-color: #053658;
-          color: whitesmoke;
+          color: whitesmoke!important;
         }
 
         .documents {
