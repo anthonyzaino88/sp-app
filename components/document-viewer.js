@@ -52,10 +52,9 @@ class LibraryComponent extends HTMLElement {
            height: 100%!important;
            width: 100%!important;
            display: flex!important;
-           text-wrap: nowrap!important;
+           white-space: nowrap!important; /* Correct property */
            text-align: center!important;
            align-content: center!important;
-           flex-wrap: wrap!important;
         }
         
         /* Set height when .categories.selected is not active */
@@ -84,14 +83,12 @@ class LibraryComponent extends HTMLElement {
 
         .documents {
           margin-top: 5rem;
-          margin-bottom: 6rem;
-          transition: max-height 0.3s ease; /* Smooth transition for documents container */
+          margin-bottom: 4rem;
           overflow-y: auto;
         }
         .documents.active {
-          margin-top: 5rem;
+          margin-top: 4rem;
           height: 400px;
-          transition: max-height 0.3s ease;
           overflow-y: auto;
           margin-bottom: 6rem;
         }
