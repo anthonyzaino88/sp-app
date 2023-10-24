@@ -9,32 +9,32 @@
     "orientation": "portrait",
     "icons": [
         {
-            "src": "./sp-app/assets/icons/icon.png",
+            "src": "./assets/icons/icon.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "./sp-app/assets/icons/icon-v2.png",
+            "src": "./assets/icons/icon-v2.png",
             "sizes": "144x144",
             "type": "image/png"
         },
         {
-            "src": "./sp-app/assets/icons/icon-v3.png",
+            "src": "./assets/icons/icon-v3.png",
             "sizes": "512x512",
             "type": "image/png"
         },
         {
-            "src": "./sp-app/assets/icons/icon-v4.png",
+            "src": "./assets/icons/icon-v4.png",
             "sizes": "72x72",
             "type": "image/png"
         },
         {
-            "src": "./sp-app/assets/icons/icon-v6.png",
+            "src": "./assets/icons/icon-v6.png",
             "sizes": "96x96",
             "type": "image/png"
         },
         {
-            "src": "./sp-app/assets/icons/favicon.png",
+            "src": "./assets/icons/favicon.png",
             "sizes": "16x16",
             "type": "image/png"
         }
