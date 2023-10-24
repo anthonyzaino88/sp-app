@@ -1,16 +1,16 @@
 // Define the cache name and resources to cache
-const cacheName = 'my-pwa-cache-v2';
+const cacheName = 'my-pwa-cache-v3';
 const cacheResources = [
   '/',
-  '../index.html',
-  '../assets/icons/',
-  '../assets/images/',
-  '../assets/css/',
-  '../components/',
-  '../data/',
-  '../js/',
-  '../pages/',
-  '../globleStyles.css'
+  './index.html',
+  './assets/icons/',
+  './assets/images/',
+  './assets/css/',
+  './components/',
+  './data/',
+  './js/',
+  './pages/',
+  './globleStyles.css'
 
   // Add more resources to cache here
 ];
