@@ -2,7 +2,7 @@
     "name": "Soler Palau-USA App",
     "short_name": "S&P App",
     "description": "Resource hub for reps to access product information, submittals, specsheets, IOMs, and more.",
-    "start_url": "../index.html",
+    "start_url": "../sp-app/",
     "display": "standalone",
     "background_color": "whitesmoke",
     "theme_color": "#053658",
