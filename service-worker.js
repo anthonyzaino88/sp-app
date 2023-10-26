@@ -1,5 +1,5 @@
 // Define the cache name and resources to cache
-const cacheName = 'my-pwa-cache-updated-v3';
+const cacheName = 'Soler-Palau-App-Data-V1';
 const cacheResources = [
   '/sp-app/',
   '/sp-app/index.html',
