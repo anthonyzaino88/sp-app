@@ -1,18 +1,12 @@
 // Define the cache name and resources to cache
-const cacheName = 'my-pwa-cache-updated';
+const cacheName = 'my-pwa-cache-updated-v1';
 const cacheResources = [
-  './sp-app/',
-  '/index.html',
-  '/assets/icons/',
-  '/assets/images/',
-  '/assets/css/',
-  '/components/',
-  '/data/',
-  '/js/',
-  '/pages/',
-  '/globleStyles.css'
+  '/sp-app/', // Root of your PWA
+  '/sp-app/index.html', // HTML file
+  '/sp-app/assets/icons/icon.png', // Icon path
+  '/sp-app/assets/css/styles.css', // CSS path
+  '/sp-app/js/main.js', // JavaScript path
 
-  // Add more resources to cache here
 ];
 
 // Install event: Cache resources when the service worker is installed
