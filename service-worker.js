@@ -37,10 +37,7 @@ const cacheResources = [
   '/sp-app/components/cross-reference-table.js',
   '/sp-app/components/document-viewer.js',
   '/sp-app/components/navbar.js',
-  '/sp-app/components/product-list.js',
-  '/sp-app/assets/css/',
-  '/sp-app/assets/icons/',
-  '/sp-app/assets/images/'
+  '/sp-app/components/product-list.js'
 
 
 ];
