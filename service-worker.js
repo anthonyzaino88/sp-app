@@ -1,7 +1,6 @@
 // Define the cache name and resources to cache
-const cacheName = 'my-pwa-cache-v7';
+const cacheName = 'my-pwa-cache-v8';
 const cacheResources = [
-  '/',
   './index.html',
   './assets/icons/',
   './assets/images/',
