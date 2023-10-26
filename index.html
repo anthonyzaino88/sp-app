@@ -44,7 +44,7 @@
         "></div>
        <div style="padding: .5rem; display: block; margin-left: auto; margin-right: auto;">Soler Palau USA</div>
     </div>
-    <button id="install-button">Install App</button>
+
 
    <main style="height: 100vh;">
 
@@ -95,43 +95,45 @@
         </div>
 
     </div>
-
+<button id="install-button">Install App</button>
     </main>
 
  <script>
-  // Check if the browser supports the 'beforeinstallprompt' event
-  if ('serviceWorker' in navigator && 'beforeinstallprompt' in window) {
-    // Store the 'beforeinstallprompt' event for later use
-    let deferredPrompt;
-    window.addEventListener('beforeinstallprompt', (event) => {
-      // Prevent the default browser install prompt
-      event.preventDefault();
+ let deferredPrompt;
+  
+  window.addEventListener('beforeinstallprompt', (event) => {
+    // Prevent the default browser install prompt
+    event.preventDefault();
+    
+    // Store the event for later use
+    deferredPrompt = event;
+    
+    // Show the install button
+    document.getElementById('install-button').style.display = 'block';
+  });
+
+  const installButton = document.getElementById('install-button');
+  installButton.addEventListener('click', () => {
+    if (deferredPrompt) {
+      // Trigger the installation prompt
+      deferredPrompt.prompt();
       
-      // Store the event for later use
-      deferredPrompt = event;
-
-      // Optionally, you can add a timer to delay the prompt
-      setTimeout(() => {
-        // Request the installation prompt
-        deferredPrompt.prompt();
-
-        // Wait for the user to respond to the prompt
-        deferredPrompt.userChoice.then((choiceResult) => {
-          if (choiceResult.outcome === 'accepted') {
-            console.log('User accepted the install prompt');
-          } else {
-            console.log('User dismissed the install prompt');
-          }
-
-          // Reset the deferredPrompt for future use
-          deferredPrompt = null;
-        });
-      }, 5000); // Delay the prompt for 5 seconds (adjust as needed)
-    });
-  } else {
-    // Service workers or the 'beforeinstallprompt' event are not supported
-    console.log('Service workers or install prompt not supported.');
-  }
+      // Wait for the user to respond to the prompt
+      deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+          console.log('User accepted the install prompt');
+        } else {
+          console.log('User dismissed the install prompt');
+        }
+        
+        // Reset the deferredPrompt for future use
+        deferredPrompt = null;
+        
+        // Hide the install button
+        installButton.style.display = 'none';
+      });
+    }
+  });
 </script>
 
 
