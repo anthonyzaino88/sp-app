@@ -1,16 +1,16 @@
 // Define the cache name and resources to cache
 const cacheName = 'my-pwa-cache-updated';
 const cacheResources = [
-  '/sp-app/',
-  '/sp-app/index.html',
-  '/sp-app/assets/icons/',
-  '/sp-app/assets/images/',
-  '/sp-app/assets/css/',
-  '/sp-app/components/',
-  '/sp-app/data/',
-  '/sp-app/js/',
-  '/sp-app/pages/',
-  '/sp-app/globleStyles.css'
+  './sp-app/',
+  '/index.html',
+  '/assets/icons/',
+  '/assets/images/',
+  '/assets/css/',
+  '/components/',
+  '/data/',
+  '/js/',
+  '/pages/',
+  '/globleStyles.css'
 
   // Add more resources to cache here
 ];
