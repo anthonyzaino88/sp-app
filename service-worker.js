@@ -1,5 +1,5 @@
 // Define the cache name and resources to cache
-const cacheName = 'Soler-Palau-App-Data-V1';
+const cacheName = 'Soler-Palau-App-Data-V2';
 const cacheResources = [
   '/sp-app/',
   '/sp-app/index.html',
@@ -21,7 +21,7 @@ const cacheResources = [
   '/sp-app/assets/images/right-left-solid.svg',
   '/sp-app/assets/images/right-left-white.svg',
   '/sp-app/assets/images/search-icon.svg',
-   '/sp-app/assets/images/solidplay-white.svg',
+  '/sp-app/assets/images/solidplay-white.svg',
   '/sp-app/assets/css/styles.css',
   '/sp-app/assets/css/cross-ref-style.css',
   '/sp-app/assets/css/library-styles.css',
