@@ -101,25 +101,17 @@
     </main>
 
  <script>
- let deferredPrompt;
-  
-  window.addEventListener('beforeinstallprompt', (event) => {
-    // Prevent the default browser install prompt
-    event.preventDefault();
-    
-    // Store the event for later use
-    deferredPrompt = event;
-    
-    // Show the install button
-    document.getElementById('install-button').style.display = 'block';
-  });
+ // Check if the browser supports service workers and beforeinstallprompt
+if ('serviceWorker' in navigator && 'beforeinstallprompt' in window) {
+  // Declare the deferredPrompt variable
+  let deferredPrompt;
 
-  const installButton = document.getElementById('install-button');
-  installButton.addEventListener('click', () => {
+  // Function to handle the install button click
+  const handleInstallButtonClick = () => {
     if (deferredPrompt) {
-      // Trigger the installation prompt
+      // Request the installation prompt
       deferredPrompt.prompt();
-      
+
       // Wait for the user to respond to the prompt
       deferredPrompt.userChoice.then((choiceResult) => {
         if (choiceResult.outcome === 'accepted') {
@@ -127,15 +119,34 @@
         } else {
           console.log('User dismissed the install prompt');
         }
-        
+
         // Reset the deferredPrompt for future use
         deferredPrompt = null;
-        
-        // Hide the install button
-        installButton.style.display = 'none';
       });
     }
+  };
+
+  // Add a click event listener to the install button
+  const installButton = document.getElementById('install-button');
+  if (installButton) {
+    installButton.addEventListener('click', handleInstallButtonClick);
+  }
+
+  // Event listener for beforeinstallprompt
+  window.addEventListener('beforeinstallprompt', (event) => {
+    // Prevent the default browser install prompt
+    event.preventDefault();
+
+    // Store the event for later use
+    deferredPrompt = event;
+
+    // Show the install button
+    if (installButton) {
+      installButton.style.display = 'block';
+    }
   });
+}
+
 </script>
 
 
