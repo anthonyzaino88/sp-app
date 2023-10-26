@@ -1,5 +1,5 @@
 // Define the cache name and resources to cache
-const cacheName = 'my-pwa-cache-v9';
+const cacheName = 'my-pwa-cache-updated';
 const cacheResources = [
   '/sp-app/',
   '/sp-app/index.html',
