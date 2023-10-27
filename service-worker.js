@@ -25,7 +25,6 @@ const cacheResources = [
   '/sp-app/assets/css/styles.css',
   '/sp-app/assets/css/cross-ref-style.css',
   '/sp-app/js/main.js',
-  '/sp-app/js/search.js',
   '/sp-app/pages/cross-ref.html',
   '/sp-app/pages/library.html',
   '/sp-app/pages/products.html',
