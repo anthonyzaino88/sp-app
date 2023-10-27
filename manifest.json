@@ -6,7 +6,8 @@
     "display": "standalone",
     "background_color": "whitesmoke",
     "theme_color": "#053658",
-    "orientation": "portrait",
+    "orientation": "any",
+    "prefer_related_applications": false
     "icons": [
         {
             "src": "./assets/icons/icon.png",
