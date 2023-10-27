@@ -104,51 +104,35 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  // Check if the browser supports service workers and beforeinstallprompt
-  if ('serviceWorker' in navigator && 'beforeinstallprompt' in window) {
-    // Declare the deferredPrompt variable
-    let deferredPrompt;
+  let deferredPrompt;
+  const installButton = document.getElementById('install-button');
 
-    // Function to handle the install button click
-    const handleInstallButtonClick = () => {
-      if (deferredPrompt) {
-        // Request the installation prompt
-        deferredPrompt.prompt();
+  window.addEventListener('beforeinstallprompt', (event) => {
+    event.preventDefault();
+    deferredPrompt = event;
+    installButton.removeAttribute('hidden');
+  });
 
-        // Wait for the user to respond to the prompt
-        deferredPrompt.userChoice.then((choiceResult) => {
-          if (choiceResult.outcome === 'accepted') {
-            console.log('User accepted the install prompt');
-          } else {
-            console.log('User dismissed the install prompt');
-          }
+  installButton.addEventListener('click', async () => {
+    if (!deferredPrompt) {
+      return;
+    }
 
-          // Reset the deferredPrompt for future use
-          deferredPrompt = null;
-        });
-      }
-    };
+    const result = await deferredPrompt.prompt();
+    console.log(`Install prompt result: ${result.outcome}`);
 
-    // Add a click event listener to the install button
-    const installButton = document.getElementById('install-button');
-    installButton.addEventListener('click', handleInstallButtonClick);
-    
+    if (result.outcome === 'accepted') {
+      console.log('User accepted the install prompt');
+    } else {
+      console.log('User dismissed the install prompt');
+    }
 
-    // Event listener for beforeinstallprompt
-    window.addEventListener('beforeinstallprompt', (event) => {
-      // Prevent the default browser install prompt
-      event.preventDefault();
-
-      // Store the event for later use
-      deferredPrompt = event;
-
-      // Show the install button
-      if (installButton) {
-        installButton.style.display = 'block';
-      }
-    });
-  }
+    // Reset the install button's visibility
+    installButton.setAttribute('hidden', '');
+    deferredPrompt = null;
+  });
 });
+
 </script>
 
 
