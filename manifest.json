@@ -7,7 +7,7 @@
     "background_color": "whitesmoke",
     "theme_color": "#053658",
     "orientation": "any",
-    "prefer_related_applications": "false"
+    "prefer_related_applications": false, 
     "icons": [
         {
             "src": "./assets/icons/icon.png",
