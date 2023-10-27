@@ -131,9 +131,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Add a click event listener to the install button
     const installButton = document.getElementById('install-button');
-    if (installButton) {
-      installButton.addEventListener('click', handleInstallButtonClick);
-    }
+    installButton.addEventListener('click', handleInstallButtonClick);
+    
 
     // Event listener for beforeinstallprompt
     window.addEventListener('beforeinstallprompt', (event) => {
