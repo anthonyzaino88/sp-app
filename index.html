@@ -18,18 +18,18 @@
     
 <script>
     if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-     navigator.serviceWorker.register('/sp-app/service-worker.js', {
-  scope: '/sp-app/'
-   })
-          .then((registration) => {
-            console.log('Service Worker registered with scope:', registration.scope);
-          })
-          .catch((error) => {
-            console.error('Service Worker registration failed:', error);
-          });
-      });
-    }
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sp-app/service-worker.js', {
+                    scope: '/sp-app/'
+                })
+                .then((registration) => {
+                    console.log('Service Worker registered with scope:', registration.scope);
+                })
+                .catch((error) => {
+                    console.error('Service Worker registration failed:', error);
+                });
+            });
+        }
   </script>
 
 </head>
@@ -98,42 +98,85 @@
         </div>
 
     </div>
-<button id="install-button" hidden>Install App</button>
+
+  <!-- Android/Desktop Install Prompt -->
+    <div id="android-install-prompt">
+        <button id="install-button">Install App</button>
+    </div>
+
 
     </main>
 
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  let deferredPrompt;
-  const installButton = document.getElementById('install-button');
 
-  window.addEventListener('beforeinstallprompt', (event) => {
-    event.preventDefault();
-    deferredPrompt = event;
-    installButton.removeAttribute('hidden');
-  });
+    <!-- Check if iOS device -->
+    <script>
+        const isIos = () => {
+            const userAgent = window.navigator.userAgent.toLowerCase();
+            return /iphone|ipad|ipod/.test(userAgent);
+        };
 
-  installButton.addEventListener('click', async () => {
-    if (!deferredPrompt) {
-      return;
-    }
+        // Check if the device is in standalone mode (iOS PWA)
+        const isInStandaloneMode = () => {
+            return (
+                "standalone" in window.navigator &&
+                window.navigator.standalone
+            );
+        };
 
-    const result = await deferredPrompt.prompt();
-    console.log(`Install prompt result: ${result.outcome}`);
+        if (isIos() && !isInStandaloneMode()) {
+            // Show the iOS-specific install prompt
+            const iosInstallPrompt = document.createElement("div");
+            iosInstallPrompt.innerHTML = `
+                <p>Install this application on your home screen for quick, easy, and offline access when you're on the go. Close this modal, tap the "share" icon, and then tap on "Add to home screen".</p>
+                <button id="ios-install-button">Install</button>
+            `;
+            document.body.appendChild(iosInstallPrompt);
 
-    if (result.outcome === 'accepted') {
-      console.log('User accepted the install prompt');
-    } else {
-      console.log('User dismissed the install prompt');
-    }
+            const iosInstallButton = document.getElementById("ios-install-button");
 
-    // Reset the install button's visibility
-    installButton.setAttribute('hidden', '');
-    deferredPrompt = null;
-  });
-});
+            // Handle the "Install" button click for iOS
+            iosInstallButton.addEventListener("click", async () => {
+                // Perform actions when the user clicks the "Install" button for iOS
+                // You can add specific iOS installation logic here
+                
+                // Hide the modal
+                iosInstallPrompt.style.display = "none";
+            });
+        }
+    </script>
 
-</script>
+    <!-- Your existing Android/Desktop Install Prompt code -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let deferredPrompt;
+            const installButton = document.getElementById('install-button');
+
+            window.addEventListener('beforeinstallprompt', (event) => {
+                event.preventDefault();
+                deferredPrompt = event;
+                installButton.removeAttribute('hidden');
+            });
+
+            installButton.addEventListener('click', async () => {
+                if (!deferredPrompt) {
+                    return;
+                }
+
+                const result = await deferredPrompt.prompt();
+                console.log(`Install prompt result: ${result.outcome}`);
+
+                if (result.outcome === 'accepted') {
+                    console.log('User accepted the install prompt');
+                } else {
+                    console.log('User dismissed the install prompt');
+                }
+
+                // Reset the install button's visibility
+                installButton.setAttribute('hidden', '');
+                deferredPrompt = null;
+            });
+        });
+    </script>
 
 
 
