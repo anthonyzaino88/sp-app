@@ -195,6 +195,16 @@ select.series-dropdown {
     color: #053658!important;
 }
 
+button#install-button-android {
+    font-size: 18px!important;
+    padding: 0.75rem!important;
+    border: none!important;
+    background-color: whitesmoke!important;
+    color: #053658!important;
+    position: absolute!important;
+    top: 0;
+}
+
 
 .literature-dropdown-container {
     padding-left: 1rem;
