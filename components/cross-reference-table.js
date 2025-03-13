@@ -138,7 +138,8 @@ table.addEventListener('click', event => {
   if (target) {
     const href = target.getAttribute('data-href');
     if (href) {
-      window.location.href = href;
+      window.location.href = href; // Navigate in the same window
+     // window.open(href, '_blank'); Open in a new tab
     }
   }
 });

@@ -1,38 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/styles.css">
-    <link rel="stylesheet" href="../globleStyles.css"
-</head>
-<body>
-    <div style="color: whitesmoke; background-color: #053658 ; font-size: 25px; width: 100%; position: fixed; top: 0; display: flex; justify-content: space-between; opacity: 1 ">
-        <div style="padding: 1rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            align-content: center;
-            display: flex;
-            flex-wrap: wrap;
-            font-weight: 500;
-        ">Products</div>
-        <img style="padding: 1rem;" src="https://www.solerpalau-usa.com/images/logos/logo-mb.png" alt="logo" srcset="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#274472" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Soler Palau USA | Products</title>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="../globleStyles.css" />
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-5T89QEGBKP"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-5T89QEGBKP");
+  </script>
+  <body>
+    <div
+      style="
+        color: whitesmoke;
+        background-color: #274472;
+        font-size: 25px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        opacity: 1;
+        border-bottom: 4px #ee3741 solid;
+      "
+    >
+      <div
+        style="
+          padding: 1rem;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          align-content: center;
+          display: flex;
+          flex-wrap: wrap;
+          font-weight: 500;
+        "
+      >
+        Products
+      </div>
+      <img
+        style="padding: 1rem; height: 75px"
+        src="../assets/images/whitelogo.png"
+        alt="logo"
+        srcset=""
+      />
     </div>
 
     <div class="product-list-container">
-        <!-- Product listing goes here -->
+      <!-- Product listing goes here -->
     </div>
 
     <div class="product-info-container">
-        <!-- Product info goes here -->
+      <!-- Product info goes here -->
     </div>
-
-   
-
 
     <bottom-navbar></bottom-navbar>
     <script src="../components/navbar.js"></script>
-    <script src="../components/product-list.js"></script> <!-- Link to your JavaScript file -->
-    <script src="../js/main.js"></script> 
-</body>
+    <script src="../components/productnavigation.js"></script>
+    <!-- Link to your JavaScript file -->
+    <script src="../js/main.js"></script>
+  </body>
 </html>

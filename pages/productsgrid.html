@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#003b5c"/>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../globleStyles.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5T89QEGBKP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5T89QEGBKP');
+</script>
+
+
+
+
+<body>
+    <div 
+    style="
+    color: whitesmoke; 
+    background-color: var(--primary-blue) ; 
+    font-size: 25px; 
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    display: flex; 
+    justify-content: space-between; 
+    opacity: 1; 
+    z-index: 999;
+    border-bottom: 4px var(--primary-red) solid;
+    ">
+        <div style="padding: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            align-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            font-weight: 500;
+        ">Products</div>
+        <img style="padding: 1rem; height: 75px;" src="../assets/images/whitelogo.png" alt="logo" srcset="">
+    </div>
+
+    <product-grid></product-grid>
+    <series-selector></series-selector>
+
+
+
+    <bottom-navbar></bottom-navbar>
+    <script src="../components/navbar.js"></script>
+    <script src="../components/productGrid.js"></script> <!-- Link to your JavaScript file -->
+    <script src="../components/selectSeries.js"></script>
+    <script src="../js/main.js"></script> 
+
+ <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const productGrid = document.querySelector('product-grid');
+        const seriesSelector = document.querySelector('series-selector');
+        const modelDetails = document.querySelector('model-details'); // Assuming this element exists
+
+        // Ensure elements are present
+        if (!productGrid || !seriesSelector) {
+            console.error("Required components are missing from the page.");
+            return;
+        }
+
+        // Listen for product selection
+        productGrid.addEventListener('product-selected', (e) => {
+    console.log('Product selected:', e.detail);
+    if (e.detail && e.detail.product) {
+        seriesSelector.product = e.detail.product;  // Make sure this is setting what you need
+    } else {
+        console.error("Product details missing from the event.");
+    }
+});
+
+seriesSelector.addEventListener('series-selected', (e) => {
+    console.log('Series selected:', e.detail);
+    if (e.detail && e.detail.seriesId && modelDetails) {
+        fetch(`../data/products.json`)
+            .then(response => response.json())
+            .then(data => {
+                modelDetails.modelData = data;  // Check if `modelData` is a properly defined setter
+            })
+            .catch(error => console.error("Failed to fetch model details:", error));
+    }
+});
+
+    });
+</script>
+
+
+    
+ 
+</body>
+</html>

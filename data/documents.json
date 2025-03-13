@@ -3,7 +3,7 @@
 "categories" :    [
 
 {
-  "name": "Brochure",
+  "type": "Brochure",
     "items" :  [
     {
       "name": "Assisted Living Application Guide",
@@ -33,10 +33,7 @@
       "name": "Jet Fan Series",
       "link": "https://www.solerpalau-usa.com/documents/Brochure/Jet-Fans-Brochure.pdf"
     },
-    {
-      "name": "Kitchen Hoods",
-      "link": "https://www.solerpalau-usa.com/documents/Brochure/Kitchen Hoods/KitchenHoods.pdf"
-    },
+    
     {
       "name": "Mitigating Covid-19 in the Workplace",
       "link": "https://www.solerpalau-usa.com/documents/Brochure/Mixed-Use_Building_Application_Guide.pdf"
@@ -89,7 +86,7 @@
 
 
 {
-  "name": "Flyer",
+  "type": "Flyer",
     "items" : [
 
   {
@@ -141,10 +138,7 @@
     "description" : "IFFTe50",
     "link": "https://www.solerpalau-usa.com/documents/Flyer/IFFTe50-Flyer.pdf"
   },
-  {
-    "name": "Kitchen Hoods",
-    "link": "https://www.solerpalau-usa.com/documents/Flyer/Kitchen Hoods/KitchenHoods_Flyer_05172022.pdf"
-  },
+  
   {
     "name": "KSFV-FB",
     "link": "https://www.solerpalau-usa.com/documents/Flyer/KSFV-FB-Flyer.pdf"
@@ -277,7 +271,7 @@
 
 
 {
-  "name": "Catalog", 
+  "type": "Catalog", 
   "items" : [
   
   {
@@ -490,7 +484,7 @@
 
 
 {
-  "name": "Resource",
+  "type": "Diagrams",
   "items" : [
   {
     "name": "Chemical Resistance Chart",
@@ -533,7 +527,7 @@
 },
 
 {
-  "name" : "IOM",
+  "type" : "IOM",
   "items" : [
   {
     "name": "6002, 6002-14B, 6002A and 6002-14A",
@@ -638,11 +632,7 @@
     "description" : "Jet Fan Series",
     "link": "https://www.solerpalau-usa.com/documents/IOM/iom-jet-fans.pdf"
   },
-  {
-    "name": "EO, EO-FPSP, EOLC, EOLC-FPSP",
-    "description" : "Kitchen Hoods",
-    "link": "https://www.solerpalau-usa.com/documents/IOM/Kitchen Hoods/KitchenHood-iom.pdf"
-  },
+  
   {
     "name": "KSFV",
     "description" : "Belt Drive Kitchen Supply Fan with Variations",
@@ -992,7 +982,7 @@
 
 
 {
-  "name": "Submittal",
+  "type": "Submittal",
   "items"  : [
 
   {
@@ -1080,26 +1070,7 @@
      "description": "Jet Fan Series",
     "link": "https://www.solerpalau-usa.com/documents/Submittal/sub-ifft-iffte.pdf"
   },
-  {
-    "name": "EO",
-     "description": "Kitchen Hoods",
-    "link": "https://www.solerpalau-usa.com/documents/Submittal/Kitchen-Hoods/EO_Submittal.pdf"
-  },
-  {
-    "name": "EO-FPSP",
-     "description": "Kitchen Hoods",
-    "link": "https://www.solerpalau-usa.com/documents/Submittal/Kitchen-Hoods/EO-FPSP_Submittal.pdf"
-  },
-  {
-    "name": "EOLC",
-     "description": "Kitchen Hoods",
-    "link": "https://www.solerpalau-usa.com/documents/Submittal/Kitchen-Hoods/EOLC_Submittal.pdf"
-  },
-  {
-    "name": "EOLC-FPSP",
-     "description": "Kitchen Hoods",
-    "link": "https://www.solerpalau-usa.com/documents/Submittal/Kitchen-Hoods/EOLC-FPSP_Submittal.pdf"
-  },
+  
   {
     "name": "KSFV",
      "description": "Belt Drive Kitchen Supply Fan with Variations",
@@ -1483,7 +1454,7 @@
   
   
 {
-  "name": "Accessory Submittals",
+  "type": "Accessory Submittals",
   "items" : [
   {
     "name": "304SS",
@@ -1874,7 +1845,7 @@
 {
   
   
-  "name": "Specification Sheets",
+  "type": "Specification Sheets",
   "items" : [
   {
     "name": "ARE and ARS",

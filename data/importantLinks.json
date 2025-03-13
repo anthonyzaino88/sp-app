@@ -1,0 +1,26 @@
+[
+
+    {
+        "Title": "Optisizer",
+        "Icon": "../assets/images/optisizer.svg",
+        "Link": "https://www.solerpalau-usa.com/resources/optisizer.html"
+    },
+
+   
+    {
+        "Title": "New Branch",
+        "Icon": "../assets/images/new-branch.svg",
+        "Link": "https://www.solerpalau-usa.com/sp-form/branch-request.html"
+    },
+    {
+        "Title": "New Customer",
+        "Icon": "../assets/images/new-rep.svg",
+        "Link": "https://www.solerpalau-usa.com/sp-form/account-setup.html"
+    },
+    
+    {
+        "Title": "Product Returns",
+        "Icon": "../assets/images/product-returns.svg",
+        "Link": "https://www.solerpalau-usa.com/resources/returns.html"
+    }
+]

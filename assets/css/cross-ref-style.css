@@ -1,13 +1,14 @@
 /* Container Styles */
 .my-container {
-    max-width: 100%; /* Make it responsive to various screen sizes */
-    margin: 0 auto; /* Center align horizontally */
-    padding: 1rem; /* Add padding for better spacing */
-    margin-top: 6rem;
+    padding-top: 6.25rem; /* Adjust as per the header height */
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-body {
+html, body {
+    height: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 
@@ -34,17 +35,15 @@ table {
 
 tbody {
     background-color: white;
-    color: black;
+    color: #000000c2;
     padding-top: 50px; /* Adjust the height as per your sticky header's height */
     overflow-y: scroll; 
 }
 
 .header {
-     position: sticky!important;
-     top: 0;
-     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.2);
-
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 
@@ -57,7 +56,7 @@ tbody {
     overflow: hidden;
     text-overflow: ellipsis;
     background-color: whitesmoke;
-    color: #053658;
+    color: var(--primary-blue);
     font-weight: 500;
     padding: 0.5rem;
     position: relative; /* Add relative positioning to the header */
@@ -84,7 +83,7 @@ tbody {
 .table-img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 /* Input Styles */
@@ -92,30 +91,33 @@ input.left-input {
     width: 90%; /* Wider input fields for touch-friendly usability */
     letter-spacing: 1px;
     padding: 0.75rem!important;
-    border-radius: 8px!important;
-    border: 1px solid rgba(0, 0, 0, 0.2)!important;
+    border-radius: 20px!important;
+    border: 1px solid #ccc!important;
     background-color: whitesmoke!important;
+    margin-top: 2rem;
+    margin-bottom: 10px;
     font-size: 15px!important;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
 
 /* Dropdown Styles */
 .input-dropdown-container {
-    margin-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 5px ;
 }
 
 select#inputroot {
-    width: 60%;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    width: 67%;
+    margin-top: 6px;
+    margin-bottom: 6px;
     letter-spacing: 1px;
-    padding: 0.5rem!important;
-    border-radius: 8px!important;
-    border: 1px solid rgba(0, 0, 0, 0.2)!important;
+    padding: 0.4rem!important;
+    border-radius: 20px!important;
+    border: 1px solid #ccc!important;
     background-color: whitesmoke!important;
     font-size: 15px!important;
     color: rgba(0, 0, 0, 0.5)!important;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
 
 label {
@@ -123,16 +125,15 @@ label {
     color: rgba(0, 0, 0, 0.8)!important;
 }
 
-/* Wrapper Styles */
 .table-wrapper {
-    max-height: 400px; /* Limit table height for scrolling */
+    max-height: 500px; /* Limit table height for scrolling */
     overflow-y: auto; /* Add vertical scroll if needed */
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border: solid 1px rgba(0, 0, 0, 0.200);
-   
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #ccc!important;
+
 }
 
 /* Other Styles */
@@ -156,3 +157,150 @@ label {
     font-size: 14px;
 
 }
+
+@media only screen and (max-width: 390px) and (max-height: 844px) {
+   
+
+    .table-wrapper {
+        max-height: 500px;
+        overflow-y: auto;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 1px solid #ccc!important;
+    }
+ 
+}
+
+
+  /* Media Query for devices with viewport size 375x667 */
+  @media only screen and (max-width: 375px) and (max-height: 667px) {
+    .my-container {
+        padding-top: 6.5rem; /* Adjust as per the header height */
+        overflow: hidden;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .input-dropdown-container {
+        margin-top: -5px;
+    }
+
+    .table-wrapper {
+        max-height: 256px;
+        overflow-y: auto;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 1px solid #ccc!important;
+    }
+ 
+}
+
+/* Media Query for devices with viewport size 375x667 */
+@media only screen and (max-width: 360px) and (max-height: 740px) {
+    .my-container {
+        padding-top: 6.5rem; /* Adjust as per the header height */
+        overflow: hidden;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .input-dropdown-container {
+        margin-top: -5px;
+    }
+
+    .table-wrapper {
+        max-height: 256px;
+        overflow-y: auto;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 1px solid #ccc!important;
+    }
+ 
+}
+
+
+
+
+@media only screen and (max-width: 540px) and (max-height: 720px) {
+   
+
+    .table-wrapper {
+        max-height: 350px;
+        overflow-y: auto;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 1px solid #ccc!important;
+    }
+ 
+}
+
+/* Media Query for devices with viewport size 375x667 */
+@media only screen and (max-width: 280px) and (max-height: 653px) {
+
+    .my-container {
+        padding-top: 7rem;
+        overflow: hidden;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    input.left-input {
+        width: 90%;
+        margin-bottom: .5rem;
+        letter-spacing: 1px;
+        padding: 0.55rem!important;
+        border-radius: 5px!important;
+        border: 1px solid #ccc!important;
+        background-color: whitesmoke!important;
+        font-size: 15px!important;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+
+    select#inputroot {
+        width: 67%;
+        margin-top: 6px;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        padding: 0.4rem!important;
+        border-radius: 5px!important;
+        border: 1px solid #ccc!important;
+        background-color: whitesmoke!important;
+        font-size: 15px!important;
+        color: rgba(0, 0, 0, 0.5)!important;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+
+    .table-wrapper {
+        max-height: 233px;
+        overflow-y: auto;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 1px solid #ccc!important;
+    }
+   
+
+    .table-wrapper {
+        max-height: 350px;
+        overflow-y: auto;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 1px solid #ccc!important;
+    }
+ 
+}
+
+
+
+
